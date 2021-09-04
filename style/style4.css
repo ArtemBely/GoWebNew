@@ -1,0 +1,81 @@
+.main_token {
+    margin-top: 160px;
+    width: 100%;
+}
+.token_img {
+    padding-top: 20px;
+    height: 100%;
+    width: 100%;
+}
+.main_supply {
+    margin-top: 160px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.main_supply-section .g_token_paragraph {
+    padding-top: 10px;
+}
+
+.gt_main_form {
+    margin-top: 160px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.gt_form_section .g_token_paragraph {
+    padding-top: 10px;
+}
+.gt_form {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 520px;
+}
+.gt_input {
+    width: 100%;
+    height: 50px;
+    border: 2px solid #808080;
+    box-sizing: border-box;
+    border-radius: 7px;
+    padding: 10px 20px 12px 20px;
+    margin-bottom: 10px;
+}
+#textarea {
+    height: 135px;
+    width: 520px;
+    resize: none;
+}
+input[type="text"], 
+input::placeholder,
+#textarea[type="text"], 
+#textarea::placeholder {
+    font-family: "Roboto_Regular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 140%;
+    color: #000000;
+}
+.gt_form_btn {
+    border: 3px solid #FFAC22;
+    box-sizing: border-box;
+    border-radius: 7px;
+    background-color: Transparent;
+    width: 106px;
+    height: 50px;
+    padding: 10px 30px 12px 30px;
+    font-family: "Roboto_Bold";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    color: #000000;
+}
+.gt_form_section {
+    width: 608px;
+    height: 509px;
+}
+.gt_form_img {
+    height: 100%;
+    width: 100%;
+}

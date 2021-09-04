@@ -1,0 +1,98 @@
+@font-face {
+	font-family: 'Roboto_Regular';
+	src: url('../fonts/Roboto-Regular.eot');
+	src: local('☺'), url('../fonts/Roboto-Regular.woff') format('woff'), 
+	url('../fonts/Roboto-Regular.ttf') format('truetype'), 
+	url('../fonts/Roboto-Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Inter_Regular';
+	src: url('../fonts/Inter-Regular.eot');
+	src: local('☺'), url('../fonts/Inter-Regular.woff') format('woff'), 
+	url('../fonts/Inter-Regular.ttf') format('truetype'), 
+	url('../fonts/Inter-Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Roboto_Bold';
+	src: url('../fonts/Roboto-Bold.eot');
+	src: local('☺'), url('../fonts/Roboto-Bold.woff') format('woff'), 
+	url('../fonts/Roboto-Bold.ttf') format('truetype'), 
+	url('../fonts/Roboto-Bold.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Play_Bold';
+	src: url('../fonts/Play-Bold.eot');
+	src: local('☺'), url('../fonts/Play-Bold.woff') format('woff'), 
+	url('../fonts/Play-Bold.ttf') format('truetype'), 
+	url('../fonts/Play-Bold.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+.gt_wrap {
+	width: 100%;
+	height: 100%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+		-ms-flex-pack: center;
+			justify-content: center;
+	position: absolute;
+}
+.gt_container {
+	width: 100%;
+	min-height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+.gt_wrap_header {
+	width: 100%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+		-ms-flex-pack: center;
+			justify-content: center;
+	-webkit-box-align: center;
+		-ms-flex-align: center;
+			align-items: center;
+}
+.gt_header {
+	width: 1292px;
+	height: 90px;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+.gt_logo_link {
+	width: 155.02px;
+	height: 56.98px;
+}
+.gt_logo_header {
+	width: 100%;
+	height: 100%;
+}
+.gt_navigation {
+	padding-bottom: 18px;
+}
+.gt_nav_list {
+	display: flex;
+}
+.gt_nav_item {
+	margin-left: 50px;
+}
+.gt_nav_link, .gt_nav_link:visited {
+	font-family: "Roboto_Regular";
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 23px;
+	text-decoration-line: underline;
+	color: #000000;
+}

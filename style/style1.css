@@ -1,0 +1,184 @@
+@font-face {
+	font-family: 'Roboto_Regular';
+	src: url('../fonts/Roboto-Regular.eot');
+	src: local('☺'), url('../fonts/Roboto-Regular.woff') format('woff'), 
+	url('../fonts/Roboto-Regular.ttf') format('truetype'), 
+	url('../fonts/Roboto-Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Inter_Regular';
+	src: url('../fonts/Inter-Regular.eot');
+	src: local('☺'), url('../fonts/Inter-Regular.woff') format('woff'), 
+	url('../fonts/Inter-Regular.ttf') format('truetype'), 
+	url('../fonts/Inter-Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Roboto_Bold';
+	src: url('../fonts/Roboto-Bold.eot');
+	src: local('☺'), url('../fonts/Roboto-Bold.woff') format('woff'), 
+	url('../fonts/Roboto-Bold.ttf') format('truetype'), 
+	url('../fonts/Roboto-Bold.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Play_Bold';
+	src: url('../fonts/Play-Bold.eot');
+	src: local('☺'), url('../fonts/Play-Bold.woff') format('woff'), 
+	url('../fonts/Play-Bold.ttf') format('truetype'), 
+	url('../fonts/Play-Bold.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+.hm_container {
+	width: 100%;
+	min-height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+.hm_wrap_header {
+	width: 100%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+		-ms-flex-pack: center;
+			justify-content: center;
+	-webkit-box-align: center;
+		-ms-flex-align: center;
+			align-items: center;
+}
+.hm_header {
+	width: 1291px;
+	height: 90px;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+.hm_header_link {
+    width: 155.02px;
+    height: 56.98px;
+}
+.hm_header_logo {
+    width: 100%;
+    height: 100%;
+}
+.hm_header_nav {
+    font-family: "Roboto_Regular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    text-decoration-line: underline;
+    color: #000000;
+    padding-bottom: 17px;
+}
+.hm_wrap_main {
+    flex: 1 1 auto;
+    width: 100%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+		-ms-flex-pack: center;
+			justify-content: center;
+	-webkit-box-align: center;
+		-ms-flex-align: center;
+			align-items: center;
+}
+.hm_main {
+    width: 979.26px;
+    height: 296.1px;
+}
+.hm_main_title {
+    font-family: "Play_Bold";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 64px;
+    text-align: center;
+    color: #000000;
+    padding-bottom: 20px;
+}
+.hm_main_paragraph {
+    font-family: "Roboto_Regular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 160%;
+    text-align: center;
+    color: #000000;
+}
+.hm_button_container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 37px;
+}
+.hm_main_btn {
+    width: 340.63px;
+    height: 52.1px;
+    border: 3px solid #FFAC22;
+    border-radius: 5.44006px;
+    background-color: Transparent;
+    font-family: "Roboto_Regular";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 140%;
+    color: #000000;
+}
+.hm_main_btn a, .hm_main_btn a:visited {
+    color: #000000;
+}
+.hm_btn2 {
+    width: 314.63px;
+    height: 52.1px; 
+}
+.hm_btn3 {
+    width: 224px;
+    height: 52px; 
+}
+.hm_wrap_footer {
+    width: 100%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+		-ms-flex-pack: center;
+			justify-content: center;
+	-webkit-box-align: center;
+		-ms-flex-align: center;
+			align-items: center;
+    background: url('../img/hm_bg_footer.svg') 0 0/cover no-repeat;
+    margin-top: 149px;
+    height: 260px;
+}
+.hm_footer {
+    height: 100%;
+    width: 1291px;
+    padding-top: 147px;
+    display: flex;
+    justify-content: space-between;
+}
+.hm_footer_span {
+    font-family: "Roboto_Regular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 140%;
+    color: #000000;
+}
+.hm_footer_link,  .hm_footer_link:visited {
+    font-family: "Roboto_Regular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 140%;
+    text-decoration-line: underline;
+    color: #000000;
+}

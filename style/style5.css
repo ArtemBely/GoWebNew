@@ -1,0 +1,69 @@
+.gt_wrap_footer {
+    margin-top: 160px;
+    width: 100%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+		-ms-flex-pack: center;
+			justify-content: center;
+	-webkit-box-align: center;
+		-ms-flex-align: center;
+			align-items: center;
+    background: #F9F9F9;
+}
+.gt_footer {
+    width: 1292px;
+    height: 153px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 48px;
+    margin-bottom: 75px;
+}
+.gt_footer_section1 {
+}
+.company_year {
+    font-family: "Roboto_Regular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 140%;
+    color: #000000;
+    padding-top: 60px;
+}
+.gt_footer_section2 {
+    width: 408px;
+    height: 135.49px;
+}
+.gt_footer_nav {
+    width: 100%;
+}
+.gt_footer_list {
+    display: flex;
+    justify-content: space-between;
+}
+.gt_footer_link, .gt_footer_link:visited {
+    font-family: "Roboto_Regular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 140%;
+    text-decoration-line: underline;
+    color: #000000;
+}
+.gt_footer_icons {
+    padding-top: 73.51px;
+}
+
+.gt_icons_list {
+    display: flex;
+    justify-content: flex-end;
+    align-self: start;
+}
+.gt_icons_item {
+    padding-left: 21px;
+}
+.gt_icons_link a {
+    height: 27.72px;
+    width: 27.72px;
+}

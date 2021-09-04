@@ -1,0 +1,152 @@
+.gt_wrap_main {
+	flex: 1 1 auto;
+    width: 100%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+		-ms-flex-pack: center;
+			justify-content: center;
+	-webkit-box-align: center;
+		-ms-flex-align: center;
+			align-items: center;
+}
+.gt_main {
+    width: 1292px;
+    position: relative;
+}
+.main_gtoken {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.g_token-content {
+    width: 550px;
+    padding-top: 160px;
+}
+.g_token-title {
+    font-family: "Play_Bold";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 64px;
+    color: #000000;
+    padding-bottom: 20px;
+}
+.g_token_paragraph {
+    font-family: "Roboto_Regular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 140%;
+    color: #000000;
+}
+.g_token-img {
+    position: absolute;
+    right: -265px;
+    width: 1042.97px;
+    height: 602.11px;
+}
+.g_token-logo {
+    width: 100%;
+    height: 100%;
+}
+.main_tokenomics {
+    width: 100%;
+    margin-top: 159px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.h2_title {
+    font-family: "Play_Bold";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 46px;
+    color: #000000;
+}
+.tokenomics_section {
+    margin-top: 60px;
+    width: 1185px;
+    display: flex;
+    justify-content: space-between;
+}
+.tokenomics_supply {
+    width: 376px;
+}
+.tokenomics_subtitle {
+    font-family: "Play_Bold";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 35px;
+    color: #000000;
+}
+#circulating {
+    padding-top: 35px;
+    padding-bottom: 20px;
+}
+.tokenomics_numbers {
+    display: flex;
+    justify-content: space-between;
+}
+.tokenomics_numbers-title {
+    font-family: "Play_Bold";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 140%;
+    color: #000000;
+}
+.vesting {
+    padding-bottom: 10px;
+}
+.main_allocation {
+    margin-top: 107px;
+    width: 1165.84px;
+    display: flex;
+    justify-content: space-between;
+}
+#allocation {
+    padding-top: 42px;
+    padding-bottom: 10px;
+}
+.dowloader {
+    padding-top: 42.32px;
+    width: 539px;
+    display: flex;
+    justify-content: space-between;
+}
+.allocation_btn {
+    border: 3px solid #FFAC22;
+    box-sizing: border-box;
+    border-radius: 7px;
+    background-color: Transparent;
+    font-family: "Roboto_Bold";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 140%;
+    color: #000000;
+    padding: 10px 30px 12px 30px;
+}
+.allocation_section2 {
+    width: 554.84px;
+    display: flex;
+    justify-content: space-between;
+}
+.allocation_section2-left {
+    text-align: right;
+    padding-top: 18px;
+}
+.allocation_section2-title {
+    font-family: "Roboto_Bold";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    color: #FFAC22;
+}
+.allocation_section2-right {
+    padding-top: 15px;
+}
