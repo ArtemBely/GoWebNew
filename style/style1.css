@@ -37,6 +37,8 @@
 .hm_container {
 	width: 100%;
 	min-height: 100%;
+    display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
 	flex-direction: column;
 }
@@ -55,9 +57,15 @@
 .hm_header {
 	width: 1291px;
 	height: 90px;
+    display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	justify-content: space-between;
-	align-items: flex-end;
+    -webkit-box-pack: space-between;
+		-ms-flex-pack: space-between;
+	        justify-content: space-between;
+    -webkit-box-align: flex-end;
+        -ms-flex-align: flex-end;
+            align-items: flex-end;
 }
 .hm_header_link {
     width: 155.02px;
@@ -115,8 +123,12 @@
 }
 .hm_button_container {
     width: 100%;
-    display: flex;
-    justify-content: space-between;
+    display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: space-between;
+		-ms-flex-pack: space-between;
+			justify-content: space-between;
     padding-top: 37px;
 }
 .hm_main_btn {
@@ -162,8 +174,13 @@
     height: 100%;
     width: 1291px;
     padding-top: 147px;
-    display: flex;
-    justify-content: space-between;
+    display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: space-between;
+		-ms-flex-pack: space-between;
+			justify-content: space-between;
+    
 }
 .hm_footer_span {
     font-family: "Roboto_Regular";

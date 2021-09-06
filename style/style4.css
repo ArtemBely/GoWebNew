@@ -10,8 +10,12 @@
 .main_supply {
     margin-top: 160px;
     width: 100%;
-    display: flex;
-    justify-content: space-between;
+    display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: space-between;
+		-ms-flex-pack: space-between;
+			justify-content: space-between;
 }
 .main_supply-section .g_token_paragraph {
     padding-top: 10px;
@@ -20,15 +24,21 @@
 .gt_main_form {
     margin-top: 160px;
     width: 100%;
-    display: flex;
-    justify-content: space-between;
+    display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: space-between;
+		-ms-flex-pack: space-between;
+			justify-content: space-between;
 }
 .gt_form_section .g_token_paragraph {
     padding-top: 10px;
 }
 .gt_form {
     padding-top: 20px;
-    display: flex;
+    display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
     flex-direction: column;
     width: 520px;
 }

@@ -48,6 +48,8 @@
 .gt_container {
 	width: 100%;
 	min-height: 100%;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
 	flex-direction: column;
 }
@@ -66,9 +68,15 @@
 .gt_header {
 	width: 1292px;
 	height: 90px;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	justify-content: space-between;
-	align-items: flex-end;
+	-webkit-box-pack: space-between;
+		-ms-flex-pack: space-between;
+			justify-content: space-between;
+	-webkit-box-align: flex-end;
+		-ms-flex-align: flex-end;
+			align-items: flex-end;
 }
 .gt_logo_link {
 	width: 155.02px;

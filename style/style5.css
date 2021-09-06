@@ -15,8 +15,12 @@
 .gt_footer {
     width: 1292px;
     height: 153px;
-    display: flex;
-    justify-content: space-between;
+    display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: space-between;
+		-ms-flex-pack: space-between;
+			justify-content: space-between;
     margin-top: 48px;
     margin-bottom: 75px;
 }
@@ -39,8 +43,12 @@
     width: 100%;
 }
 .gt_footer_list {
-    display: flex;
-    justify-content: space-between;
+    display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: space-between;
+		-ms-flex-pack: space-between;
+			justify-content: space-between;
 }
 .gt_footer_link, .gt_footer_link:visited {
     font-family: "Roboto_Regular";
@@ -56,9 +64,15 @@
 }
 
 .gt_icons_list {
-    display: flex;
-    justify-content: flex-end;
-    align-self: start;
+    display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: flex-end;
+		-ms-flex-pack: flex-end;
+			justify-content: flex-end;
+	-webkit-box-align: start;
+		-ms-flex-align: start;
+			align-items: start;
 }
 .gt_icons_item {
     padding-left: 21px;

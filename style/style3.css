@@ -17,8 +17,12 @@
 }
 .main_gtoken {
     width: 100%;
-    display: flex;
-    justify-content: space-between;
+    display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: space-between;
+		-ms-flex-pack: space-between;
+			justify-content: space-between;
 }
 .g_token-content {
     width: 550px;
@@ -54,9 +58,14 @@
 .main_tokenomics {
     width: 100%;
     margin-top: 159px;
-    display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+    flex-direction: column;
+	-webkit-box-pack: flex-start;
+		-ms-flex-pack: flex-start;
+			justify-content: flex-start;
 }
 .h2_title {
     font-family: "Play_Bold";
@@ -69,8 +78,12 @@
 .tokenomics_section {
     margin-top: 60px;
     width: 1185px;
-    display: flex;
-    justify-content: space-between;
+    display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: space-between;
+		-ms-flex-pack: space-between;
+			justify-content: space-between;
 }
 .tokenomics_supply {
     width: 376px;
@@ -88,8 +101,12 @@
     padding-bottom: 20px;
 }
 .tokenomics_numbers {
-    display: flex;
-    justify-content: space-between;
+    display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: space-between;
+		-ms-flex-pack: space-between;
+			justify-content: space-between;
 }
 .tokenomics_numbers-title {
     font-family: "Play_Bold";
@@ -105,8 +122,12 @@
 .main_allocation {
     margin-top: 107px;
     width: 1165.84px;
-    display: flex;
-    justify-content: space-between;
+    display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: space-between;
+		-ms-flex-pack: space-between;
+			justify-content: space-between;
 }
 #allocation {
     padding-top: 42px;
@@ -115,8 +136,12 @@
 .dowloader {
     padding-top: 42.32px;
     width: 539px;
-    display: flex;
-    justify-content: space-between;
+    display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: space-between;
+		-ms-flex-pack: space-between;
+			justify-content: space-between;
 }
 .allocation_btn {
     border: 3px solid #FFAC22;
@@ -133,8 +158,12 @@
 }
 .allocation_section2 {
     width: 554.84px;
-    display: flex;
-    justify-content: space-between;
+    display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: space-between;
+		-ms-flex-pack: space-between;
+			justify-content: space-between;
 }
 .allocation_section2-left {
     text-align: right;
