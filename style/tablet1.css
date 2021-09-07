@@ -1,0 +1,76 @@
+@media (min-width: 992px) and (max-width: 1290px) {
+    .hm_header, 
+    .hm_footer {
+        width: 954px;
+    }
+    .hm_main {
+        width: 768.26px;
+    }
+    .hm_header {
+        height: 70px;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    }
+    .hm_header_link {
+        width: 109px;
+        height: 40.06px;
+    }
+    .hm_header_nav {
+        padding: 0;
+        font-size: 18px;
+        line-height: 21px;
+    }
+    .hm_wrap_main {
+        margin-top: 96px;
+    }
+    .hm_main {
+        height: 247.1px;
+    }
+    .hm_main_title {
+        font-size: 50px;
+        line-height: 58px;
+    }
+    .hm_main_paragraph {
+        font-size: 18px;
+    }
+    .hm_main_btn {
+        width: 257.63px;
+        height: 42.1px;
+        font-size: 18px;
+        line-height: 140%;
+    }
+    .hm_btn2 {
+        width: 239.63px;
+        height: 42.1px;
+    }
+    .hm_btn3 {
+        width: 171px;
+        height: 42px;
+    }
+    .btn3_logo {
+        width: 25.04px;
+        height: 21.56px;
+    }
+    .hm_wrap_footer {
+        margin-top: 92.9px;
+        height: 73px;
+        /* background: url('../img/hm_bg_footer.svg') 0 0/cover no-repeat; */
+        /*! Надо поправить фоновое изображение */
+    }
+    .hm_footer {
+        padding: 0px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    }
+    .hm_footer_span {
+        font-size: 18px;
+    }
+    .hm_footer_link,  .hm_footer_link:visited {
+        font-size: 18px;
+    }
+}

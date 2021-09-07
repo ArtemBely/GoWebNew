@@ -1,3 +1,14 @@
+.hm_wrap {
+    width: 100%;
+	height: 100%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+		-ms-flex-pack: center;
+			justify-content: center;
+	position: absolute;
+}
 .hm_container {
 	width: 100%;
 	min-height: 100%;
@@ -51,6 +62,7 @@
 }
 .hm_wrap_main {
     flex: 1 1 auto;
+    margin-top: 172px;
     width: 100%;
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -119,6 +131,10 @@
     width: 224px;
     height: 52px; 
 }
+.btn3_logo {
+    width: 35.7px;
+    height: 30.74px;
+}
 .hm_wrap_footer {
     width: 100%;
 	display: -webkit-box;
@@ -138,6 +154,7 @@
     height: 100%;
     width: 1291px;
     padding-top: 147px;
+    padding-bottom: 82px;
     display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
