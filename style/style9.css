@@ -1,0 +1,214 @@
+.cps_wrap {
+	width: 100%;
+	height: 100%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+		-ms-flex-pack: center;
+			justify-content: center;
+	position: absolute;
+}
+.cps_container {
+	width: 100%;
+	min-height: 100%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	flex-direction: column;
+}
+.cps_wrap_header {
+	width: 100%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+		-ms-flex-pack: center;
+			justify-content: center;
+	-webkit-box-align: center;
+		-ms-flex-align: center;
+			align-items: center;
+}
+.cps_header {
+	width: 1291px;
+	height: 90px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: space-between;
+		-ms-flex-pack: space-between;
+			justify-content: space-between;
+	-webkit-box-align: flex-end;
+		-ms-flex-align: flex-end;
+			align-items: flex-end;
+}
+.cps_logo_link {
+	width: 155.02px;
+	height: 56.98px;
+}
+.cps_header_logo {
+	width: 100%;
+	height: 100%;
+}
+.cps_header_list {
+	display: flex;
+	padding-bottom: 17px;
+}
+.cps_header_item {
+	margin-left: 50px;
+}
+.cps_header_link, .cps_header_link:visited {
+	font-family: "Roboto_Regular";
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 23px;
+	text-decoration-line: underline;
+	color: #000000;
+}
+.cps_wrap_main {
+	flex: 1 1 auto;
+    width: 100%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+		-ms-flex-pack: center;
+			justify-content: center;
+	-webkit-box-align: center;
+		-ms-flex-align: center;
+			align-items: center;
+}
+.cps_main {
+	width: 1291px;
+}
+.cps_hardware {
+	width: 100%;
+	margin-top: 160px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: space-between;
+		-ms-flex-pack: space-between;
+			justify-content: space-between;
+}
+.h1_title {
+	font-family: "Play_Bold";
+	font-style: normal;
+	font-weight: bold;
+	font-size: 55px;
+	line-height: 64px;
+	color: #000000;
+	padding-bottom: 30px;
+}
+.h2_title {
+	font-family: "Play_Bold";
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
+	line-height: 46px;
+	color: #000000;
+}
+.cps_hardware_title {
+	padding-bottom: 10px;
+}
+.cps_paragraph {
+	font-family: "Roboto_Regular";
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 140%;
+	color: #000000;
+}
+.cps_manufacturers {
+	padding-top: 30px;
+	width: 633px;
+	padding-bottom: 30px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: space-between;
+		-ms-flex-pack: space-between;
+			justify-content: space-between;
+}
+.cps_weikeng, .cps_ask, .cps_shenzhen {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.cps_weikeng_logo {
+	padding-bottom: 7px;
+}
+.cps_ask_logo {
+	padding-bottom: 6px;
+	padding-top: 2px;
+}
+.cps_shenzhen_logo {
+	padding-bottom: 14px;
+	padding-top: 11px;
+}
+.cps_weikeng > p:nth-child(2) {
+	font-family: "Roboto_Regular";
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 140%;
+	text-align: center;
+	color: #000000;
+}
+.cps_weikeng > p:nth-child(3) {
+	font-family: "Roboto_Regular";
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 140%;
+	text-align: center;
+	color: #000000;
+	padding-bottom: 4px;
+}
+.cps_weikeng > p:nth-child(4) {
+	font-family: "Roboto_Regular";
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 140%;
+	color: #000000;
+}
+.AMD {
+	padding-top: 3px;
+}
+.cps_ask > p:nth-child(2) {
+	font-family: "Roboto_Regular";
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 140%;
+	text-align: center;
+	color: #000000;
+}
+.cps_ask > p:nth-child(3) {
+	font-family: "Roboto_Regular";
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 140%;
+	text-align: center;
+	color: #000000;
+}
+.cps_shenzhen > p:nth-child(2), .cps_shenzhen > p:nth-child(3) {
+	font-family: "Roboto_Regular";
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 140%;
+	text-align: center;
+	color: #000000;
+}
+.manufacturers_second_paragraph {
+	padding-top: 20px;
+}
+.cube {
+	padding-bottom: 32px;
+}

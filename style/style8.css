@@ -1,0 +1,208 @@
+.cmp_supported {
+    margin-top: 160px;
+    width: 100%;
+    height: 540px;
+    position: relative;
+}
+.supported_paragraph {
+    padding-top: 20px;
+}
+.cmp_supported_list {
+    
+}
+.cmp_supported_item {
+    font-family: "Roboto_Regular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 140%;
+    text-align: center;
+    color: #000000;
+    position: absolute;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+		-ms-flex-pack: center;
+			justify-content: center;
+	-webkit-box-align: center;
+		-ms-flex-align: center;
+			align-items: center;
+    width: 213px;
+    height: 184px;
+    background: url('../img/Yellow\ rhombus.svg') no-repeat;
+}
+.cmp_supported_list > li:nth-child(1) {
+    left: 0px;
+    top: 359px;
+}
+.cmp_supported_list > li:nth-child(2) {
+    left: 154px;
+    top: 268px;
+}
+.cmp_supported_list > li:nth-child(3) {
+    left: 309px;
+    top: 359px;
+}
+.cmp_supported_list > li:nth-child(4) {
+    left: 464px;
+    top: 268px;
+}
+.cmp_supported_list > li:nth-child(5) {
+    left: 618px;
+    top: 179px;
+}
+.cmp_supported_list > li:nth-child(6) {
+    left: 774px;
+    top: 88px;
+}
+.cmp_supported_list > li:nth-child(7) {
+    left: 928px;
+    top: 0px;
+}
+.cmp_supported_list > li:nth-child(8) {
+    left: 1083px;
+    top: 88px;
+}
+.cmp_pricing {
+    margin-top: 160px;
+    width: 100%;
+    display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+    -webkit-box-pack: space-between;
+		-ms-flex-pack: space-between;
+			justify-content: space-between;
+}
+.pricing_paragraph {
+    padding-top: 20px;
+}
+.cmp_pricing_btn_block {
+    padding-top: 20px;
+    width: 609px;
+    display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: space-between;
+		-ms-flex-pack: space-between;
+			justify-content: space-between;
+}
+.cmp_pricing_btn1 {
+    border: 3px solid #FFAC22;
+    box-sizing: border-box;
+    border-radius: 7px;
+    padding: 10px 30px 12px 30px;
+    font-family: "Roboto_Bold";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 140%;
+    color: #000000;
+}
+.cmp_pricing_btn2 {
+    border: 3px solid #FFAC22;
+    box-sizing: border-box;
+    border-radius: 7px;
+    font-family: "Roboto_Bold";
+    padding: 10px 30px 12px 30px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 140%;
+    color: #000000;
+}
+.cmp_pricing_section2 {
+    margin-top: 66px;
+}
+.cmp_wrap_footer {
+    margin-top: 158px;
+    width: 100%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+		-ms-flex-pack: center;
+			justify-content: center;
+	-webkit-box-align: center;
+		-ms-flex-align: center;
+			align-items: center;
+    background: #F9F9F9;
+}
+.cmp_footer {
+    width: 1291px;
+    height: 152.49px;
+    margin-top: 48px;
+    margin-bottom: 80px;
+    display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: space-between;
+		-ms-flex-pack: space-between;
+			justify-content: space-between;
+}
+.cmp_footer_section1 {
+    width: 155px;
+    height: 153px;
+} 
+.cmp_logo_link {
+    width: 155.02px;
+    height: 56.98px;
+}
+.cmp_footer_logo {
+    padding-bottom: 65px;
+}
+
+.cmp_company_year {
+    font-family: "Roboto_Regular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 140%;
+    color: #000000;
+}
+.cmp_footer_section2 {
+    width: 408px;
+    height: 135.49px;
+}
+.cmp_footer_nav {
+    width: 100%;
+    padding-top: 17px;
+}
+.cmp_footer_list {
+    display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: space-between;
+		-ms-flex-pack: space-between;
+			justify-content: space-between;
+}
+.cmp_footer_link, .cmp_footer_link:visited {
+    font-family: "Roboto_Regular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 140%;
+    text-decoration-line: underline;
+    color: #000000;
+}
+.cmp_footer_icons {
+    padding-top: 73.51px;
+}
+.cmp_icons_list {
+    display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: flex-end;
+		-ms-flex-pack: flex-end;
+			justify-content: flex-end;
+	-webkit-box-align: start;
+		-ms-flex-align: start;
+			align-items: start;
+}
+.cmp_icons_item {
+    padding-left: 21px;
+}
+.cmp_icons_link a {
+    height: 27.72px;
+    width: 27.72px;
+} 
