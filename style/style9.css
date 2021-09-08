@@ -212,3 +212,6 @@
 .cube {
 	padding-bottom: 32px;
 }
+#thou1, #twoThou {
+	font-family: 'Roboto_Bold';
+}

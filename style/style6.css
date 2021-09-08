@@ -270,3 +270,17 @@ font-weight: bold;
 .machine_section2_paragraph {
     padding: 20px 0px;
 }
+#twosp {
+  font-family: 'Roboto_Bold';
+}
+.particlehead {
+	background: #ffffff;
+	transform: scale(0.8);
+	position: absolute;
+	left: 545px;
+	top: 98px;
+	width: 938px;
+	display: flex;
+	justify-content: center;
+	overflow: hidden;
+}

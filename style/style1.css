@@ -125,43 +125,37 @@
 }
 .hm_btn2 {
     width: 314.63px;
-    height: 52.1px; 
+    height: 52.1px;
 }
 .hm_btn3 {
     width: 224px;
-    height: 52px; 
+    height: 52px;
 }
 .btn3_logo {
     width: 35.7px;
     height: 30.74px;
 }
 .hm_wrap_footer {
-    width: 100%;
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	-webkit-box-pack: center;
-		-ms-flex-pack: center;
-			justify-content: center;
-	-webkit-box-align: center;
-		-ms-flex-align: center;
-			align-items: center;
-    background: url('../img/hm_bg_footer.svg') 0 0/cover no-repeat;
     margin-top: 149px;
-    height: 260px;
+}
+#particle-canvas {
+  position: relative;
+  width: 100%;
+  height: 300px !important;
+  position: absolute;
+  top: 100px;
 }
 .hm_footer {
-    height: 100%;
-    width: 1291px;
-    padding-top: 147px;
-    padding-bottom: 82px;
-    display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	-webkit-box-pack: space-between;
-		-ms-flex-pack: space-between;
-			justify-content: space-between;
-    
+  width: 1291px;
+  padding-top: 147px;
+  padding-bottom: 82px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-between;
+  -ms-flex-pack: space-between;
+  justify-content: space-between;
+  background: transparent;
 }
 .hm_footer_span {
     font-family: "Roboto_Regular";
@@ -170,6 +164,7 @@
     font-size: 22px;
     line-height: 140%;
     color: #000000;
+    z-index: 1;
 }
 .hm_footer_link,  .hm_footer_link:visited {
     font-family: "Roboto_Regular";
@@ -179,4 +174,15 @@
     line-height: 140%;
     text-decoration-line: underline;
     color: #000000;
+    z-index: 1;
+}
+.wrap_hm_footer {
+  position: relative;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 198px;
+  z-index: 10;
 }

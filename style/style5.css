@@ -81,3 +81,32 @@
     height: 27.72px;
     width: 27.72px;
 }
+#intro {
+  top: 420px;
+  position: absolute;
+  left: 310px;
+  width: 278px;
+}
+.sec_p {
+  position: relative;
+  top: 24px;
+}
+#bigG {
+  position: relative;
+  top: 119px;
+  left: -52px;
+}
+#plus1 {
+  position: relative;
+  width: 35px;
+  height: 35px;
+  font-size: 62px;
+  color: #bdbdbd;
+  top: 128px;
+  left: -26px;
+  font-weight: bold;
+}
+#uni {
+  position: relative;
+  top: 115px;
+}

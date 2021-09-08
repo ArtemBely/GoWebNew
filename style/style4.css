@@ -18,7 +18,7 @@
 			justify-content: space-between;
 }
 .main_supply-section .g_token_paragraph {
-    padding-top: 10px;
+    padding-top: 18px;
 }
 
 .gt_main_form {
@@ -56,9 +56,9 @@
     width: 520px;
     resize: none;
 }
-input[type="text"], 
+input[type="text"],
 input::placeholder,
-#textarea[type="text"], 
+#textarea[type="text"],
 #textarea::placeholder {
     font-family: "Roboto_Regular";
     font-style: normal;

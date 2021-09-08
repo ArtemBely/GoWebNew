@@ -115,8 +115,15 @@
     padding-bottom: 20px;
 }
 .au_section2 {
-    width: 631px;
-    height: 540px;
+	width: 682px;
+	height: 504px;
+	position: relative;
+	top: -51px;
+	left: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
 }
 .mission_contact {
     margin-top: 28px;
@@ -238,4 +245,11 @@
 .au_icons_link a {
     height: 27.72px;
     width: 27.72px;
+}
+canvas {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
 }
