@@ -16,6 +16,8 @@
     position: relative;
 }
 .main_gtoken {
+    position: relative;
+    overflow: hidden;
     width: 100%;
     display: -webkit-box;
 	display: -ms-flexbox;
@@ -26,7 +28,20 @@
 }
 .g_token-content {
     width: 550px;
-    padding-top: 160px;
+    margin-top: 160px;
+}
+.g_token-content2 {
+    width: 520px;
+    position: absolute;
+    left: 514px;
+}
+.g_token-img2 {
+    width: 100%;
+    height: 100%;
+}
+.g_token_logo2 {
+    width: 1042.97px;
+    height: 602.11px;
 }
 .g_token-title {
     font-family: "Play_Bold";
@@ -45,18 +60,28 @@
     line-height: 140%;
     color: #000000;
 }
-.g_token-img {
+.g_token-img3 {
+    display: none;
+}
+/*!  Вставил картинку по-своему 
+    .g_token-img {
     position: absolute;
 		right: -143px;
     width: 902.97px;
     height: 602.11px;
-}
+} 
 .g_token-logo {
     width: 100%;
     height: 100%;
 		position: relative;
 		top: 15px;
 }
+#intro {
+    top: 420px;
+    position: absolute;
+    left: 310px;
+    width: 278px;
+}*/
 .main_tokenomics {
     width: 100%;
     margin-top: 159px;
@@ -105,7 +130,7 @@
 .tokenomics_numbers {
 	top: -8px;
 	position: relative;
-  display: -webkit-box;
+    display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
 	-webkit-box-pack: space-between;
@@ -173,6 +198,9 @@
     text-align: right;
     padding-top: 18px;
 }
+#allocation_left {
+    width: 158px;
+}
 .allocation_section2-title {
     font-family: "Roboto_Bold";
     font-style: normal;
@@ -182,4 +210,7 @@
 }
 .allocation_section2-right {
     padding-top: 15px;
+}
+#allocation_circulation {
+    padding-bottom: 13px;
 }

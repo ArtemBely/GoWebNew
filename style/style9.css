@@ -83,6 +83,7 @@
 	width: 1291px;
 }
 .cps_hardware {
+	position: relative;
 	width: 100%;
 	margin-top: 160px;
 	display: -webkit-box;
@@ -209,9 +210,9 @@
 .manufacturers_second_paragraph {
 	padding-top: 20px;
 }
-.cube {
+/* .cube {
 	padding-bottom: 32px;
-}
+} */
 #thou1, #twoThou {
 	font-family: 'Roboto_Bold';
 }

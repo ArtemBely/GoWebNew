@@ -1,7 +1,7 @@
 .cmp_supported {
     margin-top: 160px;
     width: 100%;
-    height: 540px;
+    height: 539.96px;
     position: relative;
 }
 .supported_paragraph {
@@ -28,13 +28,13 @@
 	-webkit-box-align: center;
 		-ms-flex-align: center;
 			align-items: center;
-    width: 213px;
+    width: 211px;
     height: 184px;
     background: url('../img/Yellow\ rhombus.svg') no-repeat;
 }
 .cmp_supported_list > li:nth-child(1) {
     left: 0px;
-    top: 359px;
+    top: 358px;
 }
 .cmp_supported_list > li:nth-child(2) {
     left: 154px;
@@ -150,6 +150,8 @@
 }
 .cmp_footer_logo {
     padding-bottom: 65px;
+    width: 100%;
+    height: 100%;
 }
 
 .cmp_company_year {
@@ -206,3 +208,148 @@
     height: 27.72px;
     width: 27.72px;
 } 
+.popup {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    top: 0;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+    overflow-y: auto;
+    overflow-x: hidden;
+    transition: all 0.8s ease 0s;
+}
+.popup:target {
+    opacity: 1;
+    visibility: visible;
+}
+.popup:target .popup_content {
+    transform: translate(0px, 0px);
+    opacity: 1;
+}
+.popup_body {
+    min-height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 10px;
+}
+
+.popup_content {
+    position: relative;
+    background-color: #fff;
+    color: black;
+    width: 570px;
+    max-height: 712px;
+    padding: 25px;
+    transition: all 0.8s ease 0s;
+    opacity: 0;
+    transform: translate(0px, -100%);
+}
+.popup_close {
+    position: absolute;
+    right: 25px;
+    top: 25px;
+    display: block;
+    width: 30px;
+    height: 20px;
+    z-index: 3;
+    cursor: pointer;
+}
+.popup_close::before,
+.popup_close::after {
+    content: "";
+    background-color: black;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    left: 0;
+}
+.popup_close::before {
+    transform: rotate(45deg);
+    top: 9px;
+}
+.popup_close::after {
+    transform: rotate(-45deg);
+    bottom: 9px;
+}
+.popup_title {
+    font-family: "Play_Bold";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 35px;
+    color: #000000;
+}
+.pop_paragraph {
+    font-family: "Roboto_Regular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 140%;
+    color: #000000;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.pop_input_container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.pop_input {
+    width: 100%;
+    height: 50px;
+    border: 2px solid #808080;
+    box-sizing: border-box;
+    border-radius: 7px;
+    padding: 10px 20px 12px 20px;
+    margin-bottom: 20px;
+}
+.pop_input::placeholder {
+    font-family: "Roboto_Regular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 140%;
+    color: #808080;
+}
+.pop_input[type="text"] {
+    font-family: "Roboto_Regular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 140%;
+    color: black;
+}
+.pop_footer {
+    width: 100%;
+    height: 51px;
+    display: -webkit-box;
+	display: -ms-flexbox;
+    display: flex;
+}
+.pop_btn {
+    border: 3px solid #FFAC22;
+    box-sizing: border-box;
+    border-radius: 7px;
+    font-family: "Roboto_Regular";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    color: #000000;
+    padding: 10px 30px 12px 30px;
+}
+.pop_paragraph2 {
+    font-family: "Inter_Regular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 120%;
+    color: #000000;
+    margin-left: 20px;
+}
+body.lock {
+    overflow: hidden;
+}

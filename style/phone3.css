@@ -1,0 +1,474 @@
+@media (min-width: 320px) and (max-width: 767px) {
+    .cps_header, 
+    .cps_main,
+    .cps_footer {
+        width: 280px;
+    }
+    body.lock {
+        overflow: hidden;
+    }
+    .cps_header {
+        margin: 0;
+        position: relative;
+        top: 0;
+        left: 0;
+        z-index: 50;
+        height: 70px;
+        -webkit-box-align: center;
+		-ms-flex-align: center;
+			align-items: center;
+    }
+    .cps_header::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        min-height: 70px;
+        z-index: 2;
+    }
+    .cps_header_logo {
+        width: 109px;
+        height: 40.06px;
+    }
+    .cps_header__burger {
+        display: block;
+        position: relative;
+        width: 24px;
+        height: 20px;
+        z-index: 3;
+        right: 0px;
+    }
+    .cps_header__burger::before,
+    .cps_header__burger::after {
+        content: "";
+        background-color: black;
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        left: 0;
+        transition: all 0.3s ease 0s;
+    }
+    .cps_header__burger::before {
+        top: 0;
+    }
+    .cps_header__burger::after {
+        bottom: 0;
+    }
+    .cps_header__burger span {
+        position: absolute;
+        background-color: black;
+        left: 0;
+        width: 100%;
+        height: 2px;
+        top: 9px;
+        transition: all 0.3s ease 0s;
+    }
+    .cps_header__burger.active::before {
+        transform: rotate(45deg);
+        top: 9px;
+    }
+    .cps_header__burger.active::after {
+        transform: rotate(-45deg);
+        bottom: 9px;
+    }
+    .cps_header__burger.active span {
+        transform: scale(0);
+    }
+    .cps_header_list {
+        position: fixed;
+        top: -100%;
+        left: 0;
+        width: 100%;
+        background-color: #E5E5E5;
+        height: 100%;
+        align-items: start;
+        padding: 120px 10px 20px 20px;
+        display: block;
+        transition: all 0.3s ease 0s;
+        overflow: auto;
+    }
+    .cps_header_list.active {
+        top: 0;
+    }
+    .cps_header_item {
+        padding-bottom: 30px;
+    }
+    .cps_header_link {
+        width: 109px;
+        height: 40.06px;
+    }
+    .cps_hardware {
+        flex-direction: column;
+        margin-top: 30px;
+    }
+    .h1_title {
+        font-size: 30px;
+        line-height: 35px;
+        width: 280px;
+    }
+    .h2_title {
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .cps_paragraph {
+        font-size: 16px;
+    }
+    .cps_manufacturers {
+        margin-left: 13px;
+        padding-top: 20px;
+        padding-bottom: 0;
+        width: 267px;
+        flex-wrap: wrap;
+    }
+    .cps_weikeng {
+        width: 175px;
+        height: 114px;
+        margin-left: 40px;
+    }
+    .cps_weikeng_logo {
+        margin-bottom: 12px;
+        padding: 0;
+        width: 138px;
+        height: 45px;
+    }
+    .cps_weikeng > p:nth-child(3) {
+        padding-bottom: 0px;
+    }
+    .cps_weikeng > p:nth-child(4) {
+        text-align: center;
+    }
+    .AMD {
+        margin-top: 4px;
+        padding: 0;
+        width: 42px;
+        height: 10px
+    }
+    .cps_ask {
+        width: 99px;
+        height: 97px;
+    }
+    .cps_ask_logo {
+        margin-top: 30px;
+        padding: 0;
+        width: 98px;
+        height: 45px;
+    }
+    .cps_ask > p:nth-child(2) {
+        margin-top: 12px;
+    }
+    .cps_shenzhen_logo {
+        margin-bottom: 23px;
+        width: 135px;
+        height: 23px;
+        margin-top: 41px;
+        padding: 0;
+    }
+    #cube_paragraph1 {
+        padding-top: 266px;
+    }
+    .cube_paragraph br {
+        display: none;
+    }
+    .container2 {
+        position: absolute;
+        width: 228px;
+        height: 242px;
+        left: 51px;
+        top: 696px;
+    }
+    #cpsEl {
+        top: 616px;
+        position: absolute;
+        width: 280px;
+    }
+    .hardware_section2 {
+        position: absolute;
+        height: 762px;
+        top: 596px;
+    }
+    .container2 {
+        top: 0;
+        left: 0;
+    }
+    .cps_computing {
+        position: relative;
+        margin-top: 268px;
+    }
+    .computing_title {
+        padding-bottom: 10px;
+    }
+    .machines_title {
+        display: none;
+    }
+    .cps_machines {
+        padding: 0;
+    }
+    .cps_machines_block {
+        margin: 13px 0px 20px 0px;
+        padding: 0;
+    }
+    .machines_img {
+        width: 280px;
+        height: 154px;
+    }
+    #machines_img2 {
+        position: absolute;
+        top: 1355px;
+        left: 0;
+        width: 280px;
+    }
+    .starminers_block {
+        flex-direction: column;
+    }
+    .starminer_title {
+        padding-bottom: 7.21px;
+    }
+    .starminer8A_list {
+        padding-top: 20.13px;
+        padding-bottom: 31px;
+        grid-template-columns: 128px 150px;
+        grid-template-rows: 292px 130px 64px 108px 86px 108px 44px;
+    }
+    .starminer_gray {
+        font-size: 16px;
+    }
+    .block_paragraph > p:nth-child(2) {
+        padding-top: 14.76px;
+        padding-bottom: 14.76px;
+    }
+    .starminer_btn {
+        margin-top: 20px;
+        font-size: 14.7597px;
+        width: 100%;
+    }
+    .starminer8V {
+        margin-top: 214.76px;
+    }
+    .V8_btn {
+        margin-top: 0px;
+        width: 206.64px;
+        height: 37.24px;
+        padding: 0px;
+    }
+    .cps_modular {
+        margin-top: 70.76px;
+    }
+    .cps_modular_block {
+        margin-top: 20px;
+        margin-bottom: 0;
+        flex-direction: column;
+    }
+    .cps_modular_section1 {
+        width: 280px;
+        height: 193px;
+        margin-bottom: 30px;
+    }
+    .cps_modular_section2 {
+        width: 280px;
+        height: 193px;
+        margin-bottom: 30px;
+    }
+    #modular_paragraph1 {
+        width: 280px;
+        margin-top: 35px;
+    }
+    #modular_paragraph2 {
+        width: 280px;
+        margin-top: 35px;
+    }
+    #modular_paragraph3 {
+        width: 280px;
+        margin-top: 35px;
+    }
+    #modular_paragraph4 {
+        width: 280px;
+        margin-top: 35px;
+    }
+    .cps_modular_img {
+        width: 110px;
+        height: 110px;
+    }
+    #third_modular_section {
+        height: 239px;
+    }
+    .cps_modular_btn {
+        width: 280px;
+        height: 50px;
+    }
+    .cps_modular2 {
+        margin-top: 70px;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .cps_current {
+        width: 130px
+    }
+    .cps_developing {
+        width: 130px;
+    }
+    .cps_transportability {
+        width: 100%;
+        margin-top: 30px;
+    }
+    #transportability_paragraph br {
+        display: none;
+    }
+    .h3_title {
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .cps_modular3 {
+        width: 100%;
+        margin-top: 30px;
+        flex-direction: column;
+    }
+    .cps_modular3_paragraph br {
+        display: none;
+    }
+    .cps_modular3 > p:nth-child(2) {
+        margin-top: 30px;
+    }
+    .cps_modular_question {
+        margin-top: 70px;
+    }
+    .question_title {
+        padding-bottom: 20px;
+    }
+    .cps_question_list {
+        width: 100%;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+    .cps_question_item {
+        width: 280px;
+        height: 236px;
+        margin-bottom: 30px;
+    }
+    .cps_question_list > li:nth-child(2) {
+        padding-bottom: 0px;
+        height: 214px;
+    }
+    .cps_question_list > li:nth-child(5) {
+        padding-bottom: 0px;
+        margin-top: 0px;
+        height: 236px;
+    }
+    .cps_question_list > li:nth-child(6) {
+        padding-bottom: 0px;
+        margin-top: 0px;
+        height: 236px;
+    }
+    .cps_question_list > li:nth-child(7) {
+        padding-bottom: 0px;
+        margin-top: 0px;
+        height: 236px;
+    }
+    .cps_question_list > li:nth-child(8) {
+        height: 258px;
+        margin-top: 0px;
+        margin-bottom: 0;
+    }
+    .cps_question_img {
+        width: 110px;
+        height: 110px;
+    }
+    .cps_question_paragrapg {
+        width: 100%;
+        margin-top: 35px;
+    }
+    #cps_question_paragrapg1 {
+        width: 100%;
+    }
+    .cps_prices {
+        margin-top: 70px;
+    }
+    .cps_prices_title {
+        padding-bottom: 20px;
+    }
+    .cps_prices_block {
+        position: relative;
+        width: 100%;
+        flex-direction: column;
+    }
+    .prices_title {
+        padding-bottom: 7px;
+    }
+    .prices_paragraph {
+        padding-bottom: 28px;
+    }
+    .prices_list {
+        grid-template-columns: 148px 132px;
+        grid-template-rows: 42px 42px 42px 64px 42px 44px;
+    }
+    .cps_prices_btn {
+        margin-top: 20px;
+        margin-bottom: 40px;
+        width: 280px;
+        height: 50px;
+        padding: 0;
+    }
+    #prices_8A_special_paragraph {
+        position: absolute;
+        top: 926px;
+        left: 0;
+    }
+    #prices_8V_btn {
+        margin: 20px 0px 0px 0px;
+    }
+    .cps_wrap_footer {
+        margin-top: 124px;
+    }
+    .cps_footer {
+        height: 189px;
+        margin-top: 30px;
+        margin-bottom: 55px;
+        position: relative;
+        flex-direction: column;
+        justify-content: start;
+    }
+    .cps_footer_section1 {
+        position: absolute;
+        height: 189px;
+    }
+    .cps_footer_logo {
+        padding: 0;
+        width: 97.95px;
+        height: 36px;
+    }
+    .cps_footer_section2 {
+        width: 100%;
+        height: 77.63px;
+        margin-top: 64px;
+    }
+    .cps_footer_nav {
+        padding: 0;
+    }
+    .cps_footer_link, .cps_footer_link:visited {
+        font-size: 16px;
+    }
+    .cps_footer_icons {
+        padding-top: 33px;
+    }
+    .cps_icons_list {
+        -webkit-box-pack: space-between;
+            -ms-flex-pack: space-between;
+                justify-content: space-between;
+    }
+    .cps_icons_item {
+        padding-left: 0px;
+    }
+    .cps_icons_link img {
+        height: 22.63px;
+        width: 22.63px;
+    }
+    .cps_company_year {
+        width: 112px;
+        padding: 0;
+        font-size: 16px;
+        position: absolute;
+        top: 167px;
+        left: 0;
+    }
+}

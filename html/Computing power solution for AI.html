@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="../style/style6.css">
     <link rel="stylesheet" href="../style/style7.css">
     <link rel="stylesheet" href="../style/style8.css">
+    <link rel="stylesheet" href="../style/tablet4.css">
+    <link rel="stylesheet" href="../style/phone2.css">
     <title>GoWeb</title>
 </head>
 <body>
@@ -18,20 +20,25 @@
                     <a href="../index.html" class="cmp_header_link">
                         <img src="../img/logo.svg" alt="logo" class="cmp_header_logo">
                     </a>
-                    <ul class="cmp_header_list">
-                        <li class="cmp_header_item">
-                            <a href="#" class="cmp_header_link">Edge computing hardware</a>
-                        </li>
-                        <li class="cmp_header_item">
-                            <a href="#" class="cmp_header_link">Computing power for AI</a>
-                        </li>
-                        <li class="cmp_header_item">
-                            <a href="#" class="cmp_header_link">G token</a>
-                        </li>
-                        <li class="cmp_header_item">
-                            <a href="#" class="cmp_header_link">About us </a>
-                        </li>
-                    </ul>
+                    <div class="cmp_navigation">
+                        <div class="cmp_header__burger">
+                            <span></span>
+                        </div>
+                        <ul class="cmp_header_list">
+                            <li class="cmp_header_item">
+                                <a href="#" class="cmp_header_link">Edge computing hardware</a>
+                            </li>
+                            <li class="cmp_header_item">
+                                <a href="#" class="cmp_header_link">Computing power for AI</a>
+                            </li>
+                            <li class="cmp_header_item">
+                                <a href="#" class="cmp_header_link">G token</a>
+                            </li>
+                            <li class="cmp_header_item">
+                                <a href="#" class="cmp_header_link">About us </a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
             <div class="cmp_wrap_main">
@@ -50,7 +57,7 @@
                                 Our unique trial programme allows you to experience the full<br>
                                 potential of the GoWeb computing system without any limitations.
                             </p>
-                            <button class="cmp_computing_btn">Apply for FREE Trial</button>
+                            <a href="#popup" class="cmp_computing_btn popup_link">Apply for FREE Trial</a>
                         </div>
                         <div class="cmp_computing2 particlehead">
 
@@ -78,7 +85,7 @@
                                     <li class="machine_section2_item machine_list_normal">
                                         <span id='twosp'>2600 W</span>, of which
                                         <p class="machine_section2_paragraph">2100 W — power consumed by equipment</p>
-                                        <p>500 W — power consumed by auxiliary infrastructure <br> of the computing center (cooling equipment, etc.)</p>
+                                        <p id="machine_special_paragraph">500 W — power consumed by auxiliary infrastructure <br> of the computing center (cooling equipment, etc.)</p>
                                     </li>
                                     <li class="machine_section2_item machine_list_normal">
                                         AMD Vega 64 16 Gb <br>
@@ -101,28 +108,36 @@
                         <p class="main_paragraph advantages_paragraph">1111</p>
                         <div class="cmp_advantages_section1">
                             <div class="cmp_advantages_block">
-                                <img src="../img/Frame 348.svg" />
+                                <img src="../img/The comfortable business account interface.svg" class="cmp_advantages_img">
+                                <p class="main_paragraph advantages_content" id="avantages_special_text1">The comfortable business <br> account interface</p>
                             </div>
                             <div class="cmp_advantages_block">
-                                <img src="../img/Frame 349.svg" />
+                                <img src="../img/Lowest priceson the market.svg" class="cmp_advantages_img">
+                                <p class="main_paragraph advantages_content">Lowest prices <br> on the market</p>
                             </div>
                             <div class="cmp_advantages_block">
-                                <img src="../img/Frame 350.svg" />
+                                <img src="../img/network.svg" class="cmp_advantages_img">
+                                <p class="main_paragraph advantages_content">8 neural network <br> and it’s growing</p>
                             </div>
                             <div class="cmp_advantages_block">
-                                <img src="../img/Frame 351.svg" />
+                                <img src="../img/Fragmentation.svg" class="cmp_advantages_img">
+                                <p class="main_paragraph advantages_content">Data <br> Fragmentation</p>
                             </div>
                             <div class="cmp_advantages_block">
-                                <img src="../img/Frame 352.svg" />
+                                <img src="../img/support team.svg" class="cmp_advantages_img">
+                                <p class="main_paragraph advantages_content">24/7 <br> support team</p>
                             </div>
                             <div class="cmp_advantages_block">
-                                <img src="../img/Frame 353.svg" />
+                                <img src="../img/protection.svg" class="cmp_advantages_img">
+                                <p class="main_paragraph advantages_content">Data <br> protection</p>
                             </div>
                             <div class="cmp_advantages_block">
-                                <img src="../img/Frame 354.svg" />
+                                <img src="../img/Flexible.svg" class="cmp_advantages_img">
+                                <p class="main_paragraph advantages_content">Flexible <br> billing system</p>
                             </div>
                             <div class="cmp_advantages_block">
-                                <img src="../img/Frame 355.svg" />
+                                <img src="../img/Community.svg" class="cmp_advantages_img">
+                                <p class="main_paragraph advantages_content">Community <br> of AI companies</p>
                             </div>
                         </div>
                         <div class="cmp_advantages_section2">
@@ -166,17 +181,17 @@
                     </div>
                     <div class="cmp_pricing">
                         <div class="cmp_pricing_section1">
-                            <h2 class="h2_title">Pricing strategy</h2>
+                            <h2 class="h2_title" id="pricing_title">Pricing strategy</h2>
                             <p class="main_paragraph pricing_paragraph">AI is never been so affordable for the blockchain community <br> as now with Digital payments by the G Token.</p>
                             <p class="main_paragraph pricing_paragraph">The price of 2$/hour if you pay with the G token.</p>
                             <p class="main_paragraph pricing_paragraph">You go digital - we support you.</p>
                             <div class="cmp_pricing_btn_block">
-                                <button class="cmp_pricing_btn1">Buy computing power for AI</button>
+                                <a href="#popup" class="cmp_pricing_btn1 popup_link">Buy computing power for AI</a>
                                 <button class="cmp_pricing_btn2">Apply for fundings</button>
                             </div>
                         </div>
                         <div class="cmp_pricing_section2">
-                            <img src="../img/cmp_pirsing_img.svg" alt="">
+                            <img src="../img/cmp_pirsing_img.svg" alt="" class="cmp_pricing_img">
                         </div>
                     </div>
                 </div>
@@ -245,7 +260,48 @@
                 </div>
             </div>
         </div>
+        <div id="popup" class="popup">
+            <div class="popup_body lock_padding">
+                <div class="popup_content">
+                    <a href="#" class="popup_close close-popup">
+                        <span></span>
+                    </a>
+                    <div class="popup_title">Modular computing centre</div>
+                    <p class="pop_paragraph">
+                        Fill out the form, our manager <br>
+                        will contact you
+                    </p>
+                    <div class="pop_input_container">
+                        <input type="text" class="pop_input" placeholder="Name">
+                        <input type="text" class="pop_input" placeholder="Email">
+                        <input type="text" class="pop_input" placeholder="Phone">
+                        <input type="text" class="pop_input" placeholder="Purpose" list="purpose">
+                        <datalist id="purpose">
+                            <option value="purpose1">
+                            <option value="purpose2">
+                            <option value="purpose3">
+                            <option value="purpose4">
+                        </datalist>
+                        <input type="text" class="pop_input" placeholder="Volume">
+                        <input type="text" class="pop_input" placeholder="Timeline">
+                        <input type="text" class="pop_input" placeholder="Budget">
+                    </div>
+                    <div class="pop_footer">
+                        <button class="pop_btn">Send</button>
+                        <p class="pop_paragraph2">
+                            By clicking on the «Request» button you <br>
+                            confirm your consent to the processing <br>
+                            of data and agree to the privacy policy
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+    integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+    crossorigin="anonymous"></script>
+    <script src="../scripts/script4.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r61/three.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>

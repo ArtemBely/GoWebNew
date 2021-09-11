@@ -77,19 +77,15 @@
 .gt_icons_item {
     padding-left: 21px;
 }
-.gt_icons_link a {
+.gt_icons_link img {
     height: 27.72px;
     width: 27.72px;
 }
-#intro {
-  top: 420px;
-  position: absolute;
-  left: 310px;
-  width: 278px;
-}
+
 .sec_p {
-  position: relative;
-  top: 24px;
+  /* position: relative;
+  top: 24px; */
+  padding-top: 20px;
 }
 #bigG {
   position: relative;

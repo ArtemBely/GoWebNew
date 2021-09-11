@@ -1,0 +1,243 @@
+@media (min-width: 768px) and (max-width: 1290px) {
+    .gt_header, 
+    .gt_main,
+    .gt_footer {
+        width: 730px;
+    }
+    .gt_header {
+        height: 70px;
+        -webkit-box-align: center;
+		-ms-flex-align: center;
+			align-items: center;
+    }
+    .gt_logo_link {
+        width: 109px;
+        height: 40.06px;
+    }
+    .gt_navigation {
+        padding-bottom: 0px;
+    }
+    .gt_nav_item {
+        margin-left: 25px;
+    }
+    .gt_nav_link, .gt_nav_link:visited {
+        font-size: 16px;
+        line-height: 19px;
+    }
+    .g_token-content {
+        width: 400px;
+        margin-top: 100px;
+    }
+    .g_token-title {
+        font-size: 50px;
+        line-height: 58px;
+        padding-bottom: 30px;
+    }
+    .g_token_paragraph {
+        font-size: 16px;
+    }
+    .g_token-content2 {
+        width: 230px;
+        left: 210px;
+    }
+    .g_token-img2 {
+        width: 100%;
+        height: 100%;
+    }
+    .g_token_logo2 {
+        width: 815.93px;
+        height: 471.04px;
+    }
+    /* .g_token-img {
+        position: absolute;
+        right: -300px;
+        width: 815.93px;
+        height: 471.04px;
+    }
+    .g_token-logo {
+        width: 100%;
+        height: 100%;
+            position: relative;
+            top: 15px;
+    }
+    #intro {
+        top: 350px;
+        position: absolute;
+        width: 224px;
+        height: 72px;
+    } */
+    .main_tokenomics_allocation {
+        margin-top: 100px;
+    }
+    .main_tokenomics {
+        margin-top: 0px;
+        width: 100%;
+    }
+    .h2_title {
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .tokenomics_section {
+        margin-top: 35px;
+        width: 100%;
+    }
+    .tokenomics_supply {
+        width: 173px;
+        padding-bottom: 0px;
+    }
+    .tokenomics_subtitle {
+        font-size: 20px;
+        line-height: 23px;
+    }
+    #circulating {
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+    .tokenomics_numbers {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        flex-direction: column;
+    }
+    .tokenomics_numbers-max {
+        padding-bottom: 10px;
+    }
+    .tokenomics_numbers-title {
+        font-size: 16px;
+    }
+    .tokenomics_vesting {
+        width: 234px;
+        padding-bottom: 0px;
+    }
+    .tokenomics_vesting2 {
+        width: 249px;
+    }
+    .main_allocation {
+        margin-top: 100px;
+        width: 521.84px;
+        height: 310.32px;
+        flex-direction: column;
+        -webkit-box-pack: flex-start;
+		-ms-flex-pack: flex-start;
+			justify-content: flex-start;
+    }
+    #allocation {
+        padding-top: 0px;
+        padding-bottom: 15px;
+    }
+    .dowloader {
+        display: none;
+    }
+    .allocation_section2 {
+        padding-top: 20px;
+        width: 100%;
+    }
+    .allocation_section2-left {
+        width: 158px;
+        padding-top: 47px;
+    }
+    .allocation_section2-title {
+        font-size: 30px;
+    }
+    .allocation_section2-right {
+        padding-top: 29px;
+    }
+    #circulation {
+        padding-bottom: 20px;
+    }
+    .main_token {
+        margin-top: 68.68px;
+    }
+    .token_img {
+        padding-top: 15px;
+    }
+    .main_supply {
+        margin-top: 100px;
+        width: 550px;
+    }
+    .main_supply-section br {
+        display: none;
+    }
+    #supply_section1 {
+        width: 466px;
+    }
+    #supply_title {
+        width: 418px;
+    }
+    #supply_section2 {
+        display: none;
+    }
+    .gt_main_form {
+        margin-top: 100px;
+        width: 550px;
+    }
+    .gt_form {
+        width: 100%;
+    }
+    .gt_input {
+        width: 520px;
+        height: 44px;
+    }
+    #textarea {
+        width: 520px;
+        height: 135px;
+    }
+    input[type="text"],
+    input::placeholder,
+    #textarea[type="text"],
+    #textarea::placeholder {
+        font-size: 16px;
+    }
+    .gt_form_btn {
+        width: 97px;
+        height: 44px;
+        font-size: 16px;
+    }
+    .form_section {
+        display: none;
+    }
+    .gt_wrap_footer {
+        margin-top: 106px;
+    }
+    .gt_footer {
+        height: 133.47px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: space-between;
+            -ms-flex-pack: space-between;
+                justify-content: space-between;
+        margin-top: 48px;
+        margin-bottom: 75px;
+    }
+    .company_year {
+        font-size: 16px;
+        padding-top: 65px;
+    }
+    .gt_footer_logo {
+        width: 102px;
+        height: 37.49px;
+    }
+    .gt_footer_section2 {
+        width: 392.87px;
+        height: 125.73px;
+    }
+    .gt_footer_nav {
+        width: 332px;
+        margin-left: 61px;
+    }
+    .gt_footer_link, .gt_footer_link:visited {
+        font-size: 16px;
+        padding-top: 7.74px;
+    }
+    .gt_footer_icons {
+        padding-top: 72.74px;
+    }
+    .gt_icons_item {
+        padding-left: 21.2px;
+    }
+    .gt_icons_link img {
+        height: 27.72px;
+        width: 27.72px;
+    }
+}

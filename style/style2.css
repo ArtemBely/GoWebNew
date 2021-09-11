@@ -50,6 +50,9 @@
 	width: 100%;
 	height: 100%;
 }
+.header__burger {
+	display: none;
+} 
 .gt_navigation {
 	padding-bottom: 18px;
 }

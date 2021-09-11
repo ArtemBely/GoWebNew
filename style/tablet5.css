@@ -1,0 +1,349 @@
+@media (min-width: 768px) and (max-width: 1290px) {
+    .cps_header, 
+    .cps_main,
+    .cps_footer {
+        width: 730px;
+    }
+    .cps_header {
+        height: 70px;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+    }
+    .cps_logo_link {
+        width: 109px;
+        height: 40.06px;
+    }
+    .cps_header_logo {
+        width: 109px;
+        height: 40.06px;
+    }
+    .cps_header_list {
+        padding-bottom: 0;
+    }
+    .cps_header_item {
+        margin-left: 25px;
+    }
+    .cps_header_link, .cps_header_link:visited {
+        font-size: 16px;
+        line-height: 19px
+    }
+    .cps_hardware {
+        height: 892px;
+        margin-top: 50px;
+        flex-direction: column;
+        -webkit-box-pack: space-between;
+            -ms-flex-pack: space-between;
+                justify-content: space-between;
+    }
+    .h1_title {
+        font-size: 50px;
+        line-height: 58px;
+        width: 532px;
+    }
+    .h2_title {
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .cps_paragraph {
+        font-size: 16px;
+    }
+    .hardware_paragraph1 br {
+        display: none;
+    }
+    .hardware_paragraph1 {
+        width: 574px;
+    }
+    .cps_manufacturers {
+        padding-top: 45px;
+        width: 615px;
+        padding-bottom: 50px;
+    }
+    .cps_weikeng_logo {
+        width: 138px;
+        height: 45px;
+        padding: 0;
+        margin-bottom: 12px;
+    }
+    .cps_ask_logo {
+        width: 98px;
+        height: 45px;
+        padding: 0;
+        margin-bottom: 12px;
+    }
+    .cps_shenzhen_logo {
+        width: 183px;
+        height: 31px;
+        padding: 0;
+        margin-top: 7px;
+        margin-bottom: 19px;
+    }
+    .cps_weikeng > p:nth-child(3) {
+        padding-bottom: 0px;
+    }
+    #cpsEl {
+        position: absolute;
+        left: 0;
+        top: 804px;
+        width: 615px;
+    }
+    #cpsEl br {
+        display: none;
+    }
+    .cube_paragraph br {
+        display: none;
+    }
+    .cube_paragraph {
+        width: 385px;
+    }
+    .container2 {
+        position: absolute;
+        width: 297px;
+        height: 315px;
+        top: 499px;
+        left: 426px;
+    }
+    .cps_computing {
+        margin-top: 100px;
+    }
+    .computing_title {
+        padding-bottom: 10px;
+    }
+    .machines_title {
+        display: none;
+    }
+    .cps_machines_block {
+        width: 728px;
+    }
+    .machines_img {
+        width: 354px;
+        height: 117px;
+    }
+    .starminer_title {
+        padding-bottom: 7.21px;
+    }
+    .starminer8A_list {
+        padding-top: 30.13px;
+        padding-bottom: 0px;
+        grid-template-columns: 129px 224px;
+        grid-template-rows: 202px 84px 60px 84px 84px 60px 50px;
+    }
+    .starminer_gray {
+        font-size: 16px;
+    }
+    .block_paragraph > p:nth-child(2) {
+        padding-top: 14.76px;
+        padding-bottom: 14.76px;
+    }
+    .block_paragraph > p:nth-child(3) br {
+        display: none;
+    }
+    .starminer8A_list > li:nth-child(11) br {
+        display: none;
+    }
+    .starminer_btn {
+        margin-top: 22px;
+        font-size: 14.7597px;
+        width: 82.28px;
+        height: 37.24px;
+        padding: 0;
+    }
+    .starminer8A_paragraph {
+        width: 352px;
+    }
+    #air_8V {
+        width: 168px;
+    }
+    #custom_8V {
+        width: 136px;
+    }
+    .V8_btn {
+        margin-top: 66px;
+    }
+    .cps_modular {
+        margin-top: 101px;
+    }
+    .cps_modular_block {
+        flex-wrap: wrap;
+        margin: 30.4px 0px 38px 0px;
+    }
+    .cps_modular_section1 {
+        width: 354px;
+        height: 267px;
+    }
+    .cps_modular_section2 {
+        width: 354px;
+        height: 267px;
+    }
+    #modular_paragraph1 {
+        width: 247px;
+        text-align: center;
+        margin: 0px 74.09px 20.07px 53.09px;
+    }
+    #modular_paragraph2 {
+        width: 354px;
+        text-align: center;
+        margin: 0px 0px 0px 0px;
+    }
+    #modular_paragraph3 {
+        width: 354px;
+        text-align: center;
+        margin: 0px 20px 0px 0px;
+    }
+    #modular_paragraph4 {
+        width: 314px;
+        text-align: center;
+        margin: 0px 21px 0px 20px;
+    }
+    .cps_modular_img {
+        width: 130px;
+        height: 130px;
+        margin: 42px 132px 51px 113px;
+    }
+    .modular_bottom_block {
+        margin-top: 31px;
+    }
+    .cps_modular_btn {
+        margin: 0 auto;
+    }
+    .cps_modular2 {
+        margin-top: 100px;
+        width: 100%;
+    }
+    .current_paragraph {
+        padding-bottom: 10px;
+    }
+    #transportability_paragraph br {
+        display: none;
+    }
+    #transportability_paragraph {
+        width: 357px;
+        padding: 38px 0px 0px 0px;
+    }
+    .cps_modular3 {
+        width: 100%;
+        margin-top: 73px;
+    }
+    .cps_modular3_paragraph br {
+        display: none;
+    }
+    .cps_modular3 > p:nth-child(1) {
+        width: 353px;
+    }
+    .cps_modular3 > p:nth-child(2) {
+        width: 354px;
+    }
+    .cps_modular_question {
+        margin-top: 100px;
+    }
+    .cps_question_item {
+        width: 354px;
+        height: 288px;
+    }
+    .cps_question_list > li:nth-child(2) {
+        padding-bottom: 22px;
+    }
+    .cps_question_list > li:nth-child(3) {
+        margin-top: 30px;
+    }
+    .cps_question_list > li:nth-child(4) {
+        margin-top: 30px;
+    }
+    .cps_question_list > li:nth-child(5) {
+        height: 288px;
+        padding-bottom: 0px;
+        margin-top: 30px;
+    }
+    .cps_question_list > li:nth-child(6) {
+        height: 288px;
+        padding-bottom: 0px;
+        margin-top: 30px;
+    }
+    .cps_question_list > li:nth-child(7) {
+        height: 288px;
+        padding-bottom: 22px;
+        margin-top: 30px;
+    }
+    .cps_question_list > li:nth-child(8) {
+        height: 288px;
+        margin-top: 30px;
+    }
+    .cps_question_img {
+        width: 130px;
+        height: 130px;
+        margin: 0 auto;
+    }
+    .cps_question_paragrapg {
+        text-align: center;
+        width: 100%;
+        margin-top: 51px;
+    }
+    #cps_question_paragrapg1 {
+        width: 100%;
+    }
+    .cps_prices {
+        margin-top: 78px;
+    }
+    .cps_prices_block {
+        width: 100%;
+    }
+    .prices_paragraph {
+        padding-bottom: 30px;
+    }
+    .cps_prices_8A {
+    }
+    .prices_list {
+        grid-template-columns: 160px 196px;
+        grid-template-rows: 42px 42px 42px 64px 42px 22px;
+    }
+    .cps_prices_btn {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        padding: 10px 30px 12px 30px;
+    }
+    #prices_8A_special_paragraph {
+        position: absolute;
+    }
+    .cps_wrap_footer {
+        margin-top: 122px;
+    }
+    .cps_footer {
+        height: 134px;
+        margin-bottom: 80px;
+    }
+    .cps_footer_section1 {
+        width: 112px;
+        height: 128.98px;
+    }
+    .cps_logo_link {
+        width: 102px;
+        height: 37.49px;
+    }
+    .cps_footer_logo {
+        width: 102px;
+        height: 37.49px;
+    }
+    .cps_company_year {
+        font-size: 16px;
+        padding: 69.49px 0px 4.02px 0px;
+    }
+    .cps_footer_section2 {
+        width: 392.87px;
+        height: 125.73px;
+    }
+    .cps_footer_nav {
+        width: 332px;
+        padding-top: 7.74px;
+        margin-left: 61px;
+    }
+    .cps_footer_link, .cps_footer_link:visited {
+        font-size: 16px;
+    }
+    .cps_footer_icons {
+        padding-top: 72.74px;
+    }
+    .cps_icons_link a {
+        height: 31px;
+        width: 31px;
+    } 
+}

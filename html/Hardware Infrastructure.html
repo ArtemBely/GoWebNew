@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="../style/style10.css">
     <link rel="stylesheet" href="../style/style11.css">
     <link rel="stylesheet" href="../style/style13.css">
+    <link rel="stylesheet" href="../style/tablet5.css">
+    <link rel="stylesheet" href="../style/phone3.css">
     <title>GoWeb</title>
 </head>
 <body>
@@ -19,20 +21,25 @@
                     <a href="../index.html" class="cps_logo_link">
                         <img src="../img/logo.svg" alt="logo" class="cps_header_logo">
                     </a>
-                    <ul class="cps_header_list">
-                        <li class="cps_header_item">
-                            <a href="#" class="cps_header_link">Edge computing hardware</a>
-                        </li>
-                        <li class="cps_header_item">
-                            <a href="#" class="cps_header_link">Computing power for AI</a>
-                        </li>
-                        <li class="cps_header_item">
-                            <a href="#" class="cps_header_link">G token</a>
-                        </li>
-                        <li class="cps_header_item">
-                            <a href="#" class="cps_header_link">About us </a>
-                        </li>
-                    </ul>
+                    <div class="cps_navigation">
+                        <div class="cps_header__burger">
+                            <span></span>
+                        </div>
+                        <ul class="cps_header_list">
+                            <li class="cps_header_item">
+                                <a href="#" class="cps_header_link">Edge computing hardware</a>
+                            </li>
+                            <li class="cps_header_item">
+                                <a href="#" class="cps_header_link">Computing power for AI</a>
+                            </li>
+                            <li class="cps_header_item">
+                                <a href="#" class="cps_header_link">G token</a>
+                            </li>
+                            <li class="cps_header_item">
+                                <a href="#" class="cps_header_link">About us </a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
             <div class="cps_wrap_main">
@@ -41,7 +48,7 @@
                         <div class="hardware_section1">
                             <h1 class="h1_title">Hardware Infrastructure <br> for edge computing</h1>
                             <h2 class="h2_title cps_hardware_title">About the company</h2>
-                            <p class="cps_paragraph">
+                            <p class="cps_paragraph hardware_paragraph1">
                                 GoWeb manufactures its equipment and is continuously <br>
                                 upgrading it and improving its performance. GoWeb <br>
                                 International Ltd has forged partnerships with leading <br>
@@ -66,7 +73,7 @@
                                     <p class="manufacturers_content">Technology</p>
                                 </div>
                             </div>
-                            <p class="cps_paragraph">
+                            <p class="cps_paragraph cube_paragraph" id="cube_paragraph1">
                                 GoWeb International Ltd is aiming for long-term operation on <br>
                                 the market of providing computational power, rapid expansion <br>
                                 in promising regions, as well as constant development of <br>
@@ -74,14 +81,14 @@
                                 equipment. To this end, GoWeb International Ltd has already <br>
                                 set up a particular structure of operations.
                             </p>
-                            <p class="cps_paragraph manufacturers_second_paragraph">
+                            <p class="cps_paragraph manufacturers_second_paragraph cube_paragraph">
                                 Goweb is dedicated to supporting blockchain-based AI <br>
                                 companies through both best pricing and direct investments.
                             </p>
                         </div>
                         <div class="hardware_section2">
 
-                                  <div class="container2">
+                            <div class="container2">
                                           <div class="trigger"></div>
                                           <div class="trigger"></div>
                                           <div class="trigger"></div>
@@ -552,7 +559,7 @@
                                           </div>
                                           </div>
                                       </div>
-                              </div>
+                            </div>
 
                             <p class="cps_paragraph" id='cpsEl'>
                                 GoWeb International Ltd is a fast-growing company that <br>
@@ -572,8 +579,8 @@
                         <div class="cps_machines">
                             <h3 class="h3_title machines_title">Machines</h3>
                             <div class="cps_machines_block">
-                                <img src="../img/cps_machines1.svg" alt="">
-                                <img src="../img/cps_machines2.svg" alt="">
+                                <img src="../img/cps_machines1.svg" alt="" class="machines_img">
+                                <img src="../img/cps_machines2.svg" alt="" class="machines_img" id="machines_img2">
                             </div>
                         </div>
                         <div class="starminers_block">
@@ -613,7 +620,7 @@
                                     </li>
                                     <li class="starminer8A_item cps_paragraph">220 MH/s ±5% (for ETH)</li>
                                 </ul>
-                                <p class="cps_paragraph">
+                                <p class="cps_paragraph starminer8A_paragraph">
                                     Designed for installation in a standard 19-inch Server Rack
                                 </p>
                                 <button class="starminer_btn">Order</button>
@@ -642,8 +649,8 @@
                                         AMD Vega 64 16 Gb <br>
                                         Number of graphics cards - 8.
                                     </li>
-                                    <li class="starminer8A_item cps_paragraph">Air Cooling (3 coolers), 3A/12V</li>
-                                    <li class="starminer8A_item cps_paragraph">
+                                    <li class="starminer8A_item cps_paragraph" id="air_8V">Air Cooling (3 coolers), 3A/12V</li>
+                                    <li class="starminer8A_item cps_paragraph" id="custom_8V">
                                         Custom Core i5/i7/ Xeon, <br>
                                         SSD up to 2 TB
                                     </li>
@@ -661,20 +668,24 @@
                     <div class="cps_modular">
                         <h2 class="h2_title">Modular computing centre</h2>
                         <div class="cps_modular_block">
-                            <div class="cps_modular_section">
-                                <img src="../img/Frame 348 — копия.svg" />
+                            <div class="cps_modular_section1">
+                                <img src="../img/modular1.svg" class="cps_modular_img">
+                                <p class="cps_paragraph" id="modular_paragraph1">Each data centre is modular</p>
                             </div>
-                            <div class="cps_modular_section">
-                                <img src="../img/Frame 349 — копия.svg" />
+                            <div class="cps_modular_section2">
+                                <img src="../img/modular2.svg" class="cps_modular_img">
+                                <p class="cps_paragraph" id="modular_paragraph2">Each module includes 300 high-quality and endurance computing machines</p>
                             </div>
-                            <div class="cps_modular_section">
-                                <img src="../img/Frame 350 — копия.svg" />
+                            <div class="cps_modular_section2 modular_bottom_block" id="third_modular_section">
+                                <img src="../img/modular3.svg" class="cps_modular_img">
+                                <p class="cps_paragraph" id="modular_paragraph3">Each computing machine consists of 6/8 AMD Radeon RX 570/5700 with 16GB</p>
                             </div>
-                            <div class="cps_modular_section">
-                                <img src="../img/Frame 351 — копия.svg" />
+                            <div class="cps_modular_section1 modular_bottom_block">
+                                <img src="../img/modular4.svg" class="cps_modular_img">
+                                <p class="cps_paragraph" id="modular_paragraph4">Modules create accumulated computing power solution</p>
                             </div>
                         </div>
-                        <a href="#popup" class="cps_modular_btn popup_link">Request an estimate</a>
+                        <a href="#" class="cps_modular_btn">Request an estimate</a>
                     </div>
                     <div class="cps_modular2">
                         <div class="cps_current">
@@ -691,7 +702,7 @@
                         </div>
                         <div class="cps_transportability">
                             <h3 class="h3_title current_paragraph">Transportability</h3>
-                            <p class="cps_paragraph current_paragraph">
+                            <p class="cps_paragraph current_paragraph" id="transportability_paragraph">
                                 The computing centres themselves are built <br>
                                 in a way that allows GoWeb to considerably <br>
                                 decrease costs of computing power for AI.
@@ -699,16 +710,16 @@
                         </div>
                     </div>
                     <div class="cps_modular3">
-                        <p class="cps_paragraph">
+                        <p class="cps_paragraph cps_modular3_paragraph">
                             The operating system enables equipment network <br>
                             booting (PXE) without using a hard disk drive <br>
-                            (HDD/SSD). This booting technique enables <br>
+                            (HDD/ SSD). This booting technique enables <br>
                             to quickly update key system components, drivers <br>
                             and software on all computing systems. <br>
                             The advantage is that it simplifies equipment <br>
                             administration and lowers the risk of an outage.
                         </p>
-                        <p class="cps_paragraph">
+                        <p class="cps_paragraph cps_modular3_paragraph">
                             The company not only develops and manufactures <br>
                             its own equipment but also develops software <br>
                             for maintaining the computation process <br>
@@ -719,31 +730,36 @@
                         <h2 class="h2_title question_title">Why the modular centre</h2>
                         <ul class="cps_question_list">
                             <li class="cps_question_item">
-                                <img src="../img/Frame 348 — копия 2.svg" />
+                                <img src="../img/cmp_question1.svg" class="cps_question_img">
+                                <p class="cps_paragraph cps_question_paragrapg" id="cps_question_paragrapg1">Setting up a data centre with more than 300 machnes requires both high professionalism and safety measures. </p>
                             </li>
                             <li class="cps_question_item">
-                                <img src="../img/Frame 349 — копия 2.svg" />
-                                <p class="cps_paragraph">Security. The modular </p>
-                                <p class="cps_paragraph">centres are placed in security</p>
-                                <p class="cps_paragraph">guarded areas.</p>
+                                <img src="../img/cmp_question2.svg" class="cps_question_img">
+                                <p class="cps_paragraph cps_question_paragrapg">Security. The modular centres are placed in security guarded areas.</p>
                             </li>
                             <li class="cps_question_item">
-                                <img src="../img/Frame 350 — копия 2.svg" />
+                                <img src="../img/cmp_question3.svg" class="cps_question_img">
+                                <p class="cps_paragraph cps_question_paragrapg">Protection. Each modular centre is equipped with an effective fire protection system.</p>
                             </li>
                             <li class="cps_question_item">
-                                <img src="../img/Frame 351 — копия 2.svg" />
+                                <img src="../img/cmp_question4.svg" class="cps_question_img">
+                                <p class="cps_paragraph cps_question_paragrapg">Mobility. The rigid skeleton inside that allows the container to be transported anywhere</p>
                             </li>
                             <li class="cps_question_item">
-                                <img src="../img/Frame 348-2.svg" />
+                                <img src="../img/cmp_question5.svg" class="cps_question_img">
+                                <p class="cps_paragraph cps_question_paragrapg">Capacity. It is easy to increase the capacity of the computing centre at any point in time.</p>
                             </li>
                             <li class="cps_question_item">
-                                <img src="../img/Frame 349-2.svg" />
+                                <img src="../img/cmp_question6.svg" class="cps_question_img">
+                                <p class="cps_paragraph cps_question_paragrapg">Modules: It allows to create of an accumulated computing power solution</p>
                             </li>
                             <li class="cps_question_item">
-                                <img src="../img/Frame 350-2.svg" />
+                                <img src="../img/cmp_question7.svg" class="cps_question_img">
+                                <p class="cps_paragraph cps_question_paragrapg">Cooling: high tech cooling system is working at each module. Details can be given upon request</p>
                             </li>
                             <li class="cps_question_item">
-                                <img src="../img/Frame 351-2.svg" />
+                                <img src="../img/cmp_question8.svg" class="cps_question_img">
+                                <p class="cps_paragraph cps_question_paragrapg">Pricing: flexible and welcoming pricing strategy will cover the transitional cost for the companies and let the business get to know each other.</p>
                             </li>
                         </ul>
                     </div>
@@ -768,7 +784,7 @@
                                     <li class="prices_item cps_paragraph">3 000 000 G Tokens</li>
                                 </ul>
                                 <button class="cps_prices_btn">Order</button>
-                                <p class="cps_paragraph">Can be delivered worldwide upon request. VAT is not included.</p>
+                                <p class="cps_paragraph" id="prices_8A_special_paragraph">Can be delivered worldwide upon request. VAT is not included.</p>
                             </div>
                             <div class="cps_prices_8V">
                                 <h3 class="h3_title prices_title">Starminer 8V</h3>
@@ -787,7 +803,7 @@
                                     <li class="prices_item cps_paragraph">15 000 G Tokens</li>
                                     <li class="prices_item cps_paragraph">4 800 000 G Tokens</li>
                                 </ul>
-                                <button class="cps_prices_btn">Order</button>
+                                <button class="cps_prices_btn" id="prices_8V_btn">Order</button>
                             </div>
                         </div>
                     </div>
@@ -857,43 +873,10 @@
                 </div>
             </div>
         </div>
-        <div id="popup" class="popup">
-            <div class="popup_body lock_padding">
-                <div class="popup_content">
-                    <a href="#" class="popup_close close-popup">
-                        <span></span>
-                    </a>
-                    <div class="popup_title">Modular computing centre</div>
-                    <p class="pop_paragraph">
-                        Fill out the form, our manager <br>
-                        will contact you
-                    </p>
-                    <div class="pop_input_container">
-                        <input type="text" class="pop_input" placeholder="Name">
-                        <input type="text" class="pop_input" placeholder="Email">
-                        <input type="text" class="pop_input" placeholder="Phone">
-                        <input type="text" class="pop_input" placeholder="Purpose" list="purpose">
-                        <datalist id="purpose">
-                            <option value="purpose1">
-                            <option value="purpose2">
-                            <option value="purpose3">
-                            <option value="purpose4">
-                        </datalist>
-                        <input type="text" class="pop_input" placeholder="Volume">
-                        <input type="text" class="pop_input" placeholder="Timeline">
-                        <input type="text" class="pop_input" placeholder="Budget">
-                    </div>
-                    <div class="pop_footer">
-                        <button class="pop_btn">Send</button>
-                        <p class="pop_paragraph2">
-                            By clicking on the «Request» button you <br>
-                            confirm your consent to the processing <br>
-                            of data and agree to the privacy policy
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
     </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+    integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+    crossorigin="anonymous"></script>
+    <script src="../scripts/script5.js"></script>
 </body>
 </html>

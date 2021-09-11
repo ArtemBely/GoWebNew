@@ -1,0 +1,359 @@
+@media (min-width: 320px) and (max-width: 767px) {
+    .gt_header, 
+    .gt_main,
+    .gt_footer {
+        width: 280px;
+    }
+    body.lock {
+        overflow: hidden;
+    }
+    .gt_header {
+        position: relative;
+        top: 0;
+        left: 0;
+        z-index: 50;
+        height: 70px;
+        -webkit-box-align: center;
+		-ms-flex-align: center;
+			align-items: center;
+    }
+    .gt_header::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        min-height: 70px;
+        z-index: 2;
+    }
+    .gt_navigation {
+        padding: 0;
+    }
+    .gt_header__burger {
+        display: block;
+        position: relative;
+        width: 24px;
+        height: 20px;
+        z-index: 3;
+        right: 0px;
+    }
+    .gt_header__burger::before,
+    .gt_header__burger::after {
+        content: "";
+        background-color: black;
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        left: 0;
+        transition: all 0.3s ease 0s;
+    }
+    .gt_header__burger::before {
+        top: 0;
+    }
+    .gt_header__burger::after {
+        bottom: 0;
+    }
+    .gt_header__burger span {
+        position: absolute;
+        background-color: black;
+        left: 0;
+        width: 100%;
+        height: 2px;
+        top: 9px;
+        transition: all 0.3s ease 0s;
+    }
+    .gt_header__burger.active::before {
+        transform: rotate(45deg);
+        top: 9px;
+    }
+    .gt_header__burger.active::after {
+        transform: rotate(-45deg);
+        bottom: 9px;
+    }
+    .gt_header__burger.active span {
+        transform: scale(0);
+    }
+    .gt_nav_list {
+        position: fixed;
+        top: -100%;
+        left: 0;
+        width: 100%;
+        background-color: #E5E5E5;
+        height: 100%;
+        align-items: start;
+        padding: 120px 10px 20px 20px;
+        display: block;
+        transition: all 0.3s ease 0s;
+        overflow: auto;
+    }
+    .gt_nav_list.active {
+        top: 0;
+    }
+    .gt_nav_item {
+        padding-bottom: 30px;
+    }
+    .gt_logo_link {
+        width: 109px;
+        height: 40.06px;
+    }
+    .main_gtoken {
+        flex-direction: column-reverse;
+        position: relative;
+    }
+    .g_token-content {
+        margin-top: 423px;
+        width: 100%;
+    }
+    .g_token-content2 {
+        margin-top: 15px;
+        width: 280px;
+        left: -337.51px;
+        top: -35px;
+    }
+    .g_token-img3 {
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+    .g_token_logo3 {
+        width: 955.62px;
+        height: 551.68px;
+    }
+    .g_token-img2 {
+        display: none;
+    }
+    .g_token_logo2 {
+        display: none;
+    }
+    /*  Вставил картинку по-своему
+        .g_token-img {
+        position: absolute;
+        width: 955.62px;
+        height: 551.68px;
+        left: -337.51px;
+        top: -35px;;
+    }
+    .g_token-logo {
+        width: 100%;
+        height: 100%;
+            position: relative;
+            top: 0px;
+    }
+    #intro {
+        position: absolute;
+        margin-top: 49px;
+        width: 283px;
+        height: 116.5px;
+        top: -1px;
+        left: 335px;
+    } */
+    .g_token-title {
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .g_token_paragraph {
+        font-size: 16px;
+    }
+    .main_tokenomics {
+        margin-top: 89px;
+    }
+    .h2_title {
+        font-size: 25px;
+        line-height: 29px;
+    }
+    .tokenomics_section {
+        margin-top: 30px;
+        width: 250px;
+        flex-direction: column;
+    }
+    .tokenomics_supply {
+        width: 100%;
+    }
+    .tokenomics_subtitle {
+        font-size: 20px;
+        line-height: 23px;
+    }
+    #circulating {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .tokenomics_numbers {
+        flex-direction: column;
+    }
+    .tokenomics_numbers-max {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .tokenomics_vesting {
+        padding-top: 22px;
+    }
+    .tokenomics_vesting2 {
+        padding-top: 30px;
+    }
+    .main_allocation {
+        margin-top: 70px;
+        width: 100%;
+        flex-direction: column;
+    }
+    #allocation {
+        padding-top: 0px;
+        padding-bottom: 10px;
+        width: 190px;
+    }
+    #allocation_text br {
+        display: none;
+    }
+    #allocation_text {
+        width: 210px;
+    }
+    .dowloader {
+        display: none;
+    }
+    .allocation_section2 {
+        width: 252px;
+        flex-direction: column-reverse;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+    }
+    .allocation_section2-left {
+        text-align: center;
+        padding-top: 24px;
+        width: 230px;
+    }
+    #allocation_left br {
+        display: none;
+    }
+    #allocation_left {
+        width: 225px;
+    }
+    .allocation_section2-title {
+        font-size: 25px;
+    }
+    .allocation_section2-right {
+        width: 252px;
+        padding-top: 10px;
+        padding-bottom: 0px;
+        display: grid;
+        grid-template-columns: 174px 106px;
+        grid-template-rows: 32px 22px;
+    }
+    .allocation_section2-right *:nth-child(1) {
+        grid-row: 1 / 2;
+        grid-column: 2 / 3;
+        text-align: center;
+    }
+    .allocation_section2-right *:nth-child(2) {
+        grid-row: 2 / 3;
+        grid-column: 2 / 3;
+        text-align: center;
+    }
+    .allocation_section2-right *:nth-child(3) {
+        grid-row: 1 / 2;
+        grid-column: 1 / 2;
+        text-align: center;
+    }
+    .allocation_section2-right *:nth-child(4) {
+        grid-row: 2 / 3;
+        grid-column: 1 / 2;
+        text-align: center;
+    }
+    .allocation_section2-middle {
+        width: 170px;
+        height: 194px;
+    }
+    #allocation_middle_img {
+        transform: scaleY(-1) rotate(90deg);
+    }
+    .main_token {
+        margin-top: 70px;
+    }
+    .token_img {
+        padding-top: 10px;
+    }
+    .main_supply {
+        margin-top: 67px;
+    }
+    #supply_section1 br {
+        display: none;
+    }
+    #supply_section2 {
+        display: none;
+    }
+    .gt_main_form {
+        margin-top: 67px;
+    }
+    .gt_form_section .g_token_paragraph {
+        padding-top: 10px;
+    }
+    .gt_form_section {
+        width: 100%;
+        height: 483px;
+    }
+    .gt_form {
+        width: 100%;
+    }
+    .gt_input {
+        height: 44px;
+    }
+    #textarea {
+        width: 280px;
+        height: 135px;
+    }
+    input[type="text"],
+    input::placeholder,
+    #textarea[type="text"],
+    #textarea::placeholder {
+        font-size: 16px;
+    }
+    .gt_form_btn {
+        width: 97px;
+        height: 44px;
+        font-size: 16px;
+    }
+    .gt_wrap_footer {
+        margin-top: 70px;
+    }
+    .gt_footer {
+        height: 189px;
+        margin-top: 30px;
+        margin-bottom: 55px;
+        position: relative;
+        flex-direction: column;
+        justify-content: start;
+    }
+    .gt_footer_logo {
+        width: 97.95px;
+        height: 36px;
+    }
+    .gt_footer_section2 {
+        width: 100%;
+        height: 77.63px;
+        padding-top: 28px;
+    }
+    .gt_footer_link, .gt_footer_link:visited {
+        font-size: 16px;
+    }
+    .gt_footer_icons {
+        padding-top: 33px;
+    }
+    .gt_icons_list {
+        -webkit-box-pack: space-between;
+            -ms-flex-pack: space-between;
+                justify-content: space-between;
+    }
+    .gt_icons_item {
+        padding-left: 0px;
+    }
+    .gt_icons_link img {
+        height: 22.63px;
+        width: 22.63px;
+    }
+    .company_year {
+        padding: 0;
+        font-size: 16px;
+        position: absolute;
+        top: 167px;
+        left: 0;
+    }
+}   
