@@ -336,13 +336,13 @@
         flex-direction: column;
     }
     .cmp_pricing_btn1 {
-        padding: 6.81px 40px 8.17px 46px;
+        padding: 6.81px 40px 6.81px 46px;
         font-size: 14.9839px;
         width: 280px;
         height: 35.98px;
     }
     .cmp_pricing_btn2 {
-        padding: 0;
+        padding: 6.81px 72px 6.81px 77.5px;
         font-size: 14.9839px;
         width: 280px;
         height: 35.98px;
@@ -447,6 +447,35 @@
         font-size: 16px;
     }
     .pop_footer {
+        flex-direction: column;
+    }
+
+    .popup_content2 {
+        width: 280px;
+        height: 500px;
+    }
+    .popup_close2 {
+        width: 20px;
+        height: 20px;
+    }
+    .popup_title2 {
+        font-size: 22px;
+        line-height: 25px;
+        width: 191px;
+    }
+    .pop_input2 {
+        margin-bottom: 14px;
+    }
+    .pop_input2 {
+        height: 44px;
+    }
+    .pop_input2::placeholder {
+        font-size: 16px;
+    }
+    .pop_input2[type="text"] {
+        font-size: 16px;
+    }
+    .pop_footer2 {
         flex-direction: column;
     }
 }

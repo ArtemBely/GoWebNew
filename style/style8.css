@@ -353,3 +353,129 @@
 body.lock {
     overflow: hidden;
 }
+.popup2 {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    top: 0;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+    overflow-y: auto;
+    overflow-x: hidden;
+    transition: all 0.8s ease 0s;
+}
+.popup2:target {
+    opacity: 1;
+    visibility: visible;
+}
+.popup2:target .popup_content2 {
+    transform: translate(0px, 0px);
+    opacity: 1;
+}
+.popup_body2 {
+    min-height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 10px;
+}
+
+.popup_content2 {
+    position: relative;
+    background-color: #fff;
+    color: black;
+    width: 570px;
+    max-height: 712px;
+    padding: 25px;
+    transition: all 0.8s ease 0s;
+    opacity: 0;
+    transform: translate(0px, -100%);
+}
+.popup_close2 {
+    position: absolute;
+    right: 25px;
+    top: 25px;
+    display: block;
+    width: 30px;
+    height: 20px;
+    z-index: 3;
+    cursor: pointer;
+}
+.popup_close2::before,
+.popup_close2::after {
+    content: "";
+    background-color: black;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    left: 0;
+}
+.popup_close2::before {
+    transform: rotate(45deg);
+    top: 9px;
+}
+.popup_close2::after {
+    transform: rotate(-45deg);
+    bottom: 9px;
+}
+.popup_title2 {
+    font-family: "Play_Bold";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 35px;
+    color: #000000;
+}
+.pop_input_container2 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.pop_input2 {
+    width: 100%;
+    height: 50px;
+    border: 2px solid #808080;
+    box-sizing: border-box;
+    border-radius: 7px;
+    padding: 10px 20px 12px 20px;
+    margin-bottom: 20px;
+}
+.pop_input2::placeholder {
+    font-family: "Roboto_Regular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 140%;
+    color: #808080;
+}
+.pop_input2[type="text"] {
+    font-family: "Roboto_Regular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 140%;
+    color: black;
+}
+.pop_footer2 {
+    width: 100%;
+    height: 51px;
+    display: -webkit-box;
+	display: -ms-flexbox;
+    display: flex;
+}
+.pop_btn2 {
+    border: 3px solid #FFAC22;
+    box-sizing: border-box;
+    border-radius: 7px;
+    font-family: "Roboto_Regular";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    color: #000000;
+    padding: 10px 30px 12px 30px;
+}
+body.lock {
+    overflow: hidden;
+}

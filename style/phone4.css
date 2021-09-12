@@ -1,0 +1,196 @@
+@media (min-width: 320px) and (max-width: 767px) {
+    .au_header,
+    .au_main,
+    .au_footer {
+        width: 280px;
+    }
+    body.lock {
+        overflow: hidden;
+    }
+    .au_header {
+        margin: 0;
+        position: relative;
+        top: 0;
+        left: 0;
+        z-index: 50;
+        height: 70px;
+        -webkit-box-align: center;
+		-ms-flex-align: center;
+			align-items: center;
+    }
+    .au_header::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        min-height: 70px;
+        z-index: 2;
+    }
+    .au_header_logo {
+        width: 109px;
+        height: 40.06px;
+    }
+    .au_header__burger {
+        display: block;
+        position: relative;
+        width: 24px;
+        height: 20px;
+        z-index: 3;
+        right: 0px;
+    }
+    .au_header__burger::before,
+    .au_header__burger::after {
+        content: "";
+        background-color: black;
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        left: 0;
+        transition: all 0.3s ease 0s;
+    }
+    .au_header__burger::before {
+        top: 0;
+    }
+    .au_header__burger::after {
+        bottom: 0;
+    }
+    .au_header__burger span {
+        position: absolute;
+        background-color: black;
+        left: 0;
+        width: 100%;
+        height: 2px;
+        top: 9px;
+        transition: all 0.3s ease 0s;
+    }
+    .au_header__burger.active::before {
+        transform: rotate(45deg);
+        top: 9px;
+    }
+    .au_header__burger.active::after {
+        transform: rotate(-45deg);
+        bottom: 9px;
+    }
+    .au_header__burger.active span {
+        transform: scale(0);
+    }
+    .au_header_list {
+        position: fixed;
+        top: -100%;
+        left: 0;
+        width: 100%;
+        background-color: #E5E5E5;
+        height: 100%;
+        align-items: start;
+        padding: 120px 10px 20px 20px;
+        display: block;
+        transition: all 0.3s ease 0s;
+        overflow: auto;
+    }
+    .au_header_list.active {
+        top: 0;
+    }
+    .au_header_item {
+        padding-bottom: 30px;
+    }
+    .au_header_link {
+        width: 109px;
+        height: 40.06px;
+    }
+    .about_us {
+        margin-top: 30px;
+    }
+    .h1_title {
+        font-size: 30px;
+        line-height: 35px;
+        padding-bottom: 20px;
+    }
+    .au_paragraph {
+        font-size: 16px;
+    }
+    .au_paragrapg_br br {
+        display: none;
+    }
+    .mission_contact {
+        margin-top: 363px;
+        width: 100%;
+        flex-direction: column;
+    }
+    .h3_title {
+        font-size: 25px;
+        line-height: 29px;
+        padding-bottom: 16px;
+    }
+    .au_contact {
+        margin-top: 37px;
+        width: 244px;
+        left: 0px;
+    }
+    .au_contact h3 {
+        padding-bottom: 10px;
+    }
+    .au_whatsapp {
+        padding: 0;
+        width: 15px;
+        height: 16px;
+        margin: 2px 0px 0px 3px;
+    }
+    #third_whats {
+        margin-left: 11px;
+    }
+    .au_wrap_footer {
+        margin-top: 40px;
+    }
+    .au_footer {
+        height: 189px;
+        margin-top: 30px;
+        margin-bottom: 55px;
+        position: relative;
+        flex-direction: column;
+        justify-content: start;
+    }
+    .au_footer_section1 {
+        position: absolute;
+        height: 189px;
+    }
+    .au_footer_logo {
+        padding: 0;
+        width: 97.95px;
+        height: 36px;
+    }
+    .au_footer_section2 {
+        width: 100%;
+        height: 77.63px;
+        margin-top: 64px;
+    }
+    .au_footer_nav {
+        padding: 0;
+    }
+    .au_footer_link, .au_footer_link:visited {
+        font-size: 16px;
+    }
+    .au_footer_icons {
+        padding-top: 33px;
+    }
+    .au_icons_list {
+        -webkit-box-pack: space-between;
+            -ms-flex-pack: space-between;
+                justify-content: space-between;
+    }
+    .au_icons_item {
+        padding-left: 0px;
+    }
+    .au_icons_link img {
+        height: 22.63px;
+        width: 22.63px;
+    }
+    .au_company_year {
+        width: 112px;
+        padding: 0;
+        font-size: 16px;
+        position: absolute;
+        top: 167px;
+        left: 0;
+    }
+}
