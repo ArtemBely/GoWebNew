@@ -1,5 +1,5 @@
 @media (min-width: 320px) and (max-width: 767px) {
-    .cmp_header, 
+    .cmp_header,
     .cmp_main,
     .cmp_footer {
         width: 280px;
@@ -101,6 +101,8 @@
     .cmp_computing1 {
         width: 280px;
         height: 408px;
+        position: relative;
+        top: -300px;
     }
     .h1_title {
         font-size: 30px;
@@ -112,11 +114,12 @@
     }
     /*! Надо поправить */
     .cmp_computing2 {
-        width: 202.86px;
-        height: 178.75px;
-        position: absolute;
-        top: -200px;
-        left: 0;
+      width: 426.86px;
+      height: 660.75px;
+      position: relative;
+      top: -200px;
+      left: -63px;
+      transform: scale(0.6);
     }
     .main_paragraph {
         font-size: 16px;
@@ -127,7 +130,7 @@
         height: 47px;
     }
     .cmp_machine {
-        margin-top: 70px;
+        margin-top: -230px;
     }
     .machine_section1 {
         margin-bottom: 14px;
@@ -310,7 +313,7 @@
     .cmp_advantages_input::placeholder {
         font-size: 16px;
     }
-    
+
     .cmp_advantages_input[type="text"] {
         font-size: 16px;
     }

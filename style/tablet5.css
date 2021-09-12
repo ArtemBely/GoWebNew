@@ -1,5 +1,5 @@
 @media (min-width: 768px) and (max-width: 1290px) {
-    .cps_header, 
+    .cps_header,
     .cps_main,
     .cps_footer {
         width: 730px;
@@ -100,8 +100,9 @@
         position: absolute;
         width: 297px;
         height: 315px;
-        top: 499px;
+        top: 482px;
         left: 426px;
+        transform: scale(0.4);
     }
     .cps_computing {
         margin-top: 100px;
@@ -345,5 +346,5 @@
     .cps_icons_link a {
         height: 31px;
         width: 31px;
-    } 
+    }
 }

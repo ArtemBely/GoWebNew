@@ -1,5 +1,5 @@
 @media (min-width: 768px) and (max-width: 1290px) {
-    .cmp_header, 
+    .cmp_header,
     .cmp_main,
     .cmp_footer {
         width: 730px;
@@ -44,11 +44,12 @@
         display: none;
     }
     .cmp_computing2 {
-        width: 259.02px;
-        height: 228.24px;
-        position: absolute;
-        top: 97px;
-        right: 0;
+      width: 459.02px;
+      height: 528.24px;
+      position: absolute;
+      top: 39px;
+      transform: scale(0.6);
+      left: 440px;
     }
     .cmp_machine {
         margin-top: 100px;
@@ -288,7 +289,7 @@
     .cmp_icons_link a {
         height: 31px;
         width: 31px;
-    } 
+    }
     .popup_content {
         width: 513px;
         max-height: 658px;

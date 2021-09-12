@@ -1,5 +1,5 @@
 @media (min-width: 320px) and (max-width: 767px) {
-    .cps_header, 
+    .cps_header,
     .cps_main,
     .cps_footer {
         width: 280px;
@@ -174,8 +174,9 @@
         position: absolute;
         width: 228px;
         height: 242px;
-        left: 51px;
-        top: 696px;
+        top: -22px;
+        left: 30px;
+        transform: scale(0.3);
     }
     #cpsEl {
         top: 616px;
@@ -186,10 +187,6 @@
         position: absolute;
         height: 762px;
         top: 596px;
-    }
-    .container2 {
-        top: 0;
-        left: 0;
     }
     .cps_computing {
         position: relative;
