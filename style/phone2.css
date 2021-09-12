@@ -117,9 +117,11 @@
       width: 426.86px;
       height: 660.75px;
       position: relative;
-      top: -200px;
-      left: -63px;
-      transform: scale(0.6);
+      top: -219px;
+      left: -71px;
+      -webkit-transform: scale(0.6);
+      -ms-transform: scale(0.6);
+        transform: scale(0.6);
     }
     .main_paragraph {
         font-size: 16px;

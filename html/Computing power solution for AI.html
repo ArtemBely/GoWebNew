@@ -263,6 +263,7 @@
         <div id="popup" class="popup">
             <div class="popup_body lock_padding">
                 <div class="popup_content">
+                  <form method="POST" enctype="multipart/form-data" id="order_our">
                     <a href="#" class="popup_close close-popup">
                         <span></span>
                     </a>
@@ -272,28 +273,30 @@
                         will contact you
                     </p>
                     <div class="pop_input_container">
-                        <input type="text" class="pop_input" placeholder="Name">
-                        <input type="text" class="pop_input" placeholder="Email">
-                        <input type="text" class="pop_input" placeholder="Phone">
-                        <input type="text" class="pop_input" placeholder="Purpose" list="purpose">
+                        <input type="hidden" name="project_name" value="GoWeb">
+                        <input type="hidden" name="admin_email" value="belysevartem9@gmail.com">
+                        <input type="hidden" name="form_subject" value="Сообщение GoWeb">
+                        <input type="text" name="Имя" class="pop_input" placeholder="Name" required>
+                        <input type="text" name="Email" class="pop_input" placeholder="Email" required>
+                        <input type="text" name="Телефон" class="pop_input" placeholder="Phone" required>
+                        <input type="text" name="Purpose" class="pop_input" placeholder="Purpose" list="purpose" required>
                         <datalist id="purpose">
-                            <option value="purpose1">
-                            <option value="purpose2">
-                            <option value="purpose3">
-                            <option value="purpose4">
+                            <option value="Computing power for AI">
+                            <option value="Cryptomining">
                         </datalist>
-                        <input type="text" class="pop_input" placeholder="Volume">
-                        <input type="text" class="pop_input" placeholder="Timeline">
-                        <input type="text" class="pop_input" placeholder="Budget">
+                        <input type="text" name="Volume" class="pop_input" placeholder="Order quantity" required>
+                        <input type="text" name="Timeline" class="pop_input" placeholder="Delivery time" required>
+                        <input type="text" name="Budget" class="pop_input" placeholder="Budget" required>
                     </div>
                     <div class="pop_footer">
-                        <button class="pop_btn">Send</button>
+                        <button type="submit" class="pop_btn">Send</button>
                         <p class="pop_paragraph2">
                             By clicking on the «Request» button you <br>
                             confirm your consent to the processing <br>
                             of data and agree to the privacy policy
                         </p>
                     </div>
+                  </form>
                 </div>
             </div>
         </div>

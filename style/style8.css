@@ -8,7 +8,7 @@
     padding-top: 20px;
 }
 .cmp_supported_list {
-    
+
 }
 .cmp_supported_item {
     font-family: "Roboto_Regular";
@@ -143,7 +143,7 @@
 .cmp_footer_section1 {
     width: 155px;
     height: 153px;
-} 
+}
 .cmp_logo_link {
     width: 155.02px;
     height: 56.98px;
@@ -207,7 +207,7 @@
 .cmp_icons_link a {
     height: 27.72px;
     width: 27.72px;
-} 
+}
 .popup {
     position: fixed;
     width: 100%;
@@ -228,6 +228,7 @@
 .popup:target .popup_content {
     transform: translate(0px, 0px);
     opacity: 1;
+    z-index: 1000;
 }
 .popup_body {
     min-height: 100%;
