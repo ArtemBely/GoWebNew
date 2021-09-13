@@ -170,9 +170,10 @@
     font-style: normal;
     font-weight: bold;
     font-size: 20px;
-    line-height: 140%;
     color: #000000;
     padding: 10px 30px 12px 30px;
+    width: 111px;
+    height: 50px;
 }
 .cps_wrap_footer {
     margin-top: 160px;
@@ -209,7 +210,7 @@
     font-size: 22px;
     line-height: 140%;
     color: #000000;
-    padding-top: 60px;
+    padding-top: 65px;
 }
 .cps_footer_section2 {
     width: 408px;
@@ -217,6 +218,7 @@
 }
 .cps_footer_nav {
     width: 100%;
+    padding-top: 17px;
 }
 .cps_footer_list {
     display: -webkit-box;
@@ -261,4 +263,10 @@
 #cpsEl {
     position: relative;
     top: 295px;
+}
+#TV_br {
+    display: none;
+}
+.DAF_br {
+	display: none;
 }

@@ -28,7 +28,6 @@
     }
     .hm_main {
         width: 100%;
-        height: 303px;
     }
     .hm_main_title {
         font-size: 30px;
@@ -38,10 +37,25 @@
     .hm_main_paragraph {
         font-size: 16px;
     }
+    .hm_main_paragraph br {
+        display: none;
+    }
+    #main_br {
+        display: block;
+    }
     .hm_button_container {
         flex-direction: column;
         padding-top: 0px;
         align-items: center;
+    }
+    .hm_button_container > a:nth-child(1) {
+        order: 1;
+    }
+    .hm_button_container > a:nth-child(2) {
+        order: 3;
+    }
+    .hm_button_container > a:nth-child(3) {
+        order: 2;
     }
     .hm_main_btn {
         margin-top: 20px;

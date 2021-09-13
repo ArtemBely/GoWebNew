@@ -123,7 +123,10 @@
     font-weight: bold;
     font-size: 22px;
     color: #000000;
-    padding: 10px 30px 12px 30px;
+    padding: 11px 0px 0px 30px;
+    display: block;
+    width: 256px;
+    height: 53px;
 }
 .cmp_computing2 {
     width: 643.82px;
@@ -137,7 +140,7 @@
     height: 100%;
 }
 .cmp_machine {
-    margin-top: 162px;
+    margin-top: 158px;
     width: 100%;
 }
 .machine_section1 {

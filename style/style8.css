@@ -91,31 +91,35 @@
     border: 3px solid #FFAC22;
     box-sizing: border-box;
     border-radius: 7px;
-    padding: 10px 30px 12px 30px;
+    padding: 10px 0px 12px 30px;
     font-family: "Roboto_Bold";
     font-style: normal;
     font-weight: bold;
     font-size: 22px;
-    line-height: 140%;
     color: #000000;
+    width: 336px;
+    height: 53px;
+    display: block;
 }
 .cmp_pricing_btn2 {
     border: 3px solid #FFAC22;
     box-sizing: border-box;
     border-radius: 7px;
     font-family: "Roboto_Bold";
-    padding: 10px 30px 12px 30px;
+    padding: 10px 0px 12px 30px;
     font-style: normal;
     font-weight: bold;
     font-size: 22px;
-    line-height: 140%;
     color: #000000;
+    display: block;
+    width: 243px;
+    height: 53px;
 }
 .cmp_pricing_section2 {
     margin-top: 66px;
 }
 .cmp_wrap_footer {
-    margin-top: 158px;
+    margin-top: 160px;
     width: 100%;
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -150,8 +154,6 @@
 }
 .cmp_footer_logo {
     padding-bottom: 65px;
-    width: 100%;
-    height: 100%;
 }
 
 .cmp_company_year {

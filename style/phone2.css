@@ -112,15 +112,14 @@
         flex-direction: column-reverse;
         position: relative;
     }
-    /*! Надо поправить */
     .cmp_computing2 {
-      width: 426.86px;
-      height: 660.75px;
-      position: relative;
-      top: -219px;
-      left: -71px;
-      -webkit-transform: scale(0.6);
-      -ms-transform: scale(0.6);
+        width: 426.86px;
+        height: 660.75px;
+        position: relative;
+        top: -219px;
+        left: -71px;
+        -webkit-transform: scale(0.6);
+        -ms-transform: scale(0.6);
         transform: scale(0.6);
     }
     .main_paragraph {
@@ -140,6 +139,7 @@
     .machine_subtitle {
         font-size: 20px;
         line-height: 23px;
+        padding-bottom: 4px;
     }
     .h2_title {
         font-size: 25px;
@@ -241,30 +241,32 @@
     .cmp_advantages_section1 {
         margin-bottom: 50.19px;
     }
-    .cmp_advantages_section1 > div:nth-child(1) {
-        margin: 0;
-    }
-    .cmp_advantages_section1 > div:nth-child(2) {
-        margin: 0;
-    }
-    .cmp_advantages_section1 > div:nth-child(3) {
-        margin: 0;
-    }
-    .cmp_advantages_section1 > div:nth-child(5) {
-        margin: 0;
-    }
-    .cmp_advantages_section1 > div:nth-child(6) {
-        margin: 0;
-    }
-    .cmp_advantages_section1 > div:nth-child(7) {
-        margin: 0;
-    }
-    .cmp_advantages_section1 > div:nth-child(8) {
-        margin: 0;
-    }
     .cmp_advantages_block {
         width: 280px;
-        height: 223.81px
+        height: 197.81px;
+    }
+    .cmp_advantages_section1 > div:nth-child(1) {
+        margin: 0px 0px 26.19px 0px;
+        width: 280px;
+        height: 223.81px;
+    }
+    .cmp_advantages_section1 > div:nth-child(2) {
+        margin: 0px 0px 26.19px 0px;
+    }
+    .cmp_advantages_section1 > div:nth-child(3) {
+        margin: 0px 0px 26.19px 0px;
+    }
+    .cmp_advantages_section1 > div:nth-child(5) {
+        margin: 0px 0px 26.19px 0px;
+    }
+    .cmp_advantages_section1 > div:nth-child(6) {
+        margin: 0px 0px 26.19px 0px;
+    }
+    .cmp_advantages_section1 > div:nth-child(7) {
+        margin: 0px 0px 26.19px 0px;
+    }
+    .cmp_advantages_section1 > div:nth-child(8) {
+        margin: 0px 0px 26.19px 0px;
     }
     .advantages_content {
         padding-top: 36.81px;
@@ -280,6 +282,9 @@
     }
     #avantages_special_text1 {
         width: 245px;
+    }
+    #cmp_advantages_br {
+        display: block;
     }
     .cmp_advantages_section2 {
         margin-bottom: 30px;
@@ -332,6 +337,9 @@
     .cmp_pricing {
         margin-top: 70px;
         flex-direction: column;
+    }
+    .pricing_paragraph br {
+        display: none;
     }
     .cmp_pricing_btn_block {
         width: 100%;

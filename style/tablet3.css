@@ -36,6 +36,9 @@
     .g_token_paragraph {
         font-size: 16px;
     }
+    #allocation_circulation {
+        padding-bottom: 20px;
+    }
     .g_token-content2 {
         width: 230px;
         left: 210px;
@@ -48,24 +51,6 @@
         width: 815.93px;
         height: 471.04px;
     }
-    /* .g_token-img {
-        position: absolute;
-        right: -300px;
-        width: 815.93px;
-        height: 471.04px;
-    }
-    .g_token-logo {
-        width: 100%;
-        height: 100%;
-            position: relative;
-            top: 15px;
-    }
-    #intro {
-        top: 350px;
-        position: absolute;
-        width: 224px;
-        height: 72px;
-    } */
     .main_tokenomics_allocation {
         margin-top: 100px;
     }
@@ -136,6 +121,9 @@
         width: 158px;
         padding-top: 47px;
     }
+    #allocation_special_br {
+        display: none;
+    }
     .allocation_section2-title {
         font-size: 30px;
     }
@@ -146,14 +134,20 @@
         padding-bottom: 20px;
     }
     .main_token {
-        margin-top: 68.68px;
+        margin-top: 65.68px;
     }
     .token_img {
         padding-top: 15px;
+        width: 727px;
+        height: 467px;
     }
     .main_supply {
         margin-top: 100px;
+        margin-left: 8px;
         width: 550px;
+    }
+    .main_supply-section .g_token_paragraph {
+        padding-top: 20px;
     }
     .main_supply-section br {
         display: none;
@@ -169,6 +163,7 @@
     }
     .gt_main_form {
         margin-top: 100px;
+        margin-left: 8px;
         width: 550px;
     }
     .gt_form {
@@ -192,6 +187,7 @@
         width: 97px;
         height: 44px;
         font-size: 16px;
+        padding: 0;
     }
     .form_section {
         display: none;
@@ -208,11 +204,11 @@
             -ms-flex-pack: space-between;
                 justify-content: space-between;
         margin-top: 48px;
-        margin-bottom: 75px;
+        margin-bottom: 80px;
     }
     .company_year {
         font-size: 16px;
-        padding-top: 65px;
+        padding-top: 69.49px;
     }
     .gt_footer_logo {
         width: 102px;

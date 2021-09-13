@@ -219,7 +219,7 @@
     }
     #transportability_paragraph {
         width: 357px;
-        padding: 38px 0px 0px 0px;
+        padding: 28px 0px 0px 0px;
     }
     .cps_modular3 {
         width: 100%;
@@ -346,5 +346,11 @@
     .cps_icons_link a {
         height: 31px;
         width: 31px;
+    }
+    #center_br {
+        display: block;
+    }
+    .DAF_br {
+        display: block;
     }
 }

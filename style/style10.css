@@ -124,9 +124,10 @@
     font-style: normal;
     font-weight: bold;
     font-size: 20px;
-    line-height: 140%;
     color: #000000;
     padding: 10px 30px 12px 30px;
+    width: 111px;
+    height: 50px;
 }
 .V8_btn {
     margin-top: 68px;

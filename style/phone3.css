@@ -114,6 +114,9 @@
     .cps_paragraph {
         font-size: 16px;
     }
+    .hardware_paragraph1 br {
+        display: none;
+    }
     .cps_manufacturers {
         margin-left: 13px;
         padding-top: 20px;
@@ -179,9 +182,12 @@
         transform: scale(0.3);
     }
     #cpsEl {
-        top: 616px;
+        top: 580px;
         position: absolute;
         width: 280px;
+    }
+    #cpsEl br {
+        display: none;
     }
     .hardware_section2 {
         position: absolute;
@@ -237,10 +243,15 @@
     .starminer_btn {
         margin-top: 20px;
         font-size: 14.7597px;
-        width: 100%;
+        width: 280px;
+        height: 37.24px;
+        padding: 0;
     }
     .starminer8V {
         margin-top: 214.76px;
+    }
+    .starminer_second_list {
+        padding-bottom: 20.52px;
     }
     .V8_btn {
         margin-top: 0px;
@@ -467,5 +478,11 @@
         position: absolute;
         top: 167px;
         left: 0;
+    }
+    #TV_br {
+        display: block;
+    }
+    #transportability_paragraph {
+        padding: 0;
     }
 }

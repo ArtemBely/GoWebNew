@@ -30,12 +30,15 @@
         font-size: 50px;
         line-height: 58px;
     }
-    .cmp_computing_btn {
-        /* padding: 6.81px 20.43px 8.17px 20.43px; */
-    }
     .main_paragraph {
         font-size: 16px;
         width: 470px;
+    }
+    .machine_section2_paragraph {
+        padding: 14px 0px;
+    }
+    #machine_special_paragraph br {
+        display: none;
     }
     .cmp_computing_paragraph1 br {
         display: none;
@@ -44,12 +47,12 @@
         display: none;
     }
     .cmp_computing2 {
-      width: 459.02px;
-      height: 528.24px;
-      position: absolute;
-      top: 39px;
-      transform: scale(0.6);
-      left: 440px;
+        width: 459.02px;
+        height: 528.24px;
+        position: absolute;
+        top: 39px;
+        transform: scale(0.6);
+        left: 440px;
     }
     .cmp_machine {
         margin-top: 100px;
@@ -83,18 +86,6 @@
     .machine_list_normal {
         font-size: 16px;
     }
-    /*! Надо поправить
-        .particlehead {
-        background: #ffffff;
-        transform: scale(0.8);
-        position: absolute;
-        left: 545px;
-        top: 98px;
-        width: 938px;
-        display: flex;
-        justify-content: center;
-        overflow: hidden;
-    } */
     .cmp_advantages {
         margin-top: 100px;
     }
@@ -155,6 +146,7 @@
     .cmp_advantages_section2_img {
         width: 56.2px;
         height: 64.9px;
+        margin-right: 10.8px;
     }
     .cmp_advantages_paragraph {
         font-size: 16px;
@@ -162,6 +154,9 @@
     }
     .cmp_advantages_section2_content2 {
         width: 354px;
+    }
+    .cmp_advantages_section2_br br {
+        display: none;
     }
     .cmp_advantages_flexcontainer {
         width: 466px;
@@ -178,6 +173,9 @@
     .cmp_supported {
         margin-top: 100px;
         height: 445.8px;
+    }
+    .supported_paragraph {
+        padding-top: 10px;
     }
     .cmp_supported_item {
         font-size: 13px;
@@ -265,8 +263,12 @@
         height: 129px;
     }
     .cmp_logo_link {
+    }
+    .cmp_footer_logo {
         width: 102px;
         height: 37.49px;
+        padding: 0;
+        margin-bottom: 69.5px;
     }
     .cmp_company_year {
         font-size: 16px;

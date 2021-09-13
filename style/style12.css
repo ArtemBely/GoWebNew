@@ -113,19 +113,7 @@
 }
 .au_section1 > p:nth-child(2), .au_section1 > p:nth-child(3) {
     padding-bottom: 20px;
-}/*
-.au_section2 {
-	width: 682px;
-	height: 504px;
-	position: relative;
-	top: -51px;
-	left: 30px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	overflow: hidden;
-}*/
-
+}
 .mission_contact {
     margin-top: -32px;
     width: 1081px;
@@ -166,6 +154,11 @@
     padding-top: 5px;
     padding-left: 5px;
 }
+#third_whats {
+	margin-left: 16px;
+	margin-top: 5px;
+	padding: 0;
+}
 .au_wrap_footer {
     margin-top: 160px;
     width: 100%;
@@ -201,7 +194,7 @@
     font-size: 22px;
     line-height: 140%;
     color: #000000;
-    padding-top: 60px;
+    padding-top: 65px;
 }
 .au_footer_section2 {
     width: 408px;
@@ -265,4 +258,7 @@ canvas {
 	position: relative;
 	top: -34px;
 	overflow: hidden;
+}
+.DAF_br {
+	display: none;
 }

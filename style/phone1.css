@@ -125,31 +125,13 @@
     .g_token_logo2 {
         display: none;
     }
-    /*  Вставил картинку по-своему
-        .g_token-img {
-        position: absolute;
-        width: 955.62px;
-        height: 551.68px;
-        left: -337.51px;
-        top: -35px;;
-    }
-    .g_token-logo {
-        width: 100%;
-        height: 100%;
-            position: relative;
-            top: 0px;
-    }
-    #intro {
-        position: absolute;
-        margin-top: 49px;
-        width: 283px;
-        height: 116.5px;
-        top: -1px;
-        left: 335px;
-    } */
     .g_token-title {
         font-size: 30px;
         line-height: 35px;
+        padding-bottom: 20px;
+    }
+    .g_token_content_br {
+        display: block;
     }
     .g_token_paragraph {
         font-size: 16px;
@@ -181,11 +163,13 @@
         flex-direction: column;
     }
     .tokenomics_numbers-max {
-        padding-top: 10px;
         padding-bottom: 10px;
     }
     .tokenomics_vesting {
-        padding-top: 22px;
+        padding-top: 30px;
+    }
+    #vesting_br {
+        display: none;
     }
     .tokenomics_vesting2 {
         padding-top: 30px;
@@ -198,7 +182,9 @@
     #allocation {
         padding-top: 0px;
         padding-bottom: 10px;
-        width: 190px;
+    }
+    #allocation_title_br {
+        display: block;
     }
     #allocation_text br {
         display: none;
@@ -210,7 +196,7 @@
         display: none;
     }
     .allocation_section2 {
-        width: 252px;
+        width: 280px;
         flex-direction: column-reverse;
         -webkit-box-align: center;
             -ms-flex-align: center;
@@ -220,6 +206,7 @@
         text-align: center;
         padding-top: 24px;
         width: 230px;
+        padding: 0;
     }
     #allocation_left br {
         display: none;
@@ -231,7 +218,6 @@
         font-size: 25px;
     }
     .allocation_section2-right {
-        width: 252px;
         padding-top: 10px;
         padding-bottom: 0px;
         display: grid;
@@ -262,7 +248,12 @@
         width: 170px;
         height: 194px;
     }
+    .gt_form_img {
+        display: none;
+    }
     #allocation_middle_img {
+        width: 170px;
+        height: 194px;
         transform: scaleY(-1) rotate(90deg);
     }
     .main_token {
@@ -270,9 +261,14 @@
     }
     .token_img {
         padding-top: 10px;
+        width: 280px;
+        height: 345px;
     }
     .main_supply {
         margin-top: 67px;
+    }
+    .main_supply-section .g_token_paragraph {
+        padding-top: 20px;
     }
     #supply_section1 br {
         display: none;
@@ -282,6 +278,9 @@
     }
     .gt_main_form {
         margin-top: 67px;
+    }
+    #gt_main_form_br {
+        display: block;
     }
     .gt_form_section .g_token_paragraph {
         padding-top: 10px;
@@ -310,6 +309,7 @@
         width: 97px;
         height: 44px;
         font-size: 16px;
+        padding: 0;
     }
     .gt_wrap_footer {
         margin-top: 70px;

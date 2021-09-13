@@ -105,7 +105,7 @@
 	-webkit-box-pack: space-between;
 		-ms-flex-pack: space-between;
 			justify-content: space-between;
-    padding-top: 37px;
+    padding-top: 40px;
 }
 .hm_main_btn {
     width: 340.63px;
@@ -117,7 +117,6 @@
     font-style: normal;
     font-weight: bold;
     font-size: 25px;
-    line-height: 140%;
     color: #000000;
 }
 .hm_main_btn a, .hm_main_btn a:visited {
@@ -147,7 +146,7 @@
 }
 .hm_footer {
   width: 1291px;
-  padding-top: 147px;
+  padding-top: 157px;
   padding-bottom: 82px;
   display: -webkit-box;
   display: -ms-flexbox;
