@@ -245,7 +245,7 @@
         font-size: 14.7597px;
         width: 280px;
         height: 37.24px;
-        padding: 0;
+        padding: 7.38px 121px 8.86px 121px;
     }
     .starminer8V {
         margin-top: 214.76px;
@@ -257,7 +257,7 @@
         margin-top: 0px;
         width: 206.64px;
         height: 37.24px;
-        padding: 0px;
+        padding: 7.38px 84.32px 8.86px 84.32px;
     }
     .cps_modular {
         margin-top: 70.76px;
@@ -303,6 +303,16 @@
     .cps_modular_btn {
         width: 280px;
         height: 50px;
+        padding: 0;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
     }
     .cps_modular2 {
         margin-top: 70px;
@@ -416,6 +426,15 @@
         width: 280px;
         height: 50px;
         padding: 0;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
     }
     #prices_8A_special_paragraph {
         position: absolute;
@@ -484,5 +503,46 @@
     }
     #transportability_paragraph {
         padding: 0;
+    }
+    .popup_content {
+        width: 280px;
+        height: 718px;
+    }
+    .popup_close {
+        width: 20px;
+        height: 20px;
+    }
+    .popup_title {
+        font-size: 22px;
+        line-height: 25px;
+        width: 191px;
+    }
+    .pop_input {
+        margin-bottom: 14px;
+    }
+    .pop_paragraph br {
+        display: none;
+    }
+    .pop_paragraph2 br {
+        display: none;
+    }
+    .pop_paragraph {
+        font-size: 16px;
+    }
+    .pop_paragraph2 {
+        font-size: 14px;
+        margin: 14px 0px 0px 0px;
+    }
+    .pop_input {
+        height: 44px;
+    }
+    .pop_input::placeholder {
+        font-size: 16px;
+    }
+    .pop_input[type="text"] {
+        font-size: 16px;
+    }
+    .pop_footer {
+        flex-direction: column;
     }
 }

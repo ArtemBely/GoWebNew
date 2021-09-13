@@ -147,7 +147,15 @@
         font-size: 14.7597px;
         width: 82.28px;
         height: 37.24px;
-        padding: 0;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
     }
     .starminer8A_paragraph {
         width: 352px;
@@ -352,5 +360,39 @@
     }
     .DAF_br {
         display: block;
+    }
+    .popup_content {
+        width: 513px;
+        max-height: 658px;
+    }
+    .popup_close {
+        width: 25px;
+        height: 20px;
+    }
+    .pop_input {
+        height: 44px;
+    }
+    .pop_input::placeholder {
+        font-size: 16px;
+    }
+    .pop_input[type="text"] {
+        font-size: 16px;
+    }
+    .popup_content2 {
+        width: 513px;
+        max-height: 658px;
+    }
+    .popup_close2 {
+        width: 25px;
+        height: 20px;
+    }
+    .pop_input2 {
+        height: 44px;
+    }
+    .pop_input2::placeholder {
+        font-size: 16px;
+    }
+    .pop_input2[type="text"] {
+        font-size: 16px;
     }
 }
