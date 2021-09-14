@@ -270,7 +270,7 @@
 .DAF_br {
 	display: none;
 }
-.popup {
+.popup3 {
     position: fixed;
     width: 100%;
     height: 100%;
@@ -283,16 +283,16 @@
     overflow-x: hidden;
     transition: all 0.8s ease 0s;
 }
-.popup:target {
+.popup3:target {
     opacity: 1;
     visibility: visible;
 }
-.popup:target .popup_content {
+.popup3:target .popup_content3 {
     transform: translate(0px, 0px);
     opacity: 1;
     z-index: 1000;
 }
-.popup_body {
+.popup_body3 {
     min-height: 100%;
     display: flex;
     align-items: center;
@@ -300,7 +300,7 @@
     padding: 10px 10px;
 }
 
-.popup_content {
+.popup_content3 {
     position: relative;
     background-color: #fff;
     color: black;
@@ -311,7 +311,7 @@
     opacity: 0;
     transform: translate(0px, -100%);
 }
-.popup_close {
+.popup_close3 {
     position: absolute;
     right: 25px;
     top: 25px;
@@ -321,8 +321,8 @@
     z-index: 3;
     cursor: pointer;
 }
-.popup_close::before,
-.popup_close::after {
+.popup_close3::before,
+.popup_close3::after {
     content: "";
     background-color: black;
     position: absolute;
@@ -330,15 +330,15 @@
     height: 2px;
     left: 0;
 }
-.popup_close::before {
+.popup_close3::before {
     transform: rotate(45deg);
     top: 9px;
 }
-.popup_close::after {
+.popup_close3::after {
     transform: rotate(-45deg);
     bottom: 9px;
 }
-.popup_title {
+.popup_title3 {
     font-family: "Play_Bold";
     font-style: normal;
     font-weight: bold;
@@ -356,12 +356,12 @@
     padding-top: 10px;
     padding-bottom: 20px;
 }
-.pop_input_container {
+.pop_input_container3 {
     width: 100%;
     display: flex;
     flex-direction: column;
 }
-.pop_input {
+.pop_input3 {
     width: 100%;
     height: 50px;
     border: 2px solid #808080;
@@ -370,7 +370,7 @@
     padding: 10px 20px 12px 20px;
     margin-bottom: 20px;
 }
-.pop_input::placeholder {
+.pop_input3::placeholder {
     font-family: "Roboto_Regular";
     font-style: normal;
     font-weight: normal;
@@ -378,7 +378,7 @@
     line-height: 140%;
     color: #808080;
 }
-.pop_input[type="text"] {
+.pop_input3[type="text"] {
     font-family: "Roboto_Regular";
     font-style: normal;
     font-weight: normal;
@@ -386,14 +386,14 @@
     line-height: 140%;
     color: black;
 }
-.pop_footer {
+.pop_footer3 {
     width: 100%;
     height: 51px;
     display: -webkit-box;
 	display: -ms-flexbox;
     display: flex;
 }
-.pop_btn {
+.pop_btn3 {
     border: 3px solid #FFAC22;
     box-sizing: border-box;
     border-radius: 7px;

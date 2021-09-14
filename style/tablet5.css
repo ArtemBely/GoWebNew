@@ -361,38 +361,38 @@
     .DAF_br {
         display: block;
     }
-    .popup_content {
+    .popup_content3 {
         width: 513px;
         max-height: 658px;
     }
-    .popup_close {
+    .popup_close3 {
         width: 25px;
         height: 20px;
     }
-    .pop_input {
+    .pop_input3 {
         height: 44px;
     }
-    .pop_input::placeholder {
+    .pop_input3::placeholder {
         font-size: 16px;
     }
-    .pop_input[type="text"] {
+    .pop_input3[type="text"] {
         font-size: 16px;
     }
-    .popup_content2 {
+    .popup_content3 {
         width: 513px;
         max-height: 658px;
     }
-    .popup_close2 {
+    .popup_close3 {
         width: 25px;
         height: 20px;
     }
-    .pop_input2 {
+    .pop_input3 {
         height: 44px;
     }
-    .pop_input2::placeholder {
+    .pop_input3::placeholder {
         font-size: 16px;
     }
-    .pop_input2[type="text"] {
+    .pop_input3[type="text"] {
         font-size: 16px;
     }
 }

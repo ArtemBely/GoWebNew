@@ -2,7 +2,10 @@ body {
 	 background: #fff;
 	 justify-content: center;
 	 align-items: center;
-	 perspective: 1000px;
+	 /* perspective: 1000px; */
+}
+.cps_container {
+	perspective: 1000px;
 }
  .container2 {
 	 position: relative;
