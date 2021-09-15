@@ -106,10 +106,14 @@
         font-size: 30px;
         line-height: 35px;
         width: 280px;
+        padding: 0;
     }
     .h2_title {
         font-size: 24px;
         line-height: 28px;
+    }
+    .cps_hardware_title {
+        margin-top: 274px;
     }
     .cps_paragraph {
         font-size: 16px;
@@ -168,7 +172,7 @@
         padding: 0;
     }
     #cube_paragraph1 {
-        padding-top: 266px;
+        padding-top: 22px;
     }
     .cube_paragraph br {
         display: none;
@@ -182,8 +186,7 @@
         transform: scale(0.3);
     }
     #cpsEl {
-        top: 580px;
-        position: absolute;
+        top: 1057px;
         width: 280px;
     }
     #cpsEl br {
@@ -192,7 +195,8 @@
     .hardware_section2 {
         position: absolute;
         height: 762px;
-        top: 596px;
+        /* top: 596px; */
+        top: 121px;
     }
     .cps_computing {
         position: relative;

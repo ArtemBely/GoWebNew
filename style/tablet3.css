@@ -50,6 +50,8 @@
     .g_token_logo2 {
         width: 815.93px;
         height: 471.04px;
+        position: absolute;
+        z-index: -1;
     }
     .main_tokenomics_allocation {
         margin-top: 100px;

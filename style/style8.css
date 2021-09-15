@@ -91,7 +91,6 @@
     border: 3px solid #FFAC22;
     box-sizing: border-box;
     border-radius: 7px;
-    padding: 10px 0px 12px 30px;
     font-family: "Roboto_Bold";
     font-style: normal;
     font-weight: bold;
@@ -99,19 +98,34 @@
     color: #000000;
     width: 336px;
     height: 53px;
-    display: block;
+    display: -webkit-box;
+	display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+        justify-content: center;
+    -webkit-box-align: center;
+		-ms-flex-align: center;
+			align-items: center;
 }
 .cmp_pricing_btn2 {
     border: 3px solid #FFAC22;
     box-sizing: border-box;
     border-radius: 7px;
     font-family: "Roboto_Bold";
-    padding: 10px 0px 12px 30px;
     font-style: normal;
     font-weight: bold;
     font-size: 22px;
     color: #000000;
-    display: block;
+    display: -webkit-box;
+	display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+		-ms-flex-align: center;
+			align-items: center;
     width: 243px;
     height: 53px;
 }

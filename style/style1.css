@@ -16,7 +16,6 @@
 	display: -ms-flexbox;
 	display: flex;
 	flex-direction: column;
-    position: fixed;
 }
 .hm_wrap_header {
 	width: 100%;
