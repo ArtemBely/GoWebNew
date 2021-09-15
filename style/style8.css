@@ -237,11 +237,11 @@
     overflow-x: hidden;
     transition: all 0.8s ease 0s;
 }
-.popup:target {
+.popup.open {
     opacity: 1;
     visibility: visible;
 }
-.popup:target .popup_content {
+.popup.open .popup_content {
     transform: translate(0px, 0px);
     opacity: 1;
     z-index: 1000;
@@ -383,11 +383,11 @@ body.lock {
     overflow-x: hidden;
     transition: all 0.8s ease 0s;
 }
-.popup2:target {
+.popup2.open {
     opacity: 1;
     visibility: visible;
 }
-.popup2:target .popup_content2 {
+.popup2.open .popup_content2 {
     transform: translate(0px, 0px);
     opacity: 1;
 }
@@ -493,6 +493,8 @@ body.lock {
     color: #000000;
     padding: 10px 30px 12px 30px;
 }
-body.lock {
-    overflow: hidden;
+.lock_padding {
+    position: fixed;
+    width: 0;
+    height: 0;
 }

@@ -171,7 +171,15 @@
     font-weight: bold;
     font-size: 20px;
     color: #000000;
-    padding: 10px 30px 12px 30px;
+    display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+		-ms-flex-pack: center;
+			justify-content: center;
+	-webkit-box-align: center;
+		-ms-flex-align: center;
+			align-items: center;
     width: 111px;
     height: 50px;
 }
@@ -283,11 +291,11 @@
     overflow-x: hidden;
     transition: all 0.8s ease 0s;
 }
-.popup3:target {
+.popup3.open {
     opacity: 1;
     visibility: visible;
 }
-.popup3:target .popup_content3 {
+.popup3.open .popup_content3 {
     transform: translate(0px, 0px);
     opacity: 1;
     z-index: 1000;
@@ -416,6 +424,8 @@
 body.lock {
     overflow: hidden;
 }
-.popup_link {
-    display: block;
+.lock_padding {
+    position: fixed;
+    width: 0;
+    height: 0;
 }

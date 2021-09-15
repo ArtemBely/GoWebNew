@@ -7,7 +7,6 @@
 	-webkit-box-pack: center;
 		-ms-flex-pack: center;
 			justify-content: center;
-	position: absolute;
 }
 .cmp_container {
 	width: 100%;
@@ -123,8 +122,15 @@
     font-weight: bold;
     font-size: 22px;
     color: #000000;
-    padding: 11px 0px 0px 30px;
-    display: block;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+		-ms-flex-pack: center;
+			justify-content: center;
+	-webkit-box-align: center;
+		-ms-flex-align: center;
+			align-items: center;
     width: 256px;
     height: 53px;
 }

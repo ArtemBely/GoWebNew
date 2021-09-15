@@ -125,9 +125,17 @@
     font-weight: bold;
     font-size: 20px;
     color: #000000;
-    padding: 10px 30px 12px 30px;
     width: 111px;
     height: 50px;
+    display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+		-ms-flex-pack: center;
+			justify-content: center;
+	-webkit-box-align: center;
+		-ms-flex-align: center;
+			align-items: center;
 }
 .V8_btn {
     margin-top: 68px;
@@ -214,5 +222,13 @@
     font-weight: bold;
     font-size: 20px;
     color: #000000;
-    padding: 10px 20px 12px 30px;
+    display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+		-ms-flex-pack: center;
+			justify-content: center;
+	-webkit-box-align: center;
+		-ms-flex-align: center;
+			align-items: center;
 }
