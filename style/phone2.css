@@ -377,6 +377,7 @@
     .cmp_footer_section1 {
         position: absolute;
         height: 189px;
+        width: 190px;
     }
     .cmp_footer_logo {
         padding: 0;
