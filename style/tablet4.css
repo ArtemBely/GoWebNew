@@ -47,12 +47,12 @@
         display: none;
     }
     .cmp_computing2 {
-        width: 459.02px;
-        height: 528.24px;
-        position: absolute;
-        top: 39px;
-        transform: scale(0.6);
-        left: 440px;
+      width: 486.02px;
+      height: 709.24px;
+      position: absolute;
+      top: 12px;
+      transform: scale(0.5);
+      left: 385px;
     }
     .cmp_machine {
         margin-top: 100px;

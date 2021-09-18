@@ -101,8 +101,8 @@ Background.headparticle = function() {
    }
 
    function render() {
-      Background.camera.position.x += ( (mouseX * .5) - Background.camera.position.x ) * .05;
-      Background.camera.position.y += ( -(mouseY * .5) - Background.camera.position.y ) * .05;
+      Background.camera.position.x += ( (-mouseX * .5) - Background.camera.position.x ) * .05;
+      Background.camera.position.y += ( -(-mouseY * .5) - Background.camera.position.y ) * .05;
 
       Background.camera.lookAt( Background.scene.position );
 

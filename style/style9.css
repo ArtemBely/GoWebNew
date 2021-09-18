@@ -16,6 +16,9 @@
 	display: flex;
 	flex-direction: column;
 }
+.trigger {
+	    clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+}
 .cps_wrap_header {
 	width: 100%;
 	display: -webkit-box;
@@ -81,13 +84,20 @@
 .cps_main {
 	width: 1291px;
 }
+.hardware_section2 {
+	position: relative;
+	left: -330px;
+	width: 1295px;
+	padding: 121px;
+	overflow: hidden;
+	top: -94px;
+}
 .cps_hardware {
 	position: relative;
 	width: 100%;
 	margin-top: 160px;
 	display: -webkit-box;
 	display: -ms-flexbox;
-	display: flex;
 	-webkit-box-pack: space-between;
 		-ms-flex-pack: space-between;
 			justify-content: space-between;

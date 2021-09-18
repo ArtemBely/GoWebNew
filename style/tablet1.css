@@ -1,5 +1,10 @@
+@media (min-width: 1290px) {
+  .hm_wrap {
+    overflow-y: hidden;
+  }
+}
 @media (min-width: 992px) and (max-width: 1290px) {
-    .hm_header, 
+    .hm_header,
     .hm_footer {
         width: 954px;
     }

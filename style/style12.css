@@ -242,6 +242,24 @@
     height: 27.72px;
     width: 27.72px;
 }
+@media (min-width: 768px) and (max-width: 1290px) {
+	canvas {
+		position: absolute;
+		top: -30px !important;
+		left: -66px !important;
+		width: 141% !important;
+		height: 126% !important;
+	}
+}
+@media (min-width: 1290px) {
+canvas {
+	position: absolute;
+	top: -70px !important;
+	left: -327px !important;
+	width: 233% !important;
+	height: 122% !important;
+ }
+}
 canvas {
 	position: absolute;
 	top: 0;

@@ -101,6 +101,7 @@
     .cps_hardware {
         flex-direction: column;
         margin-top: 30px;
+        display: flex;
     }
     .h1_title {
         font-size: 30px;
@@ -186,8 +187,10 @@
         transform: scale(0.3);
     }
     #cpsEl {
-        top: 1057px;
+        position: relative;
+        top: 23px;
         width: 280px;
+        left: 0px !important;
     }
     #cpsEl br {
         display: none;
@@ -200,7 +203,7 @@
     }
     .cps_computing {
         position: relative;
-        margin-top: 268px;
+        margin-top: 108px !important;
     }
     .computing_title {
         padding-bottom: 10px;

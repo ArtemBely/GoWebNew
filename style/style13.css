@@ -12,10 +12,10 @@ body {
 	 display: grid;
 	 grid-template-rows: repeat(20, 5vh);
 	 transform-style: preserve-3d;
-	 width: 281px;
+	 width: 1681px;
 	 height: 305px;
 	 top: 60px;
-	 left: 135px;
+	 left: -220px;
 }
  .monitor {
 	 position: absolute;

@@ -1,6 +1,7 @@
 .main_token {
     margin-top: 160px;
     width: 100%;
+    display: none;
 }
 .token_img {
     padding-top: 20px;

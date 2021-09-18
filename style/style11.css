@@ -11,6 +11,10 @@
 .current_paragraph {
     padding-bottom: 10px;
 }
+.cps_question_item:nth-child(3) {
+  position: relative;
+  top: -28px;
+}
 .cps_modular3 {
     width: 991px;
     margin-top: 100px;
@@ -66,7 +70,7 @@
 .cps_question_list > li:nth-child(7) {
     height: 354px;
     padding-bottom: 56px;
-    margin-top: 30px;
+    margin-top: 57px;
 }
 .cps_question_list > li:nth-child(8) {
     height: 354px;
@@ -269,8 +273,10 @@
 }
 
 #cpsEl {
-    position: relative;
-    top: 295px;
+  position: relative;
+  top: 628px;
+  display: inline-table;
+  left: -1113px;
 }
 #TV_br {
     display: none;

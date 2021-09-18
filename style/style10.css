@@ -8,6 +8,9 @@
     width: 100%;
     padding-top: 30px;
 }
+.del_p {
+  display: none;
+}
 .h3_title {
     font-family: "Play_Bold";
     font-style: normal;
