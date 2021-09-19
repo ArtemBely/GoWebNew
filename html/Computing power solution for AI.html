@@ -312,19 +312,24 @@
                     <p class="pop_paragraph">
                         Fill out the form, our manager <br> will contact you
                     </p>
+                    <form enctype="multipart/form-data" id="order_our2">
                     <div class="pop_input_container2">
-                        <input type="text" class="pop_input2" placeholder="Name">
-                        <input type="text" class="pop_input2" placeholder="Email">
-                        <input type="text" class="pop_input2" placeholder="Phone">
+                        <input type="hidden" name="project_name" value="Invemo">
+                        <input type="hidden" name="admin_email" value="belysevartem9@gmail.com">
+                        <input type="hidden" name="form_subject" value="Сообщение GoWeb">
+                        <input type="text" name="Имя" class="pop_input2" placeholder="Name">
+                        <input type="text" name="Email" class="pop_input2" placeholder="Email">
+                        <input type="text" name="Телефон" class="pop_input2" placeholder="Phone">
                     </div>
                     <div class="pop_footer2">
-                        <button class="pop_btn2">Send</button>
+                        <button type="submit" class="pop_btn2">Send</button>
                         <p class="pop_paragraph2">
                             By clicking on the «Send» button you <br>
                             confirm your consent to the processing <br>
                             of data and agree to the privacy policy
                         </p>
                     </div>
+                  </form>
                 </div>
             </div>
         </div>
