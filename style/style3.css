@@ -11,6 +11,13 @@
 		-ms-flex-align: center;
 			align-items: center;
 }
+.swal-text {
+	font-family: 'Roboto_Regular';
+	font-size: 18px;
+}
+.swal-button {
+	font-family: 'Roboto_Bold';
+}
 .gt_main {
     width: 1292px;
     position: relative;

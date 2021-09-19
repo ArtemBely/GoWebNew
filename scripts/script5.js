@@ -1,4 +1,29 @@
 // "use strict"
+
+$(document).ready(function() {
+
+	//E-mail Ajax Send
+	$("#order_our").submit(function() { //Change
+    swal({
+    text: "Message was sent. Our team will contact you soon.",
+    button: "OK"
+    });
+		var th = $(this);
+		$.ajax({
+			type: "POST",
+			url: "mail.php", //Change
+			data: th.serialize()
+		}).done(function() {
+      console.log('done');
+			setTimeout(function() {
+				// Done Functions
+				th.trigger("reset");
+			}, 1000);
+		});
+		return false;
+	});
+});
+
 $(document).ready(function() {
     $(".cps_header__burger").click(function(event) {
         $(".cps_header__burger,.cps_header_list").toggleClass("active");
@@ -12,9 +37,9 @@ const popupLinks = document.querySelectorAll(".popup_link");
 const body = document.querySelector("body");
 const lockPadding = document.querySelectorAll(".lock_padding");
 
-let unlock = true; 
+let unlock = true;
 
-const timeout = 800; 
+const timeout = 800;
 
 if (popupLinks.length > 0) {
 	for (let index = 0; index < popupLinks.length; index++) {
@@ -107,4 +132,3 @@ document.addEventListener("keydown", function (e) {
 		popupClose(popupActive);
 	}
 });
-

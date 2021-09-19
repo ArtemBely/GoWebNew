@@ -16,6 +16,13 @@
 	display: flex;
 	flex-direction: column;
 }
+.swal-text {
+	font-family: 'Roboto_Regular';
+	font-size: 18px;
+}
+.swal-button {
+	font-family: 'Roboto_Bold';
+}
 .cmp_wrap_header {
 	width: 100%;
 	display: -webkit-box;
