@@ -20,7 +20,7 @@ $(document).ready(function() {
 			url: "mail.php", //Change
 			data: th.serialize()
 		}).done(function() {
-      console.log('done');
+      alert('done!')
 			setTimeout(function() {
 				// Done Functions
 				th.trigger("reset");
