@@ -89,7 +89,8 @@
 }
 .cmp_pricing_btn1 {
     border: 3px solid #FFAC22;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     border-radius: 7px;
     font-family: "Roboto_Bold";
     font-style: normal;
@@ -110,7 +111,8 @@
 }
 .cmp_pricing_btn2 {
     border: 3px solid #FFAC22;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     border-radius: 7px;
     font-family: "Roboto_Bold";
     font-style: normal;
@@ -199,7 +201,8 @@
     font-weight: normal;
     font-size: 22px;
     line-height: 140%;
-    text-decoration-line: underline;
+    -webkit-text-decoration-line: underline;
+            text-decoration-line: underline;
     color: #000000;
 }
 .cmp_footer_icons {
@@ -234,6 +237,8 @@
     visibility: hidden;
     overflow-y: auto;
     overflow-x: hidden;
+    -webkit-transition: all 0.8s ease 0s;
+    -o-transition: all 0.8s ease 0s;
     transition: all 0.8s ease 0s;
 }
 .popup.open {
@@ -241,15 +246,23 @@
     visibility: visible;
 }
 .popup.open .popup_content {
-    transform: translate(0px, 0px);
+    -webkit-transform: translate(0px, 0px);
+        -ms-transform: translate(0px, 0px);
+            transform: translate(0px, 0px);
     opacity: 1;
     z-index: 1000;
 }
 .popup_body {
     min-height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     padding: 10px 10px;
 }
 
@@ -260,9 +273,13 @@
     width: 570px;
     max-height: 712px;
     padding: 25px;
+    -webkit-transition: all 0.8s ease 0s;
+    -o-transition: all 0.8s ease 0s;
     transition: all 0.8s ease 0s;
     opacity: 0;
-    transform: translate(0px, -100%);
+    -webkit-transform: translate(0px, -100%);
+        -ms-transform: translate(0px, -100%);
+            transform: translate(0px, -100%);
 }
 .popup_close {
     position: absolute;
@@ -284,11 +301,15 @@
     left: 0;
 }
 .popup_close::before {
-    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+            transform: rotate(45deg);
     top: 9px;
 }
 .popup_close::after {
-    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+            transform: rotate(-45deg);
     bottom: 9px;
 }
 .popup_title {
@@ -311,17 +332,55 @@
 }
 .pop_input_container {
     width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
 }
 .pop_input {
     width: 100%;
     height: 50px;
     border: 2px solid #808080;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     border-radius: 7px;
     padding: 10px 20px 12px 20px;
     margin-bottom: 20px;
+}
+.pop_input::-webkit-input-placeholder {
+    font-family: "Roboto_Regular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 140%;
+    color: #808080;
+}
+.pop_input::-moz-placeholder {
+    font-family: "Roboto_Regular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 140%;
+    color: #808080;
+}
+.pop_input:-ms-input-placeholder {
+    font-family: "Roboto_Regular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 140%;
+    color: #808080;
+}
+.pop_input::-ms-input-placeholder {
+    font-family: "Roboto_Regular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 140%;
+    color: #808080;
 }
 .pop_input::placeholder {
     font-family: "Roboto_Regular";
@@ -348,7 +407,8 @@
 }
 .pop_btn {
     border: 3px solid #FFAC22;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     border-radius: 7px;
     font-family: "Roboto_Regular";
     font-style: normal;
@@ -380,6 +440,8 @@ body.lock {
     visibility: hidden;
     overflow-y: auto;
     overflow-x: hidden;
+    -webkit-transition: all 0.8s ease 0s;
+    -o-transition: all 0.8s ease 0s;
     transition: all 0.8s ease 0s;
 }
 .popup2.open {
@@ -387,14 +449,22 @@ body.lock {
     visibility: visible;
 }
 .popup2.open .popup_content2 {
-    transform: translate(0px, 0px);
+    -webkit-transform: translate(0px, 0px);
+        -ms-transform: translate(0px, 0px);
+            transform: translate(0px, 0px);
     opacity: 1;
 }
 .popup_body2 {
     min-height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     padding: 10px 10px;
 }
 
@@ -405,9 +475,13 @@ body.lock {
     width: 570px;
     max-height: 712px;
     padding: 25px;
+    -webkit-transition: all 0.8s ease 0s;
+    -o-transition: all 0.8s ease 0s;
     transition: all 0.8s ease 0s;
     opacity: 0;
-    transform: translate(0px, -100%);
+    -webkit-transform: translate(0px, -100%);
+        -ms-transform: translate(0px, -100%);
+            transform: translate(0px, -100%);
 }
 .popup_close2 {
     position: absolute;
@@ -429,11 +503,15 @@ body.lock {
     left: 0;
 }
 .popup_close2::before {
-    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+            transform: rotate(45deg);
     top: 9px;
 }
 .popup_close2::after {
-    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+            transform: rotate(-45deg);
     bottom: 9px;
 }
 .popup_title2 {
@@ -446,17 +524,55 @@ body.lock {
 }
 .pop_input_container2 {
     width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
 }
 .pop_input2 {
     width: 100%;
     height: 50px;
     border: 2px solid #808080;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     border-radius: 7px;
     padding: 10px 20px 12px 20px;
     margin-bottom: 20px;
+}
+.pop_input2::-webkit-input-placeholder {
+    font-family: "Roboto_Regular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 140%;
+    color: #808080;
+}
+.pop_input2::-moz-placeholder {
+    font-family: "Roboto_Regular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 140%;
+    color: #808080;
+}
+.pop_input2:-ms-input-placeholder {
+    font-family: "Roboto_Regular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 140%;
+    color: #808080;
+}
+.pop_input2::-ms-input-placeholder {
+    font-family: "Roboto_Regular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 140%;
+    color: #808080;
 }
 .pop_input2::placeholder {
     font-family: "Roboto_Regular";
@@ -483,7 +599,8 @@ body.lock {
 }
 .pop_btn2 {
     border: 3px solid #FFAC22;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     border-radius: 7px;
     font-family: "Roboto_Regular";
     font-style: normal;

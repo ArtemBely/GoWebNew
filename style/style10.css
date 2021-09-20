@@ -46,63 +46,118 @@
 .starminer8A_list {
     padding-top: 40px;
     padding-bottom: 40px;
+    display: -ms-grid;
     display: grid;
+    -ms-grid-columns: 220px 380px;
     grid-template-columns: 220px 380px;
+    -ms-grid-rows:220px 96px 68px 96px 96px 96px 28px;
     grid-template-rows:220px 96px 68px 96px 96px 96px 28px;
 }
 .starminer8A_list > li:nth-child(1) {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
     grid-column: 1 / 2;
+	-ms-grid-row: 1;
+	-ms-grid-row-span: 1;
 	grid-row: 1 / 2;
 }
 .starminer8A_list > li:nth-child(2) {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
     grid-column: 1 / 2;
+	-ms-grid-row: 2;
+	-ms-grid-row-span: 1;
 	grid-row: 2 / 3;
 }
 .starminer8A_list > li:nth-child(3) {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
     grid-column: 1 / 2;
+	-ms-grid-row: 3;
+	-ms-grid-row-span: 1;
 	grid-row: 3 / 4;
 }
 .starminer8A_list > li:nth-child(4) {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
     grid-column: 1 / 2;
+	-ms-grid-row: 4;
+	-ms-grid-row-span: 1;
 	grid-row: 4 / 5;
 }
 .starminer8A_list > li:nth-child(5) {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
     grid-column: 1 / 2;
+	-ms-grid-row: 5;
+	-ms-grid-row-span: 1;
 	grid-row: 5 / 6;
 }
 .starminer8A_list > li:nth-child(6) {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
     grid-column: 1 / 2;
+	-ms-grid-row: 6;
+	-ms-grid-row-span: 1;
 	grid-row: 6 / 7;
 }
 .starminer8A_list > li:nth-child(7) {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
     grid-column: 1 / 2;
+	-ms-grid-row: 7;
+	-ms-grid-row-span: 1;
 	grid-row: 7 / 8;
 }
 .starminer8A_list > li:nth-child(8) {
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
     grid-column: 2 / 3;
+	-ms-grid-row: 1;
+	-ms-grid-row-span: 1;
 	grid-row: 1 / 2;
 }
 .starminer8A_list > li:nth-child(9) {
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
     grid-column: 2 / 3;
+	-ms-grid-row: 2;
+	-ms-grid-row-span: 1;
 	grid-row: 2 / 3;
 }
 .starminer8A_list > li:nth-child(10) {
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
     grid-column: 2 / 3;
+	-ms-grid-row: 3;
+	-ms-grid-row-span: 1;
 	grid-row: 3 / 4;
 }
 .starminer8A_list > li:nth-child(11) {
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
     grid-column: 2 / 3;
+	-ms-grid-row: 4;
+	-ms-grid-row-span: 1;
 	grid-row: 4 / 5;
 }
 .starminer8A_list > li:nth-child(12) {
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
     grid-column: 2 / 3;
+	-ms-grid-row: 5;
+	-ms-grid-row-span: 1;
 	grid-row: 5 / 6;
 }
 .starminer8A_list > li:nth-child(13) {
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 1;
     grid-row: 2 / 3;
 	grid-row: 6 / 7;
 }
 .starminer8A_list > li:nth-child(14) {
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 1;
     grid-row: 2 / 3;
 	grid-row: 7 / 8;
 }
@@ -121,7 +176,8 @@
 .starminer_btn {
     margin-top: 40px;
     border: 3px solid #FFAC22;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     border-radius: 7px;
     font-family: "Roboto_Bold";
     font-style: normal;
@@ -149,7 +205,10 @@
     display: -webkit-box;
 	display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
 }
 .cps_modular_block {
     width: 100%;
@@ -168,7 +227,10 @@
 	display: flex;
     width: 300px;
     height: 246px;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
 	-webkit-box-align: center;
 		-ms-flex-align: center;
 			align-items: center;
@@ -182,7 +244,10 @@
 	display: flex;
     width: 300px;
     height: 274px;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
 	-webkit-box-align: center;
 		-ms-flex-align: center;
 			align-items: center;
@@ -218,7 +283,8 @@
     width: 245px;
     height: 50px;
     border: 3px solid #FFAC22;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     border-radius: 7px;
     font-family: "Roboto_Bold";
     font-style: normal;

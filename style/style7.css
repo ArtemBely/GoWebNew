@@ -10,7 +10,8 @@
     display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
-    flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
     margin-bottom: 160px;
 }
 .cmp_advantages_section1 > div:nth-child(1) {
@@ -43,7 +44,10 @@
     display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
 	-webkit-box-align: center;
 		-ms-flex-align: center;
 			align-items: center;
@@ -118,11 +122,44 @@
 .cmp_advantages_input {
     background: #FFFFFF;
     border: 2px solid #808080;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     border-radius: 7px;
     width: 251px;
     height: 50px;
     padding: 10px 20px 12px 20px;
+}
+.cmp_advantages_input::-webkit-input-placeholder {
+    font-family: "Roboto_Regular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 140%;
+    color: #000000;
+}
+.cmp_advantages_input::-moz-placeholder {
+    font-family: "Roboto_Regular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 140%;
+    color: #000000;
+}
+.cmp_advantages_input:-ms-input-placeholder {
+    font-family: "Roboto_Regular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 140%;
+    color: #000000;
+}
+.cmp_advantages_input::-ms-input-placeholder {
+    font-family: "Roboto_Regular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 140%;
+    color: #000000;
 }
 .cmp_advantages_input::placeholder {
     font-family: "Roboto_Regular";
@@ -144,7 +181,8 @@
 .cmp_advantages_btn {
     background: #FFFFFF;
     border: 3px solid #FFAC22;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     border-radius: 7px;
     font-family: "Roboto_Bold";
     display: -webkit-box;

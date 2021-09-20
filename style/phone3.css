@@ -47,6 +47,8 @@
         width: 100%;
         height: 2px;
         left: 0;
+        -webkit-transition: all 0.3s ease 0s;
+        -o-transition: all 0.3s ease 0s;
         transition: all 0.3s ease 0s;
     }
     .cps_header__burger::before {
@@ -62,18 +64,26 @@
         width: 100%;
         height: 2px;
         top: 9px;
+        -webkit-transition: all 0.3s ease 0s;
+        -o-transition: all 0.3s ease 0s;
         transition: all 0.3s ease 0s;
     }
     .cps_header__burger.active::before {
-        transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+            -ms-transform: rotate(45deg);
+                transform: rotate(45deg);
         top: 9px;
     }
     .cps_header__burger.active::after {
-        transform: rotate(-45deg);
+        -webkit-transform: rotate(-45deg);
+            -ms-transform: rotate(-45deg);
+                transform: rotate(-45deg);
         bottom: 9px;
     }
     .cps_header__burger.active span {
-        transform: scale(0);
+        -webkit-transform: scale(0);
+            -ms-transform: scale(0);
+                transform: scale(0);
     }
     .cps_header_list {
         position: fixed;
@@ -82,9 +92,13 @@
         width: 100%;
         background-color: #E5E5E5;
         height: 100%;
-        align-items: start;
+        -webkit-box-align: start;
+            -ms-flex-align: start;
+                align-items: start;
         padding: 120px 10px 20px 20px;
         display: block;
+        -webkit-transition: all 0.3s ease 0s;
+        -o-transition: all 0.3s ease 0s;
         transition: all 0.3s ease 0s;
         overflow: auto;
     }
@@ -99,8 +113,13 @@
         height: 40.06px;
     }
     .cps_hardware {
-        flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
         margin-top: 30px;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
     }
     .h1_title {
@@ -127,7 +146,8 @@
         padding-top: 20px;
         padding-bottom: 0;
         width: 267px;
-        flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
     }
     .cps_weikeng {
         width: 175px;
@@ -184,7 +204,9 @@
         height: 242px;
         top: -22px;
         left: 30px;
-        transform: scale(0.3);
+        -webkit-transform: scale(0.3);
+            -ms-transform: scale(0.3);
+                transform: scale(0.3);
     }
     #cpsEl {
         position: relative;
@@ -229,7 +251,10 @@
         width: 280px;
     }
     .starminers_block {
-        flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
     }
     .starminer_title {
         padding-bottom: 7.21px;
@@ -237,7 +262,9 @@
     .starminer8A_list {
         padding-top: 20.13px;
         padding-bottom: 31px;
+        -ms-grid-columns: 128px 150px;
         grid-template-columns: 128px 150px;
+        -ms-grid-rows: 292px 130px 64px 108px 86px 108px 44px;
         grid-template-rows: 292px 130px 64px 108px 86px 108px 44px;
     }
     .starminer_gray {
@@ -270,7 +297,10 @@
     .cps_modular_block {
         margin-top: 20px;
         margin-bottom: 0;
-        flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
     }
     .cps_modular_section1 {
         width: 280px;
@@ -322,7 +352,8 @@
     .cps_modular2 {
         margin-top: 70px;
         width: 100%;
-        flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
     }
     .cps_current {
         width: 130px
@@ -344,7 +375,10 @@
     .cps_modular3 {
         width: 100%;
         margin-top: 30px;
-        flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
     }
     .cps_modular3_paragraph br {
         display: none;
@@ -360,9 +394,15 @@
     }
     .cps_question_list {
         width: 100%;
-        justify-content: space-between;
-        flex-wrap: nowrap;
-        flex-direction: column;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        -ms-flex-wrap: nowrap;
+            flex-wrap: nowrap;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
     }
     .cps_question_item {
         width: 280px;
@@ -413,7 +453,10 @@
     .cps_prices_block {
         position: relative;
         width: 100%;
-        flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
     }
     .prices_title {
         padding-bottom: 7px;
@@ -422,7 +465,9 @@
         padding-bottom: 28px;
     }
     .prices_list {
+        -ms-grid-columns: 148px 132px;
         grid-template-columns: 148px 132px;
+        -ms-grid-rows: 42px 42px 42px 64px 42px 44px;
         grid-template-rows: 42px 42px 42px 64px 42px 44px;
     }
     .cps_prices_btn {
@@ -457,8 +502,13 @@
         margin-top: 30px;
         margin-bottom: 55px;
         position: relative;
-        flex-direction: column;
-        justify-content: start;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: start;
+            -ms-flex-pack: start;
+                justify-content: start;
     }
     .cps_footer_section1 {
         position: absolute;
@@ -541,6 +591,18 @@
     .pop_input3 {
         height: 44px;
     }
+    .pop_input3::-webkit-input-placeholder {
+        font-size: 16px;
+    }
+    .pop_input3::-moz-placeholder {
+        font-size: 16px;
+    }
+    .pop_input3:-ms-input-placeholder {
+        font-size: 16px;
+    }
+    .pop_input3::-ms-input-placeholder {
+        font-size: 16px;
+    }
     .pop_input3::placeholder {
         font-size: 16px;
     }
@@ -548,6 +610,9 @@
         font-size: 16px;
     }
     .pop_footer3 {
-        flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
     }
 }

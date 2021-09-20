@@ -1,5 +1,7 @@
 .gt_wrap_main {
-	flex: 1 1 auto;
+	-webkit-box-flex: 1;
+	    -ms-flex: 1 1 auto;
+	        flex: 1 1 auto;
     width: 100%;
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -76,7 +78,10 @@
 .main_tokenomics {
     width: 100%;
     margin-top: 159px;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -168,7 +173,8 @@
 }
 .allocation_btn {
     border: 3px solid #FFAC22;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     border-radius: 7px;
     background-color: Transparent;
     font-family: "Roboto_Bold";

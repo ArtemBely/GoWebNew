@@ -24,8 +24,6 @@
     margin-top: 48px;
     margin-bottom: 75px;
 }
-.gt_footer_section1 {
-}
 .company_year {
     font-family: "Roboto_Regular";
     font-style: normal;
@@ -56,7 +54,8 @@
     font-weight: normal;
     font-size: 22px;
     line-height: 140%;
-    text-decoration-line: underline;
+    -webkit-text-decoration-line: underline;
+            text-decoration-line: underline;
     color: #000000;
 }
 .gt_footer_icons {

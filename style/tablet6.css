@@ -74,9 +74,12 @@
         overflow: hidden;
     } */
     .mission_contact {
-        margin-top: -300px; /*!Возможно, надо поправить */
+        margin-top: -300px;
         width: 348px;
-        flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
     }
     .au_contact {
         margin-top: 40px;

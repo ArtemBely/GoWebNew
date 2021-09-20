@@ -84,7 +84,10 @@
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
-        flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
     }
     .tokenomics_numbers-max {
         padding-bottom: 10px;
@@ -103,7 +106,10 @@
         margin-top: 100px;
         width: 521.84px;
         height: 310.32px;
-        flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
         -webkit-box-pack: flex-start;
 		-ms-flex-pack: flex-start;
 			justify-content: flex-start;
@@ -178,6 +184,18 @@
     #textarea {
         width: 520px;
         height: 135px;
+    }
+    input::-webkit-input-placeholder, #textarea::-webkit-input-placeholder {
+        font-size: 16px;
+    }
+    input::-moz-placeholder, #textarea::-moz-placeholder {
+        font-size: 16px;
+    }
+    input:-ms-input-placeholder, #textarea:-ms-input-placeholder {
+        font-size: 16px;
+    }
+    input::-ms-input-placeholder, #textarea::-ms-input-placeholder {
+        font-size: 16px;
     }
     input[type="text"],
     input::placeholder,

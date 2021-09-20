@@ -45,6 +45,8 @@
         width: 100%;
         height: 2px;
         left: 0;
+        -webkit-transition: all 0.3s ease 0s;
+        -o-transition: all 0.3s ease 0s;
         transition: all 0.3s ease 0s;
     }
     .gt_header__burger::before {
@@ -60,18 +62,26 @@
         width: 100%;
         height: 2px;
         top: 9px;
+        -webkit-transition: all 0.3s ease 0s;
+        -o-transition: all 0.3s ease 0s;
         transition: all 0.3s ease 0s;
     }
     .gt_header__burger.active::before {
-        transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+            -ms-transform: rotate(45deg);
+                transform: rotate(45deg);
         top: 9px;
     }
     .gt_header__burger.active::after {
-        transform: rotate(-45deg);
+        -webkit-transform: rotate(-45deg);
+            -ms-transform: rotate(-45deg);
+                transform: rotate(-45deg);
         bottom: 9px;
     }
     .gt_header__burger.active span {
-        transform: scale(0);
+        -webkit-transform: scale(0);
+            -ms-transform: scale(0);
+                transform: scale(0);
     }
     .gt_nav_list {
         position: fixed;
@@ -80,9 +90,13 @@
         width: 100%;
         background-color: #E5E5E5;
         height: 100%;
-        align-items: start;
+        -webkit-box-align: start;
+            -ms-flex-align: start;
+                align-items: start;
         padding: 120px 10px 20px 20px;
         display: block;
+        -webkit-transition: all 0.3s ease 0s;
+        -o-transition: all 0.3s ease 0s;
         transition: all 0.3s ease 0s;
         overflow: auto;
     }
@@ -97,7 +111,10 @@
         height: 40.06px;
     }
     .main_gtoken {
-        flex-direction: column-reverse;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: reverse;
+            -ms-flex-direction: column-reverse;
+                flex-direction: column-reverse;
         position: relative;
     }
     .g_token-content {
@@ -148,7 +165,10 @@
     .tokenomics_section {
         margin-top: 30px;
         width: 250px;
-        flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
     }
     .tokenomics_supply {
         width: 100%;
@@ -162,7 +182,10 @@
         padding-bottom: 10px;
     }
     .tokenomics_numbers {
-        flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
     }
     .tokenomics_numbers-max {
         padding-bottom: 10px;
@@ -179,7 +202,10 @@
     .main_allocation {
         margin-top: 70px;
         width: 100%;
-        flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
     }
     #allocation {
         padding-top: 0px;
@@ -199,7 +225,10 @@
     }
     .allocation_section2 {
         width: 280px;
-        flex-direction: column-reverse;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: reverse;
+            -ms-flex-direction: column-reverse;
+                flex-direction: column-reverse;
         -webkit-box-align: center;
             -ms-flex-align: center;
                 align-items: center;
@@ -222,27 +251,46 @@
     .allocation_section2-right {
         padding-top: 10px;
         padding-bottom: 0px;
+        display: -ms-grid;
         display: grid;
+        -ms-grid-columns: 174px 106px;
         grid-template-columns: 174px 106px;
+        -ms-grid-rows: 32px 22px;
         grid-template-rows: 32px 22px;
     }
     .allocation_section2-right *:nth-child(1) {
+        -ms-grid-row: 1;
+        -ms-grid-row-span: 1;
         grid-row: 1 / 2;
+        -ms-grid-column: 2;
+        -ms-grid-column-span: 1;
         grid-column: 2 / 3;
         text-align: center;
     }
     .allocation_section2-right *:nth-child(2) {
+        -ms-grid-row: 2;
+        -ms-grid-row-span: 1;
         grid-row: 2 / 3;
+        -ms-grid-column: 2;
+        -ms-grid-column-span: 1;
         grid-column: 2 / 3;
         text-align: center;
     }
     .allocation_section2-right *:nth-child(3) {
+        -ms-grid-row: 1;
+        -ms-grid-row-span: 1;
         grid-row: 1 / 2;
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 1;
         grid-column: 1 / 2;
         text-align: center;
     }
     .allocation_section2-right *:nth-child(4) {
+        -ms-grid-row: 2;
+        -ms-grid-row-span: 1;
         grid-row: 2 / 3;
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 1;
         grid-column: 1 / 2;
         text-align: center;
     }
@@ -256,7 +304,9 @@
     #allocation_middle_img {
         width: 170px;
         height: 194px;
-        transform: scaleY(-1) rotate(90deg);
+        -webkit-transform: scaleY(-1) rotate(90deg);
+            -ms-transform: scaleY(-1) rotate(90deg);
+                transform: scaleY(-1) rotate(90deg);
     }
     .main_token {
         margin-top: 70px;
@@ -301,6 +351,18 @@
         width: 280px;
         height: 135px;
     }
+    input::-webkit-input-placeholder, #textarea::-webkit-input-placeholder {
+        font-size: 16px;
+    }
+    input::-moz-placeholder, #textarea::-moz-placeholder {
+        font-size: 16px;
+    }
+    input:-ms-input-placeholder, #textarea:-ms-input-placeholder {
+        font-size: 16px;
+    }
+    input::-ms-input-placeholder, #textarea::-ms-input-placeholder {
+        font-size: 16px;
+    }
     input[type="text"],
     input::placeholder,
     #textarea[type="text"],
@@ -321,8 +383,13 @@
         margin-top: 30px;
         margin-bottom: 55px;
         position: relative;
-        flex-direction: column;
-        justify-content: start;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: start;
+            -ms-flex-pack: start;
+                justify-content: start;
     }
     .gt_footer_logo {
         width: 97.95px;

@@ -14,7 +14,10 @@
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
-	flex-direction: column;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
 }
 .swal-text {
 	font-family: 'Roboto_Regular';
@@ -24,7 +27,8 @@
 	font-family: 'Roboto_Bold';
 }
 .trigger {
-	    clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+	    -webkit-clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+	            clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
 }
 .cps_wrap_header {
 	width: 100%;
@@ -60,6 +64,8 @@
 	height: 100%;
 }
 .cps_header_list {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
 	padding-bottom: 17px;
 }
@@ -72,11 +78,14 @@
 	font-weight: normal;
 	font-size: 20px;
 	line-height: 23px;
-	text-decoration-line: underline;
+	-webkit-text-decoration-line: underline;
+	        text-decoration-line: underline;
 	color: #000000;
 }
 .cps_wrap_main {
-	flex: 1 1 auto;
+	-webkit-box-flex: 1;
+	    -ms-flex: 1 1 auto;
+	        flex: 1 1 auto;
     width: 100%;
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -152,8 +161,13 @@
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
-	flex-direction: column;
-	align-items: center;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
 }
 .cps_weikeng_logo {
 	padding-bottom: 7px;

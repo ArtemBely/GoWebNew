@@ -51,7 +51,9 @@
       height: 709.24px;
       position: absolute;
       top: 12px;
-      transform: scale(0.5);
+      -webkit-transform: scale(0.5);
+          -ms-transform: scale(0.5);
+              transform: scale(0.5);
       left: 385px;
     }
     .cmp_machine {
@@ -77,8 +79,66 @@
         height: 560px;
     }
     .machine_section2_list {
+        -ms-grid-columns: 186px 277px;
         grid-template-columns: 186px 277px;
+        -ms-grid-rows: 190px 74px 52px 74px 74px 74px 22px;
         grid-template-rows: 190px 74px 52px 74px 74px 74px 22px;
+    }
+    .machine_section2_list > *:nth-child(1) {
+        -ms-grid-row: 1;
+        -ms-grid-column: 1;
+    }
+    .machine_section2_list > *:nth-child(2) {
+        -ms-grid-row: 1;
+        -ms-grid-column: 2;
+    }
+    .machine_section2_list > *:nth-child(3) {
+        -ms-grid-row: 2;
+        -ms-grid-column: 1;
+    }
+    .machine_section2_list > *:nth-child(4) {
+        -ms-grid-row: 2;
+        -ms-grid-column: 2;
+    }
+    .machine_section2_list > *:nth-child(5) {
+        -ms-grid-row: 3;
+        -ms-grid-column: 1;
+    }
+    .machine_section2_list > *:nth-child(6) {
+        -ms-grid-row: 3;
+        -ms-grid-column: 2;
+    }
+    .machine_section2_list > *:nth-child(7) {
+        -ms-grid-row: 4;
+        -ms-grid-column: 1;
+    }
+    .machine_section2_list > *:nth-child(8) {
+        -ms-grid-row: 4;
+        -ms-grid-column: 2;
+    }
+    .machine_section2_list > *:nth-child(9) {
+        -ms-grid-row: 5;
+        -ms-grid-column: 1;
+    }
+    .machine_section2_list > *:nth-child(10) {
+        -ms-grid-row: 5;
+        -ms-grid-column: 2;
+    }
+    .machine_section2_list > *:nth-child(11) {
+        -ms-grid-row: 6;
+        -ms-grid-column: 1;
+    }
+    .machine_section2_list > *:nth-child(12) {
+        -ms-grid-row: 6;
+        -ms-grid-column: 2;
+    }
+    .machine_section2_list > *:nth-child(13) {
+        -ms-grid-row: 7;
+        -ms-grid-column: 1;
+    }
+    .machine_section2_list > *:nth-child(14) {
+        -ms-grid-row: 7;
+        -ms-grid-column: 2;
     }
     .machine_list_gray {
         font-size: 16px;
@@ -300,6 +360,18 @@
     .pop_input {
         height: 44px;
     }
+    .pop_input::-webkit-input-placeholder {
+        font-size: 16px;
+    }
+    .pop_input::-moz-placeholder {
+        font-size: 16px;
+    }
+    .pop_input:-ms-input-placeholder {
+        font-size: 16px;
+    }
+    .pop_input::-ms-input-placeholder {
+        font-size: 16px;
+    }
     .pop_input::placeholder {
         font-size: 16px;
     }
@@ -316,6 +388,18 @@
     }
     .pop_input2 {
         height: 44px;
+    }
+    .pop_input2::-webkit-input-placeholder {
+        font-size: 16px;
+    }
+    .pop_input2::-moz-placeholder {
+        font-size: 16px;
+    }
+    .pop_input2:-ms-input-placeholder {
+        font-size: 16px;
+    }
+    .pop_input2::-ms-input-placeholder {
+        font-size: 16px;
     }
     .pop_input2::placeholder {
         font-size: 16px;

@@ -31,7 +31,10 @@
     .cps_hardware {
         height: 892px;
         margin-top: 50px;
-        flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
         -webkit-box-pack: space-between;
             -ms-flex-pack: space-between;
                 justify-content: space-between;
@@ -102,7 +105,9 @@
         height: 315px;
         top: 482px;
         left: 426px;
-        transform: scale(0.4);
+        -webkit-transform: scale(0.4);
+            -ms-transform: scale(0.4);
+                transform: scale(0.4);
     }
     .cps_computing {
         margin-top: 100px;
@@ -126,7 +131,9 @@
     .starminer8A_list {
         padding-top: 30.13px;
         padding-bottom: 0px;
+        -ms-grid-columns: 129px 224px;
         grid-template-columns: 129px 224px;
+        -ms-grid-rows: 202px 84px 60px 84px 84px 60px 50px;
         grid-template-rows: 202px 84px 60px 84px 84px 60px 50px;
     }
     .starminer_gray {
@@ -173,7 +180,8 @@
         margin-top: 101px;
     }
     .cps_modular_block {
-        flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
         margin: 30.4px 0px 38px 0px;
     }
     .cps_modular_section1 {
@@ -302,7 +310,9 @@
     .cps_prices_8A {
     }
     .prices_list {
+        -ms-grid-columns: 160px 196px;
         grid-template-columns: 160px 196px;
+        -ms-grid-rows: 42px 42px 42px 64px 42px 22px;
         grid-template-rows: 42px 42px 42px 64px 42px 22px;
     }
     .cps_prices_btn {
@@ -371,6 +381,18 @@
     .pop_input3 {
         height: 44px;
     }
+    .pop_input3::-webkit-input-placeholder {
+        font-size: 16px;
+    }
+    .pop_input3::-moz-placeholder {
+        font-size: 16px;
+    }
+    .pop_input3:-ms-input-placeholder {
+        font-size: 16px;
+    }
+    .pop_input3::-ms-input-placeholder {
+        font-size: 16px;
+    }
     .pop_input3::placeholder {
         font-size: 16px;
     }
@@ -387,6 +409,18 @@
     }
     .pop_input3 {
         height: 44px;
+    }
+    .pop_input3::-webkit-input-placeholder {
+        font-size: 16px;
+    }
+    .pop_input3::-moz-placeholder {
+        font-size: 16px;
+    }
+    .pop_input3:-ms-input-placeholder {
+        font-size: 16px;
+    }
+    .pop_input3::-ms-input-placeholder {
+        font-size: 16px;
     }
     .pop_input3::placeholder {
         font-size: 16px;

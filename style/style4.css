@@ -40,14 +40,18 @@
     display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     width: 520px;
 }
 .gt_input {
     width: 100%;
     height: 50px;
     border: 2px solid #808080;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     border-radius: 7px;
     padding: 10px 20px 12px 20px;
     margin-bottom: 10px;
@@ -56,6 +60,38 @@
     height: 135px;
     width: 520px;
     resize: none;
+}
+input::-webkit-input-placeholder, #textarea::-webkit-input-placeholder {
+    font-family: "Roboto_Regular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 140%;
+    color: #000000;
+}
+input::-moz-placeholder, #textarea::-moz-placeholder {
+    font-family: "Roboto_Regular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 140%;
+    color: #000000;
+}
+input:-ms-input-placeholder, #textarea:-ms-input-placeholder {
+    font-family: "Roboto_Regular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 140%;
+    color: #000000;
+}
+input::-ms-input-placeholder, #textarea::-ms-input-placeholder {
+    font-family: "Roboto_Regular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 140%;
+    color: #000000;
 }
 input[type="text"],
 input::placeholder,
@@ -70,7 +106,8 @@ input::placeholder,
 }
 .gt_form_btn {
     border: 3px solid #FFAC22;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     border-radius: 7px;
     background-color: Transparent;
     width: 106px;
