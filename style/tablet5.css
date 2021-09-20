@@ -39,6 +39,24 @@
             -ms-flex-pack: space-between;
                 justify-content: space-between;
     }
+    .hardware_section2 {
+        position: relative; 
+        left: 415px;
+        width: 297px;
+        height: 315px;
+        padding: 0px;
+        top: -265px;
+    }
+    .container2 {
+        position: absolute;
+        width: 297px;
+        height: 315px;
+        top: 0px;
+        left: 0px;
+        -webkit-transform: scale(0.4);
+            -ms-transform: scale(0.4);
+                transform: scale(0.4);
+    }
     .h1_title {
         font-size: 50px;
         line-height: 58px;
@@ -98,16 +116,6 @@
     }
     .cube_paragraph {
         width: 385px;
-    }
-    .container2 {
-        position: absolute;
-        width: 297px;
-        height: 315px;
-        top: 482px;
-        left: 426px;
-        -webkit-transform: scale(0.4);
-            -ms-transform: scale(0.4);
-                transform: scale(0.4);
     }
     .cps_computing {
         margin-top: 100px;

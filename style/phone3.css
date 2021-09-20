@@ -198,16 +198,6 @@
     .cube_paragraph br {
         display: none;
     }
-    .container2 {
-        position: absolute;
-        width: 228px;
-        height: 242px;
-        top: -22px;
-        left: 30px;
-        -webkit-transform: scale(0.3);
-            -ms-transform: scale(0.3);
-                transform: scale(0.3);
-    }
     #cpsEl {
         position: relative;
         top: 23px;
@@ -218,10 +208,22 @@
         display: none;
     }
     .hardware_section2 {
+        position: relative; 
+        left: 26px;
+        width: 228px;
+        height: 242px;
+        padding: 0px;
+        top: -1039px;
+    }
+    .container2 {
         position: absolute;
-        height: 762px;
-        /* top: 596px; */
-        top: 121px;
+        width: 228px;
+        height: 242px;
+        top: 0px;
+        left: 0px;
+        -webkit-transform: scale(0.3);
+            -ms-transform: scale(0.3);
+                transform: scale(0.3);
     }
     .cps_computing {
         position: relative;
