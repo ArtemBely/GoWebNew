@@ -198,6 +198,9 @@
     .cube_paragraph br {
         display: none;
     }
+    .cube_paragraph {
+        padding-top: 20px;
+    }
     #cpsEl {
         position: relative;
         top: 23px;
@@ -213,7 +216,8 @@
         width: 228px;
         height: 242px;
         padding: 0px;
-        top: -1039px;
+        top: -835px;
+        overflow: visible;
     }
     .container2 {
         position: absolute;
@@ -227,7 +231,7 @@
     }
     .cps_computing {
         position: relative;
-        margin-top: 108px !important;
+        margin-top: 240px !important;
     }
     .computing_title {
         padding-bottom: 10px;
@@ -248,7 +252,7 @@
     }
     #machines_img2 {
         position: absolute;
-        top: 1355px;
+        top: 1120px;
         left: 0;
         width: 280px;
     }
@@ -266,8 +270,8 @@
         padding-bottom: 31px;
         -ms-grid-columns: 128px 150px;
         grid-template-columns: 128px 150px;
-        -ms-grid-rows: 292px 130px 64px 108px 86px 108px 44px;
-        grid-template-rows: 292px 130px 64px 108px 86px 108px 44px;
+        -ms-grid-rows: 64px 130px 64px 108px 86px 108px 44px;
+        grid-template-rows: 64px 130px 64px 108px 86px 108px 44px;
     }
     .starminer_gray {
         font-size: 16px;
@@ -473,6 +477,7 @@
         grid-template-rows: 42px 42px 42px 64px 42px 44px;
     }
     .cps_prices_btn {
+        margin-left: 0;
         margin-top: 20px;
         margin-bottom: 40px;
         width: 280px;
@@ -616,5 +621,28 @@
         -webkit-box-direction: normal;
             -ms-flex-direction: column;
                 flex-direction: column;
+    }
+    .container3 {
+        position: relative;
+        top: 860px;
+        left: -24px;
+    }
+    #cube_paragraph br {
+        display: none;
+    }
+    .hardware_center {
+        text-align: left;
+    }
+    .hardware_center br {
+        display: none;
+    }
+    .order_btn {
+        margin-left: 0;
+    }
+    .hardware_right {
+        text-align: left;
+    }
+    .starminer_margin {
+        margin-left: 0;
     }
 }

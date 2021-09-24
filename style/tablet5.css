@@ -40,12 +40,13 @@
                 justify-content: space-between;
     }
     .hardware_section2 {
+        overflow: visible;
         position: relative; 
         left: 415px;
         width: 297px;
         height: 315px;
         padding: 0px;
-        top: -265px;
+        top: -450px;
     }
     .container2 {
         position: absolute;
@@ -103,10 +104,7 @@
         padding-bottom: 0px;
     }
     #cpsEl {
-        position: absolute;
-        left: 0;
-        top: 804px;
-        width: 615px;
+        width: 385px;
     }
     #cpsEl br {
         display: none;
@@ -118,10 +116,11 @@
         width: 385px;
     }
     .cps_computing {
-        margin-top: 100px;
+        margin-top: 80px;
     }
     .computing_title {
         padding-bottom: 10px;
+        text-align: left;
     }
     .machines_title {
         display: none;
@@ -141,8 +140,8 @@
         padding-bottom: 0px;
         -ms-grid-columns: 129px 224px;
         grid-template-columns: 129px 224px;
-        -ms-grid-rows: 202px 84px 60px 84px 84px 60px 50px;
-        grid-template-rows: 202px 84px 60px 84px 84px 60px 50px;
+        -ms-grid-rows: 60px 84px 60px 84px 84px 60px 50px;
+        grid-template-rows: 60px 84px 60px 84px 84px 60px 50px;
     }
     .starminer_gray {
         font-size: 16px;
@@ -158,6 +157,7 @@
         display: none;
     }
     .starminer_btn {
+        margin-left: 0;
         margin-top: 22px;
         font-size: 14.7597px;
         width: 82.28px;
@@ -326,9 +326,11 @@
     .cps_prices_btn {
         margin-top: 30px;
         margin-bottom: 30px;
+        margin-left: 0;
     }
     #prices_8A_special_paragraph {
         position: absolute;
+        left: 240px;
     }
     .cps_wrap_footer {
         margin-top: 122px;
@@ -350,6 +352,7 @@
         height: 37.49px;
     }
     .cps_company_year {
+        width: 160px;
         font-size: 16px;
         padding: 69.49px 0px 4.02px 0px;
     }
@@ -435,5 +438,19 @@
     }
     .pop_input3[type="text"] {
         font-size: 16px;
+    }
+    .container3 {
+        position: relative;
+        left: -415px;
+        top: 470px;
+    }
+    .hardware_center {
+        text-align: left;
+    }
+    .hardware_right {
+        text-align: left;
+    }
+    .starminer_margin {
+        margin-left: 0;
     }
 }

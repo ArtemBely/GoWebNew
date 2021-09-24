@@ -1,6 +1,5 @@
 .cps_modular2 {
     margin-top: 160px;
-    width: 1136px;
     display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -103,7 +102,8 @@
     padding-bottom: 30px;
 }
 .cps_prices_block {
-    width: 1133px;
+    margin: 0 auto;
+    width: 1155px;
     display: -webkit-box;
 	display: -ms-flexbox;
     display: flex;
@@ -224,6 +224,7 @@
 .cps_prices_btn {
     margin-top: 40px;
     margin-bottom: 30px;
+    margin-left: 170px;
     border: 3px solid #FFAC22;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
@@ -329,13 +330,6 @@
 .cps_icons_link a {
     height: 27.72px;
     width: 27.72px;
-}
-
-#cpsEl {
-  position: relative;
-  top: 628px;
-  display: inline-table;
-  left: -1113px;
 }
 #TV_br {
     display: none;
@@ -550,4 +544,28 @@ body.lock {
     position: fixed;
     width: 0;
     height: 0;
+}
+.container3 {
+    position: relative;
+    left: 250px;
+    top: 150px;
+}
+#cpsEl {
+    padding-bottom: 20px;
+}
+.hardware_center {
+    text-align: center;
+}
+.hardware_right {
+    text-align: right;
+}
+.order_btn {
+    margin-left: 245.5px;
+}
+.starminer_margin {
+    margin-left: 30px;
+}
+#prices_8A_special_paragraph {
+    position: absolute;
+    left: 450px;
 }

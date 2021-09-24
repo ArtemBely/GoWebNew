@@ -215,8 +215,8 @@
     display: grid;
     -ms-grid-columns: 220px 521px;
     grid-template-columns: 220px 521px;
-    -ms-grid-rows: 192px 96px 68px 68px 96px 96px 28px;
-    grid-template-rows: 192px 96px 68px 68px 96px 96px 28px;
+    -ms-grid-rows: 96px 96px 68px 68px 96px 96px 28px;
+    grid-template-rows: 96px 96px 68px 68px 96px 96px 28px;
 }
 .machine_section2_list > li:nth-child(1) {
 	-ms-grid-row: 1;

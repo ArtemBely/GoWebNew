@@ -81,8 +81,8 @@
     .machine_section2_list {
         -ms-grid-columns: 186px 277px;
         grid-template-columns: 186px 277px;
-        -ms-grid-rows: 190px 74px 52px 74px 74px 74px 22px;
-        grid-template-rows: 190px 74px 52px 74px 74px 74px 22px;
+        -ms-grid-rows: 74px 74px 52px 74px 74px 74px 22px;
+        grid-template-rows: 74px 74px 52px 74px 74px 74px 22px;
     }
     .machine_section2_list > *:nth-child(1) {
         -ms-grid-row: 1;

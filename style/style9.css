@@ -106,8 +106,7 @@
 	left: -330px;
 	width: 1295px;
 	padding: 121px;
-	overflow: hidden;
-	top: -94px;
+	top: -218px;
 }
 .cps_hardware {
 	position: relative;
@@ -137,7 +136,7 @@
 	color: #000000;
 }
 .cps_hardware_title {
-	padding-bottom: 10px;
+	padding-bottom: 20px;
 }
 .cps_paragraph {
 	font-family: "Roboto_Regular";
@@ -150,7 +149,6 @@
 .cps_manufacturers {
 	padding-top: 30px;
 	width: 633px;
-	padding-bottom: 30px;
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
