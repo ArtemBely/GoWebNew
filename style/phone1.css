@@ -304,9 +304,9 @@
     #allocation_middle_img {
         width: 170px;
         height: 194px;
-        -webkit-transform: scaleY(-1) rotate(90deg);
+        /* -webkit-transform: scaleY(-1) rotate(90deg);
             -ms-transform: scaleY(-1) rotate(90deg);
-                transform: scaleY(-1) rotate(90deg);
+                transform: scaleY(-1) rotate(120deg); */
     }
     .main_token {
         margin-top: 70px;

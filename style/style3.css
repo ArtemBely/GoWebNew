@@ -45,6 +45,7 @@
 .g_token-content2 {
     width: 520px;
     position: absolute;
+    z-index: -1;
     left: 514px;
 }
 .g_token-img2 {
