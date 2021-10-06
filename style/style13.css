@@ -20,8 +20,9 @@ body {
 			transform-style: preserve-3d;
 	width: 1681px;
 	height: 305px;
-	top: 60px;
-	left: -220px;
+	top: 67px;
+	left: -214px;
+	transform: scale(0.7);
 }
 .monitor {
 	position: absolute;

@@ -41,7 +41,7 @@
     }
     .hardware_section2 {
         overflow: visible;
-        position: relative; 
+        position: relative;
         left: 415px;
         width: 297px;
         height: 315px;
@@ -49,14 +49,14 @@
         top: -450px;
     }
     .container2 {
-        position: absolute;
-        width: 297px;
-        height: 315px;
-        top: 0px;
-        left: 0px;
-        -webkit-transform: scale(0.4);
-            -ms-transform: scale(0.4);
-                transform: scale(0.4);
+      position: absolute;
+      width: 297px;
+      height: 315px;
+      top: 74px;
+      left: 0px;
+      -webkit-transform: scale(0.4) rotateY(45deg);
+      -ms-transform: scale(0.4) rotateY(45deg);
+      transform: scale(0.4) rotateY(45deg);
     }
     .h1_title {
         font-size: 50px;
