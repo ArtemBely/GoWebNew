@@ -8,6 +8,13 @@
 .del_p {
   display: none;
 }
+.head_part {
+  font-family: "Play_Bold";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 46px;
+}
 .h3_title {
     font-family: "Play_Bold";
     font-style: normal;

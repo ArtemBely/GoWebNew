@@ -95,7 +95,7 @@
     width: 300px;
 }
 .cps_prices {
-    margin-top: 160px;
+    margin-top: 348px;
     width: 100%;
 }
 .cps_prices_title {
@@ -546,9 +546,13 @@ body.lock {
     height: 0;
 }
 .container3 {
-    position: relative;
-    left: 250px;
-    top: 150px;
+      position: relative;
+      top: 150px;
+      width: 1290px;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+      height: 178px;
 }
 #cpsEl {
     padding-bottom: 20px;
@@ -566,6 +570,6 @@ body.lock {
     margin-left: 30px;
 }
 #prices_8A_special_paragraph {
-    position: absolute;
-    left: 450px;
+  position: relative;
+  left: 305px;
 }

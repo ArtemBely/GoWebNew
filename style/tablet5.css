@@ -79,7 +79,11 @@
     .cps_manufacturers {
         padding-top: 45px;
         width: 615px;
+        grid-column: 1 / 2;
+        grid-row: 3 / 4;
         padding-bottom: 50px;
+        position: relative;
+        top: 40px;
     }
     .cps_weikeng_logo {
         width: 138px;
@@ -116,7 +120,7 @@
         width: 385px;
     }
     .cps_computing {
-        margin-top: 80px;
+        margin-top: -118px;
     }
     .computing_title {
         padding-bottom: 10px;
@@ -307,7 +311,7 @@
         width: 100%;
     }
     .cps_prices {
-        margin-top: 78px;
+        margin-top: 421px;
     }
     .cps_prices_block {
         width: 100%;
@@ -329,8 +333,9 @@
         margin-left: 0;
     }
     #prices_8A_special_paragraph {
-        position: absolute;
-        left: 240px;
+      position: relative;
+      left: 0px;
+      width: 440px;
     }
     .cps_wrap_footer {
         margin-top: 122px;
@@ -441,8 +446,10 @@
     }
     .container3 {
         position: relative;
-        left: -415px;
-        top: 470px;
+        top: 140px;
+        width: 730px;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, 1fr);
     }
     .hardware_center {
         text-align: left;

@@ -73,6 +73,8 @@
     .machine_section2_block {
         width: 249px;
         height: 297px;
+        top: 85px;
+        position: relative;
     }
     .machine_section2_content {
         width: 463px;

@@ -145,6 +145,7 @@
 	font-size: 20px;
 	line-height: 140%;
 	color: #000000;
+  grid-row: 2 / 3;
 }
 .cps_manufacturers {
 	padding-top: 30px;
@@ -155,6 +156,12 @@
 	-webkit-box-pack: space-between;
 		-ms-flex-pack: space-between;
 			justify-content: space-between;
+			grid-column: 2 / 3;
+			grid-row: 2 / 3;
+}
+#cube_paragraph {
+	position: relative;
+	top: 29px;
 }
 .cps_weikeng, .cps_ask, .cps_shenzhen {
 	display: -webkit-box;
