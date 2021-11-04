@@ -268,9 +268,9 @@ canvas {
 	left: -1100px !important;
 	width: 548% !important;
 	height: 257% !important;
-	-webkit-transform: scale(0.8);
-		-ms-transform: scale(0.8);
-				transform: scale(0.8);
+	-webkit-transform: scale(0.5);
+		-ms-transform: scale(0.5);
+				transform: scale(0.5);
 }
 canvas {
 	position: absolute;
