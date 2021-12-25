@@ -144,7 +144,7 @@ function anim(){
 	ctx.fillRect( 0, 0, w, h );
 
 	ctx.shadowBlur = 3;
-	ctx.globalCompositeOperation = 'lighter';
+	ctx.globalCompositeOperation = 'light';
 
 	if( particles.length < 100 && Math.random() < .5 )
 		particles.push({
@@ -188,7 +188,7 @@ function anim(){
 			}
 		}
 
-		var color = 'hsla(39,100%,50%,.8)'.replace( 'hue', particle.tick );
+		var color =  'hsla(37,100%,57%,.9)'.replace( 'hue', particle.tick );
 		ctx.shadowColor = ctx.fillStyle = color;
 		var x = particle.sx + particle.x
 			,	y = particle.sy + particle.y

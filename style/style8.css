@@ -10,6 +10,9 @@
 .cmp_supported_list {
 
 }
+.not_existing_sicials {
+  display: none;
+}
 .cmp_supported_item {
     font-family: "Roboto_Regular";
     font-style: normal;

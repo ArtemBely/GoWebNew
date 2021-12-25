@@ -9,7 +9,55 @@ $(document).ready(function() {
 $(document).ready(function() {
 
 	//E-mail Ajax Send
+	$("#order_our").submit(function() { //Change
+    swal({
+    text: "Message was sent. Our team will contact you soon.",
+    button: "OK"
+    });
+		var th = $(this);
+		$.ajax({
+			type: "POST",
+			url: "mail.php", //Change
+			data: th.serialize()
+		}).done(function() {
+      console.log('done');
+			setTimeout(function() {
+				// Done Functions
+				th.trigger("reset");
+			}, 1000);
+		});
+		return false;
+	});
+});
+
+$(document).ready(function() {
+
+	//E-mail Ajax Send
 	$("#order_our2").submit(function() { //Change
+    swal({
+    text: "Message was sent. Our team will contact you soon.",
+    button: "OK"
+    });
+		var th = $(this);
+		$.ajax({
+			type: "POST",
+			url: "mail.php", //Change
+			data: th.serialize()
+		}).done(function() {
+      console.log('done');
+			setTimeout(function() {
+				// Done Functions
+				th.trigger("reset");
+			}, 1000);
+		});
+		return false;
+	});
+});
+
+$(document).ready(function() {
+
+	//E-mail Ajax Send
+	$("#mail_sent").submit(function() { //Change
     swal({
     text: "Message was sent. Our team will contact you soon.",
     button: "OK"
@@ -50,6 +98,19 @@ if (popupLinks.length > 0) {
 		});
 	}
 }
+
+
+const popupCloseIcon2 = document.querySelectorAll(".close-popup3");
+if (popupCloseIcon2.length > 0) {
+	for (let index = 0; index < popupCloseIcon2.length; index++) {
+		const el = popupCloseIcon2[index];
+		el.addEventListener("click", function (e) {
+			popupClose(el.closest(".popup3"));
+			e.preventDefault();
+		});
+	}
+}
+
 
 const popupCloseIcon = document.querySelectorAll(".close-popup");
 if (popupCloseIcon.length > 0) {

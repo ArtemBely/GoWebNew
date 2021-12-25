@@ -20,6 +20,10 @@
 	    -ms-flex-direction: column;
 	        flex-direction: column;
 }
+.enter_logo {
+	position: relative;
+	top: 3px;
+}
 .gt_wrap_header {
 	width: 100%;
 	display: -webkit-box;
@@ -55,7 +59,7 @@
 }
 .header__burger {
 	display: none;
-} 
+}
 .gt_navigation {
 	padding-bottom: 17px;
 }

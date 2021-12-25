@@ -20,6 +20,10 @@
 	    -ms-flex-direction: column;
 	        flex-direction: column;
 }
+.enter_logo {
+  position: relative;
+  top: 3px;
+}
 .au_wrap_header {
 	width: 100%;
 	display: -webkit-box;
@@ -265,7 +269,7 @@
 canvas {
 	position: absolute;
 	top: -473px !important;
-	left: -1100px !important;
+	left: -1122px !important;
 	width: 548% !important;
 	height: 257% !important;
 	-webkit-transform: scale(0.5);

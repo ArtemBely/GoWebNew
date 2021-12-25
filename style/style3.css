@@ -17,6 +17,9 @@
 	font-family: 'Roboto_Regular';
 	font-size: 18px;
 }
+.not_existing_sicials {
+	display: none;
+}
 .swal-button {
 	font-family: 'Roboto_Bold';
 }

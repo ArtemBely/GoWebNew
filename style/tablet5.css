@@ -54,9 +54,10 @@
       height: 315px;
       top: 74px;
       left: 0px;
-      -webkit-transform: scale(0.4) rotateY(45deg);
-      -ms-transform: scale(0.4) rotateY(45deg);
-      transform: scale(0.4) rotateY(45deg);
+      -webkit-transform: scale(0.4) rotate3d(9, 1, 1,
+  -376deg);
+              transform: scale(0.4) rotate3d(9, 1, 1,
+  -376deg);
     }
     .h1_title {
         font-size: 50px;

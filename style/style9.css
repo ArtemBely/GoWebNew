@@ -20,6 +20,13 @@
 	    -ms-flex-direction: column;
 	        flex-direction: column;
 }
+.not_existing_sicials {
+	display: none;
+}
+.enter_logo {
+	position: relative;
+	top: 3px;
+}
 .swal-text {
 	font-family: 'Roboto_Regular';
 	font-size: 18px;

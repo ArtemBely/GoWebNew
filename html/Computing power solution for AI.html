@@ -8,8 +8,10 @@
     <link rel="stylesheet" href="../style/style6.css">
     <link rel="stylesheet" href="../style/style7.css">
     <link rel="stylesheet" href="../style/style8.css">
+    <link rel="stylesheet" href="../style/style11.css">
     <link rel="stylesheet" href="../style/tablet4.css">
     <link rel="stylesheet" href="../style/phone2.css">
+    <link rel="stylesheet" href="../style/phone3.css">
     <link rel="shortcut icon" href="../img/favicon.ico">
     <title>GoWeb</title>
 </head>
@@ -38,6 +40,9 @@
                             </li>
                             <li class="cmp_header_item">
                                 <a href="./about us.html" class="cmp_header_link">About us </a>
+                            </li>
+                            <li class="cmp_header_item">
+                                <a href="#" class="cmp_header_link"><img src="../img/Vector (1).svg" class='enter_logo'/></a>
                             </li>
                         </ul>
                     </div>
@@ -152,23 +157,29 @@
                         </div>
                         <div class="cmp_advantages_section2">
                             <div class="cmp_advantages_section2_content1">
-                                <img src="../img/cmp_avantages_user1.svg" alt="" class="cmp_advantages_section2_img">
+                                <img src="../img/Polygon 39.png" alt="" class="cmp_advantages_section2_img">
                                 <p class="cmp_advantages_paragraph cmp_advantages_section2_br">
                                     The GoWeb computing <br> power solution is a must <br> for any growing AI company
                                 </p>
                             </div>
                             <div class="cmp_advantages_section2_content2 cmp_advantages_section2_br">
-                                <img src="../img/cmp_avantages_user2.svg" alt="" class="cmp_advantages_section2_img">
+                                <img src="../img/al.png" alt="" class="cmp_advantages_section2_img">
                                 <p class="cmp_advantages_paragraph">
                                     One of the biggest accelerated <br id="cmp_advantages_br"> computing power solutions presented <br> for the blockchain-based AI
                                 </p>
                             </div>
                         </div>
                         <div class="cmp_advantages_section3">
-                            <div class="cmp_advantages_flexcontainer">
-                                <input type="text" name="email" placeholder="Email" class="cmp_advantages_input">
-                                <button class="cmp_advantages_btn">Request more details</button>
-                            </div>
+                          <form id='mail_sent'>
+                                <div class="cmp_advantages_flexcontainer">
+                                      <input type="hidden" name="project_name" value="GoWeb">
+                                      <input type="hidden" name="admin_email" value="vn@goweb.com">
+                                      <input type="hidden" name="form_subject" value="Сообщение GoWeb">
+                                      <input type="text" name="email" placeholder="Email" class="cmp_advantages_input">
+                                      <button type='submit' class="cmp_advantages_btn">Request more details</button>
+
+                                </div>
+                          </form>
                         </div>
                     </div>
                     <div class="cmp_supported">
@@ -196,7 +207,7 @@
                             <p class="main_paragraph pricing_paragraph">Pricing starts at 1 G token for 1 hour. </p>
                             <p class="main_paragraph pricing_paragraph">You go digital - we support you.</p>
                             <div class="cmp_pricing_btn_block">
-                                <a href="##" class="cmp_pricing_btn1">Buy computing power for AI</a>
+                                <a href="#popup3" class="cmp_pricing_btn1 popup_link">Buy computing power for AI</a>
                                 <a href="#popup2" class="cmp_pricing_btn2 popup_link">Apply for fundings</a>
                             </div>
                         </div>
@@ -231,32 +242,32 @@
                                         <img src="../img/faceebook.svg" alt="facebook" class="cmp_icons">
                                     </a>
                                 </li>
-                                <li class="cmp_icons_item">
+                                <li class="cmp_icons_item not_existing_sicials" >
                                     <a href="https://t.me/GoWebAI" class="cmp_icons_link" target="_blank">
                                         <img src="../img/telegram.svg" alt="telegram" class="cmp_icons">
                                     </a>
                                 </li>
-                                <li class="cmp_icons_item">
+                                <li class="cmp_icons_item not_existing_sicials" >
                                     <a href="https://twitter.com/GoWebSTO" class="cmp_icons_link" target="_blank">
                                         <img src="../img/twitter.svg" alt="twitter" class="cmp_icons">
                                     </a>
                                 </li>
-                                <li class="cmp_icons_item">
+                                <li class="cmp_icons_item not_existing_sicials" >
                                     <a href="https://discord.com/" class="cmp_icons_link" target="_blank">
                                         <img src="../img/discord.svg" alt="discord" class="cmp_icons">
                                     </a>
                                 </li>
-                                <li class="cmp_icons_item">
+                                <li class="cmp_icons_item not_existing_sicials" >
                                     <a href="https://bitcointalk.org/index.php?topic=5103868.msg49489767#msg49489767" class="cmp_icons_link" target="_blank">
                                         <img src="../img/coin market.svg" alt="coinmarketcap" class="cmp_icons">
                                     </a>
                                 </li>
-                                <li class="cmp_icons_item">
+                                <li class="cmp_icons_item not_existing_sicials">
                                     <a href="https://github.com/AljonaYudina/GoWeb.git" class="cmp_icons_link" target="_blank">
                                         <img src="../img/githab.svg" alt="githab" class="cmp_icons">
                                     </a>
                                 </li>
-                                <li class="cmp_icons_item">
+                                <li class="cmp_icons_item not_existing_sicials">
                                     <a href="#" class="cmp_icons_link" target="_blank">
                                         <img src="../img/bitkoin.svg" alt="bitkoin" class="cmp_icons">
                                     </a>
@@ -320,7 +331,7 @@
                     <form id="order_our2">
                     <div class="pop_input_container2">
                         <input type="hidden" name="project_name" value="GoWeb">
-                        <input type="hidden" name="admin_email" value="belysevartem9@gmail.com">
+                        <input type="hidden" name="admin_email" value="vn@goweb.com">
                         <input type="hidden" name="form_subject" value="Сообщение GoWeb">
                         <input type="text" name="Имя" class="pop_input2" placeholder="Name">
                         <input type="text" name="Email" class="pop_input2" placeholder="Email">
@@ -338,6 +349,49 @@
                 </div>
             </div>
         </div>
+        <div id="popup3" class="popup3">
+            <div class="popup_body3">
+                <div class="popup_content3">
+                    <a href="#" class="popup_close3 close-popup3">
+                        <span></span>
+                    </a>
+                    <div class="popup_title3">Buy computing power for AI</div>
+                    <p class="pop_paragraph">
+                        Fill out the form, our manager <br>
+                        will contact you
+                    </p>
+                    <form id="order_our">
+                      <div class="pop_input_container3">
+                          <input type="hidden" name="project_name" value="GoWeb">
+                          <input type="hidden" name="admin_email" value="vn@goweb.com">
+                          <input type="hidden" name="form_subject" value="Сообщение GoWeb">
+                          <input type="text" name="Имя" class="pop_input3" placeholder="Name" required>
+                          <input type="text" name="Email" class="pop_input3" placeholder="Email" required>
+                          <input type="text" name="Телефон" class="pop_input3" placeholder="Phone" required>
+
+                          <input list='purpose3' type="text" name="Purpose" class="pop_input3" placeholder="Purpose" list="purpose" required>
+                          <datalist id="purpose3">
+                              <option value="Computing power for AI">
+                              <option value="Cryptomining">
+                          </datalist>
+
+                          <input type="text" name="Volume" class="pop_input3" placeholder="Order quantity" required>
+                          <input type="text" name="Timeline" class="pop_input3" placeholder="Delivery time" required>
+                          <input type="text" name="Budget" class="pop_input3" placeholder="Budget" required>
+                      </div>
+                    <div class="pop_footer3">
+                        <button type="submit" class="pop_btn3">Send</button>
+                        <p class="pop_paragraph2">
+                            By clicking on the «Send» button you <br>
+                            confirm your consent to the processing <br>
+                            of data and agree to the privacy policy
+                        </p>
+                    </div>
+                  </form>
+                </div>
+            </div>
+        </div>
+
     </div>
     <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>

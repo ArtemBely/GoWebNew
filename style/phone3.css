@@ -260,9 +260,10 @@
         height: 242px;
         top: 0px;
         left: 0px;
-        -webkit-transform: scale(0.3);
-            -ms-transform: scale(0.3);
-                transform: scale(0.3);
+        -webkit-transform: scale(0.4) rotate3d(9, 1, 1,
+    -376deg);
+                transform: scale(0.4) rotate3d(9, 1, 1,
+    -376deg);
     }
     .cps_computing {
         position: relative;

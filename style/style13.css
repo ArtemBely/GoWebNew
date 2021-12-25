@@ -20,9 +20,15 @@ body {
 			transform-style: preserve-3d;
 	width: 1681px;
 	height: 305px;
-	top: 67px;
+	top: 149px;
 	left: -214px;
-	transform: scale(0.7);
+	-webkit-transform: scale(0.7) rotate3d(15, 1, 1,
+-380deg);
+				transform: scale(0.7) rotate3d(15, 1, 1,
+-380deg);
+}
+.not_existing_sicials {
+	display: none;
 }
 .monitor {
 	position: absolute;
@@ -39,6 +45,7 @@ body {
 	height: 40%;
 	border-radius: 5px;
 }
+/*
 .trigger:nth-child(1):hover ~ .monitor .camera.o-y {
 	-webkit-transform: rotateY(72deg);
 			transform: rotateY(72deg);
@@ -3238,7 +3245,7 @@ body {
 .trigger:nth-child(400):hover ~ .monitor .camera.o-x {
 	-webkit-transform: rotateX(80deg);
 			transform: rotateX(80deg);
-}
+}*/
 .camera {
 	position: absolute;
 	width: 100%;
